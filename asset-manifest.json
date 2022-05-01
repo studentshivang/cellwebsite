@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cellwebsite/static/css/main.0635920b.css",
+    "main.js": "/cellwebsite/static/js/main.3759d232.js",
+    "static/media/home.jpg": "/cellwebsite/static/media/home.13c416ecac1c74d4b0c8.jpg",
+    "index.html": "/cellwebsite/index.html",
+    "main.0635920b.css.map": "/cellwebsite/static/css/main.0635920b.css.map",
+    "main.3759d232.js.map": "/cellwebsite/static/js/main.3759d232.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0635920b.css",
+    "static/js/main.3759d232.js"
+  ]
+}
