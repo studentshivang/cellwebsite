@@ -1,19 +1,20 @@
 /*------------Home page first 100vh-----------*/
 
 .homediv {
-  background:url('../src/images/home.jpg');
+  background: url("../src/images/home.jpg");
   position: relative;
   height: 100vh;
+  background-repeat: no-repeat;
 }
 
 .layer {
-    background-color: #457b9d;
-    opacity: 0.4;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: #457b9d;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*---------------Navbar---------------*/
@@ -21,19 +22,18 @@
 .navbar .menu li {
   list-style: none;
   padding: 28px;
-  color:#ffffff;
+  color: #ffffff;
   position: relative;
 }
 
 .navbar .menu {
-    
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
- 
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,30 +43,59 @@
 /*-----dropdowns-------*/
 
 .navbar .menu :hover .dropdown_menu{
-    display: block;
-    position: absolute;
-    left:0;
-    top:100%;
-    background: #F5F9FF;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #f5f9ff;
+  border-radius: 15px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  margin-left: 32px;
+}
+.navbar .menu :hover .dropdown_menu ul{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  margin-left: -32px;
+  width: 252px;
 }
 
-.dropdown_menu ul{
-    display: block;
-    margin: 10px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
+.navbar .menu :hover .navwidth1{
+  width: 197px;
 }
 
-.dropdown_menu ul li{
-    width: 252px;
-    height: 38.24px;
+.navbar .menu :hover .dropdown_menu .navwidth{
+  width: 197px;
 }
 
-.dropdown_menu{
-    display: none;
+.navbar .menu :hover .dropdown_menu ul li {
+  color: #212121;
+  height: 38.24px;
+  padding: 13px 0 0 13px;
+}
+
+.navbar .menu :hover .dropdown_menu ul li:hover {
+  background: #C4D9FF;
+}
+
+.navbar .menu :hover .dropdown_menu ul li:first-child{
+  border-radius:15px 15px 0 0 ;
+}
+.navbar .menu :hover .dropdown_menu ul li:last-child{
+  border-radius:0 0 15px 15px ;
+}
+
+.dropdown_menu {
+  display: none;
 }
