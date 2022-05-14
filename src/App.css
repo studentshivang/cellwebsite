@@ -4,6 +4,7 @@
   background: url("../src/images/home.jpg");
   position: relative;
   height: 100vh;
+  width:100%;
   background-repeat: no-repeat;
 }
 
@@ -33,11 +34,17 @@
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
-
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-left: 5rem;
+}
+
+.navbar .menu .navbarlink{
+  text-decoration: none;
+  color: #ffffff;
+
 }
 
 /*-----dropdowns-------*/
@@ -49,7 +56,7 @@
   top: 100%;
   background: #f5f9ff;
   border-radius: 15px;
-
+  
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -98,4 +105,108 @@
 
 .dropdown_menu {
   display: none;
+}
+
+.navbar .menu :hover .dropdown_menu .dropdownnavlink{
+  text-decoration: none;
+  color: #212121;
+}
+
+
+
+/* Error Page UI starts {color scheme to be changed} */
+
+.errpage{
+  width: 100%;
+  height: 90vh;
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#errpage_p,#errpage_h1{
+  transform: scale(4);
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 5rem;
+}
+
+#errpage_h1{
+  transform: scale(5);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#errpage_btn:hover{
+  background-color: royalblue;
+  color: pink;
+}
+#errpage_btn{
+  padding: 1rem;
+  border-radius: 1rem;
+  transform: scale(2);
+  text-decoration: none;
+}
+
+
+/* Error Page UI ends*/
+
+/* Navbar bg for pages except Home page*/
+
+
+
+.pages_nav {
+  background: url("../src/images/cara1.jpg");
+  width: 100%;
+  position: relative;
+  height: 320px;
+  background-repeat: no-repeat;
+  animation: caraouse 6s 1s infinite alternate step-end;
+}
+
+@keyframes caraouse {
+  0%{
+    background: url("../src/images/cara1resize.jpg");
+  }
+  50%{
+    background: url("../src/images/cara2.jpg");
+  }
+}
+
+.layer_nav {
+  background-color: #000000;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 768px) {
+
+/*Mobile view*/
+  
+.homediv {
+  width:fit-content;
+}
+
+.pages_nav {
+  width:fit-content;
+}
+
+/* Error Page UI starts {color scheme to be changed} */
+
+  #errpage_p,#errpage_btn{
+    transform: scale(2);
+  }
+
+  #errpage_btn{
+    background-color: royalblue;
+    color: pink;
+  }
+
+  /* Error Page UI ends*/
+
 }
