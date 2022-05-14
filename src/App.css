@@ -156,12 +156,12 @@
 
 
 .pages_nav {
-  background: url("../src/images/cara1.jpg");
+  /* background: url("../src/images/cara1resize.jpg"); */
   width: 100%;
   position: relative;
   height: 320px;
   background-repeat: no-repeat;
-  animation: caraouse 6s 1s infinite alternate step-end;
+  animation: caraouse 2s 1s infinite alternate step-end;
 }
 
 @keyframes caraouse {
@@ -169,7 +169,7 @@
     background: url("../src/images/cara1resize.jpg");
   }
   50%{
-    background: url("../src/images/cara2.jpg");
+    background: url("../src/images/cara2resize.jpg");
   }
 }
 
