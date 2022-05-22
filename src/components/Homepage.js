@@ -9,7 +9,7 @@ const Homepage = () => {
           <Navbar />
       </div>        
       
-        <h2>hbvjcbjewhb</h2>
+       {/* Whatever is next goes here */}
 
     </>
   );
