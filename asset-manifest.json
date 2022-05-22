@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cellwebsite/static/css/main.f1cf0a71.css",
-    "main.js": "/cellwebsite/static/js/main.c6478b5a.js",
+    "main.js": "/cellwebsite/static/js/main.fc30a75b.js",
     "static/media/home.jpg": "/cellwebsite/static/media/home.13c416ecac1c74d4b0c8.jpg",
     "static/media/cara1resize.jpg": "/cellwebsite/static/media/cara1resize.7501d301422d3962c118.jpg",
     "static/media/cara2resize.jpg": "/cellwebsite/static/media/cara2resize.b69e71cce850ad08a014.jpg",
     "index.html": "/cellwebsite/index.html",
     "main.f1cf0a71.css.map": "/cellwebsite/static/css/main.f1cf0a71.css.map",
-    "main.c6478b5a.js.map": "/cellwebsite/static/js/main.c6478b5a.js.map"
+    "main.fc30a75b.js.map": "/cellwebsite/static/js/main.fc30a75b.js.map"
   },
   "entrypoints": [
     "static/css/main.f1cf0a71.css",
-    "static/js/main.c6478b5a.js"
+    "static/js/main.fc30a75b.js"
   ]
 }
