@@ -226,7 +226,12 @@
   }
 
   .navbar .menu :hover .dropdown_menu{
-    left: calc(21%);
+    transform:translateY(-14rem);
+    left: 21%;
+  }
+
+  .navbar .menu :hover .navwidth1{
+    transform:translateY(-10rem);
   }
 }
 
