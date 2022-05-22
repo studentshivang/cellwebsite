@@ -1,10 +1,21 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = ()=>{
+
+    const [isNavExpanded, setIsNavExpanded] = useState(false);
+
     return(
         <>
         <div className="navbar">
-            <ul className="menu">
+        <button className="hamburger" onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}>
+            {isNavExpanded?<i className="fa fa-times" ></i>:<i className="fa fa-bars" ></i>}
+        </button>
+            <ul className={
+          isNavExpanded ? "menu expanded" : "menu"
+        }>
                 <li><NavLink to ="/" className="navbarlink">Home</NavLink></li>
                 <li>Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
 
