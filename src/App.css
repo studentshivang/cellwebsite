@@ -227,7 +227,8 @@
 
   .navbar .menu :hover .dropdown_menu{
     transform:translateY(-14rem);
-    left: 21%;
+    left: auto;
+    align-self: center;
   }
 
   .navbar .menu :hover .navwidth1{

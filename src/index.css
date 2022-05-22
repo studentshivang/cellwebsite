@@ -14,6 +14,9 @@ code {
     monospace;
 }
 
+body{
+  font-family: serif;
+}
 
 /*---------------Homepage CSS-----------------*/
 @import url('./App.css');
