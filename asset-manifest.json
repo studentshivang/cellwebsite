@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cellwebsite/static/css/main.0b55ac9c.css",
-    "main.js": "/cellwebsite/static/js/main.edda2c2a.js",
+    "main.css": "/cellwebsite/static/css/main.ea80162f.css",
+    "main.js": "/cellwebsite/static/js/main.cffb5d1b.js",
     "static/media/home.jpg": "/cellwebsite/static/media/home.13c416ecac1c74d4b0c8.jpg",
     "static/media/cara1resize.jpg": "/cellwebsite/static/media/cara1resize.7501d301422d3962c118.jpg",
     "static/media/cara2resize.jpg": "/cellwebsite/static/media/cara2resize.b69e71cce850ad08a014.jpg",
     "index.html": "/cellwebsite/index.html",
-    "main.0b55ac9c.css.map": "/cellwebsite/static/css/main.0b55ac9c.css.map",
-    "main.edda2c2a.js.map": "/cellwebsite/static/js/main.edda2c2a.js.map"
+    "main.ea80162f.css.map": "/cellwebsite/static/css/main.ea80162f.css.map",
+    "main.cffb5d1b.js.map": "/cellwebsite/static/js/main.cffb5d1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b55ac9c.css",
-    "static/js/main.edda2c2a.js"
+    "static/css/main.ea80162f.css",
+    "static/js/main.cffb5d1b.js"
   ]
 }
