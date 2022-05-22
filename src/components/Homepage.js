@@ -7,7 +7,10 @@ const Homepage = () => {
         <div className="layer">
         </div>
           <Navbar />
-      </div>
+      </div>        
+      
+        <h2>hbvjcbjewhb</h2>
+
     </>
   );
 };
