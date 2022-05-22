@@ -21,19 +21,19 @@ const Routing =()=>{
     <>
     <Routes>
         <Route path="/cellwebsite"  element={<Homepage />} /> {/* because app is opening at /cellwebsite */}
-        <Route path="/"  element={<Homepage />} />
+        {/* <Route path="/"  element={<Homepage />} /> */}
       
-        <Route path="/about" element={<About />} />
-        <Route path="/academics" element={<Academics/>} />
-        <Route path="/graduates" element={<Graduates />} />
-        <Route path="/recruiters" element={<Recruiters />} />
-        <Route path="/invite" element={<Invitation />} />
-        <Route path="/procedure" element={<Procedure />} />
-        <Route path="/reachingMMMUT" element={<Reachingmmmut />} />
-        <Route path="/faqs" element={<Faqs/>} ></Route>
-        <Route path="/HeadTnP" element={<Headtnp />} />
-        <Route path="/facultyCoordinators" element={<Faculty />} />
-        <Route path="/studentCoordinators" element={<Studentcoordinators />} />
+        <Route path="/cellwebsite/about" element={<About />} />
+        <Route path="/cellwebsite/academics" element={<Academics/>} />
+        <Route path="/cellwebsite/graduates" element={<Graduates />} />
+        <Route path="/cellwebsite/recruiters" element={<Recruiters />} />
+        <Route path="/cellwebsite/invite" element={<Invitation />} />
+        <Route path="/cellwebsite/procedure" element={<Procedure />} />
+        <Route path="/cellwebsite/reachingMMMUT" element={<Reachingmmmut />} />
+        <Route path="/cellwebsite/faqs" element={<Faqs/>} ></Route>
+        <Route path="/cellwebsite/HeadTnP" element={<Headtnp />} />
+        <Route path="/cellwebsite/facultyCoordinators" element={<Faculty />} />
+        <Route path="/cellwebsite/studentCoordinators" element={<Studentcoordinators />} />
         
   
         <Route path="*" element={<Errorpage />} />
