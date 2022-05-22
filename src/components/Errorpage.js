@@ -8,7 +8,7 @@ const Errorpage = () => {
       <div className="errpage">
         <h1 id="errpage_h1">404</h1>
         <p id="errpage_p">Page Not Found!!</p>
-        <NavLink to="/cellwebsite" id="errpage_btn"> Go to Home page</NavLink>
+        <NavLink to="/" id="errpage_btn"> Go to Home page</NavLink>
       </div>
     </>
   );
