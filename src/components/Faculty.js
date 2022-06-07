@@ -1,10 +1,22 @@
 import Navsm from "./Navsm";
+import Fdata from '../data/Fdata';
+import FIndividual from "./FIndividual";
 
 const Faculty =()=>{
     return(
         <>
         <Navsm/>
-        <h1>Welcome to Faculty Co-ordinators Page</h1>
+        <h2>Faculty Coordinators</h2>
+
+        <div className="coordinators">
+        {Fdata.map((data,index)=>{
+            return(
+                <FIndividual 
+                    key={data.id} 
+                    data={data}/>
+            )
+        })}
+        </div>
         </>
     );
 };

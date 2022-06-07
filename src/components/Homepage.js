@@ -4,8 +4,6 @@ const Homepage = () => {
   return (
     <>
       <div className="homediv">
-        <div className="layer">
-        </div>
           <Navbar />
       </div>        
       

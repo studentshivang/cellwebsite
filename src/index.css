@@ -20,3 +20,23 @@ body{
 
 /*---------------Homepage CSS-----------------*/
 @import url('./App.css');
+
+/*---------------Faculty individual -------------*/
+
+.f_image{
+width: 299.42px;
+height: 299.42px;
+border: 2.68938px solid #457B9D;
+border-radius: 19.7221px 0px;
+}
+
+.coordinators{
+  width: 100%;
+  display: grid;
+
+}
+
+.f_object{
+  width:30%;
+
+}
