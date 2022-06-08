@@ -1,5 +1,9 @@
 import React from "react";
 import Navsm from "./Navsm";
+import Facebook from '../images/Website/facebook.png';
+import Email from '../images/Website/email.png';
+import Globe from '../images/Website/globe.png';
+import Linkedin from '../images/Website/linkedin footer.png';
 
 const Invitation =()=>{
   
@@ -37,22 +41,28 @@ const Invitation =()=>{
                  <p>In case of any queries, feel free to contact the undersigned at (9953001761/8765783675) or Dr. Brijesh Kumar, Vice Chairman (Placement) (Mobile No: 9235500552) or Dr. Rajan Mishra, Vice Chairman (Internship) and Coordinator, (Mobile No: 09235500560). Looking forward to your kind response. </p>
 
                     
-                 Thanks & Regards, <br /> Prof. V.K. Dwivedi Professor, <br /> T&P MMMUT, Gorakhpur
+                <strong>Thanks & Regards, <br /> Prof. V.K. Dwivedi Professor, <br /> T&P MMMUT, Gorakhpur</strong> 
             </div>
             <div className="btns">
             <div className="btn">
                <button className="downloadBrochure-button">
                <i className="fa fa-download" aria-hidden="true"> </i> 
-                <span> &nbsp; <a href="#">Placement Brochure</a></span>
+                <span> &nbsp; <a href="#"><strong>Placement Brochure</strong></a></span>
                 </button>
             </div>
             <div className="btn">
-                <button className="mail-button"><a href="mailto:tnp@mmmut.ac.in">Mail To: tnp@mmmut.ac.in</a></button>
+                <button className="mail-button"><a href="mailto:tnp@mmmut.ac.in"><strong>Mail To: tnp@mmmut.ac.in</strong></a></button>
             </div>
         </div>
         </div>
         <div className="copyrt">
-          <span>©2022, Training & Placement Cell,  MMMUT, Gorakhpur</span>
+          <div>©2022, Training & Placement Cell,  MMMUT, Gorakhpur</div>
+          <div>
+            <a href="https://www.facebook.com/TnP.MMMUT"> <img src={Facebook}  /></a>
+            <a href="https://www.linkedin.com/in/tnpmmm/"> <img src={Linkedin}  /></a>
+            <a href="mailto:tnp@mmmut.ac.in"> <img src={Email}  /></a>
+            <a href="http://www.mmmut.ac.in/"> <img src={Globe}  /></a>
+          </div>
         </div>
         </React.Fragment>
     );

@@ -276,7 +276,7 @@
 
 .invite-content{
 width: 80%;
-height: 100%;
+height: 110%;
 margin: auto;
 margin-top: 8%;
 margin-bottom: 8%;
@@ -319,6 +319,10 @@ font-weight: 600;
 font-size: 1.4rem;
 line-height: 1.9rem;
 text-align: center;
+color: #000000;
+}
+.downloadBrochure-button span a{
+  color: #000000;
 }
 .downloadBrochure-button a{
   text-decoration: none;
@@ -331,12 +335,24 @@ text-align: center;
   line-height: 1.9rem;
   text-align: center;
   text-decoration: none;
+  color: #000000;
 }
-.copyrt span{
-  margin-left: 2%;
+.copyrt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60px ;
+}
+.copyrt div{
   font-family: 'Montserrat';
   font-size: 1.2rem;
+  margin: auto;
 }
+.copyrt div img{
+  height : 25px ;
+  width : 25px;
+}
+
 @media (max-width: 900px){
   .head2{
     font-weight: 400;
@@ -376,7 +392,11 @@ text-align: center;
     .btns{
       flex-direction: column;
     }
-    .copyrt span{
-      font-size: 1rem;
+    .copyrt div{
+      font-size: 0.8rem;
+    }
+    .copyrt div img{
+      height : 17px ;
+      width : 17px;
     }
 }
