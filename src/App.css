@@ -399,4 +399,7 @@ color: #000000;
       height : 17px ;
       width : 17px;
     }
+    .bld{
+      font-weight: 600;
+    }
 }

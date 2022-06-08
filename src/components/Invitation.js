@@ -41,7 +41,7 @@ const Invitation =()=>{
                  <p>In case of any queries, feel free to contact the undersigned at (9953001761/8765783675) or Dr. Brijesh Kumar, Vice Chairman (Placement) (Mobile No: 9235500552) or Dr. Rajan Mishra, Vice Chairman (Internship) and Coordinator, (Mobile No: 09235500560). Looking forward to your kind response. </p>
 
                     
-                <strong>Thanks & Regards, <br /> Prof. V.K. Dwivedi Professor, <br /> T&P MMMUT, Gorakhpur</strong> 
+                <span className="bld"><strong>Thanks & Regards,</strong> </span><br /> <span className="bld"><strong> Prof. V.K. Dwivedi Professor, <br /> T&P MMMUT, Gorakhpur</strong></span> 
             </div>
             <div className="btns">
             <div className="btn">
