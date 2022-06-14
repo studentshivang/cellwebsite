@@ -181,6 +181,253 @@
   background-position: 30% 0%!important;
 }
 
+/* About MMMUT */
+.about{
+margin-top: 1rem;
+margin-left: 7rem;
+
+font-family: 'Montserrat';
+font-style: normal;
+ font-weight: 600; 
+font-size: 32px;
+line-height: 39px;
+color: black;
+}
+
+.border1{
+  width: 260px;
+  height: 3px;
+  left: 162px;
+  top: 394px; 
+  background-color: #457B9D ;
+  border: 1.60618px solid #457B9D;
+  margin-left: 7rem;
+}
+
+.text1{
+  margin-left: 7rem;
+  margin-right: 7rem;
+  padding-top: 1.5rem;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #212121;
+}
+
+.vision{
+  margin-top: 1rem;
+  margin-left: 7rem;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+   font-weight: 600; 
+  font-size: 32px;
+  line-height: 39px;
+  color: black;
+}
+
+.border2{
+  width: 110px;
+    height: 3px;
+    left: 162px;
+    top: 394px; 
+    background-color: #457B9D ;
+    border: 1.60618px solid #457B9D;
+    margin-left: 7rem; 
+}
+
+.text2{
+  margin-left: 7rem;
+  margin-right: 7rem;
+  padding-top: 1.5rem;
+  top: 414px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #212121;
+
+}
+
+.mission{
+  margin-top: 1rem;
+  margin-left: 7rem;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: black;
+}
+
+  .border3{
+    width: 130px;
+    height: 3px;
+    left: 162px;
+    top: 394px; 
+    background-color: #457B9D ;
+    border: 1.60618px solid #457B9D;
+    margin-left: 7rem;
+  }
+
+  .text3{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-top: 1.5rem;
+    top: 414px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    
+    color: #212121;
+  }
+  
+  .loc{
+    margin-top: 1.5rem;
+    margin-left: 7rem;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: black;
+  }
+  
+    .border4{
+      width: 300px;
+      height: 3px;
+      left: 162px;
+      top: 394px; 
+      background-color: #457B9D ;
+      border: 1.60618px solid #457B9D;
+      margin-left: 7rem;
+    }
+  
+    .text4{
+      margin-left: 7rem;
+      margin-right: 7rem;
+      padding-top: 1.5rem;
+      
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: justify;
+      color: #212121;
+    }
+
+    .map{
+      margin-top: 1.5rem;
+      margin-left: 7rem;
+      
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      color: black;
+    }
+    
+      .border5{
+        width: 75px;
+        height: 3px;
+        left: 162px;
+        top: 394px; 
+        background-color: #457B9D ;
+        border: 1.60618px solid #457B9D;
+        margin-left: 7rem;
+      }
+    
+      .text5{
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding-top: 1.5rem;
+        top: 414px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+        
+        color: #212121;
+      }
+    
+      .campus{
+        margin-top: 1.5rem;
+        margin-left: 7rem;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: black;
+      }
+      
+        .border6{
+          width: 305px;
+          height: 3px;
+          left: 162px;
+          top: 394px; 
+          background-color: #457B9D ;
+          border: 1.60618px solid #457B9D;
+          margin-left: 7rem;
+         margin-bottom:2rem ;
+        }
+      
+        .text6{
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding-top: 1.5rem;
+        top: 414px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        text-align: center;
+        color: #457B9D;      
+        }
+
+        .video{
+          Display: flex;
+          Justify-content: center;
+          Align-items: center;
+          }
+
+        .footer-links img{
+   
+            height: 1.5rem;
+            width: 1.5rem;
+            word-spacing: normal;
+        }
+        .footer-text{
+          
+          font-family: Montserrat;
+          font-size: 1rem;
+          font-weight: 400;
+        }
+        .footer-procedure{
+          display: flex;
+        }
+        .footer-procedure div{
+          margin: auto;
+        }
+
+
 @keyframes caraouse {
   0%{
     background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)) ,  url("../src/images/cara1resize.jpg");
@@ -193,7 +440,7 @@
 
 
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   /* Responsive view */
 
   .navbar .hamburger{
@@ -231,10 +478,11 @@
   .navbar .menu :hover .navwidth1{
     transform:translateY(-10rem);
   }
+
 }
 
 
-@media (max-width: 768px) {
+@media(max-width: 768px) {
 /*Mobile view*/
 
 /* Error Page UI starts {color scheme to be changed} */
@@ -249,5 +497,130 @@
   }
 
   /* Error Page UI ends*/
+
+}
+
+@media(min-width: 400px) and (max-width: 900px){
+
+  .about{
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .text1{
+    font-size: 1.2rem;
+    word-spacing: normal;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .border1{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .vision{
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .text2{
+    font-size: 1.2rem;
+    word-spacing: normal;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .border2{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .mission{
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .text3{
+    font-size: 1.2rem;
+    word-spacing: normal;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .border3{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .loc{
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .text4{
+    font-size: 1.2rem;
+    word-spacing: normal;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .border4{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .map{
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .text5{
+    font-size: 1.2rem;
+    word-spacing: normal;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .border5{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .campus{
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .text6{
+    font-size: 1.2rem;
+    word-spacing: normal;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .border6{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .video{
+    padding: auto;
+    }
+
+  .footer-links img{
+      height: 0.8rem;
+      width: 0.8rem;
+  }
+  .footer-text{
+    font-size: 0.6rem;
+  }
+
 
 }
