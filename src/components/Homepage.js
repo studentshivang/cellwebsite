@@ -7,7 +7,7 @@ const Homepage = () => {
           <Navbar />
       </div>        
       
-       {/* Whatever is next goes here */}
+      {/* Whatever is next goes here */}
 
     </>
   );
