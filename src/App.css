@@ -775,3 +775,121 @@ color: #000000;
       font-weight: 600;
     }
 }
+/* ------------Placement Procedure--------------- */
+.container-procedure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 2%;
+}
+.Heading-procedure{
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: 800;
+}
+.Heading-procedure div{
+  height: 0.2rem;
+  width: 24%;
+  background-color: #457b9d;
+  border-radius: 0.01rem;
+}
+.procedures{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.procedure{
+  height: 5.2rem;
+  margin: 1rem 1rem 1rem 0;
+  background-color: #C4D9FF;
+  align-items: center;
+  border-radius: 5rem;
+  padding: auto;
+  display: flex;
+  align-content: center;
+}
+.procedure img{
+  height: 80%;
+  width: 6%;
+  margin: 0 1rem 0 1rem;
+}
+.procedure span{
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.button-text{
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: auto;
+  margin-top: 3%;
+}
+.mail-procedure-button{
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 900;
+  height: 2.5rem;
+  width: 100%;
+  background-color: #C4D9FF;
+  border-radius: 3rem;
+}
+.button-procedure{
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.footer-links-procedure img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.footer-text-procedure{
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.footer-procedure{
+  display: flex;
+}
+.footer-procedure div{
+  margin: auto;
+}
+@media (max-width: 900px){
+  .Heading-procedure{
+    font-size: 1.2rem;
+  }
+  .Heading-procedure div{
+    width: 65%;
+  }
+  .procedure{
+    height: 4rem;
+    border-radius: 2rem;
+  }
+  .procedure img{
+    height: 63%;
+    width: 8%;
+  }
+  .procedure span{
+    font-family: Montserrat;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .button-text{
+    font-size: 1rem;
+  }
+  .mail-procedure-button{
+    font-size: 0.7rem;
+    height: 2rem;
+    border-radius: 3rem;
+  }
+  .footer-links-procedure img{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+.footer-text-procedure{
+  font-size: 0.6rem;
+}
+}
