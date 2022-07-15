@@ -6,6 +6,9 @@ const Navsm = () => {
       <div className="pages_nav">
         {/* <div className="layer_nav">
         </div> */}
+
+           
+
           <Navbar />
       </div>
     </>
