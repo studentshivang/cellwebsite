@@ -2,6 +2,7 @@ import Navsm from "./Navsm";
 import StudentCoordinator from './StudentCoordinator';
 import '../style/Student.css';
 import SData from "../data/SData";
+import Footer from "./utils/Footer";
 
 const Studentcoordinators = () => {
   return (
@@ -23,6 +24,7 @@ const Studentcoordinators = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

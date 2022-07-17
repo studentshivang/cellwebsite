@@ -1,6 +1,7 @@
 import Navsm from "./Navsm";
 import Fdata from "../data/Fdata";
 import FacultyIndividual from "./FacultyIndividual";
+import Footer from './utils/Footer';
 
 const Faculty = () => {
   return (
@@ -15,6 +16,7 @@ const Faculty = () => {
         })}
       </div>
       </div>
+      <Footer/>
     </>
   );
 };

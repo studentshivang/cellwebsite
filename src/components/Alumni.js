@@ -3,6 +3,7 @@ import "../style/alumni.css";
 import Navsm from "./Navsm";
 import AlumnData from "../data/Alumndata";
 import Alumnus from "./Alumnus";
+import Footer from "./utils/Footer";
 
 const Alumni = () => {
   return (
@@ -24,6 +25,7 @@ const Alumni = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
