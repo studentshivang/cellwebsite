@@ -1,45 +1,30 @@
 import Navsm from "./Navsm";
+import StudentCoordinator from './StudentCoordinator';
 import '../style/Student.css';
-const Studentcoordinators = () => {
-    return(
-        <>
-        <Navsm/>
-        
-        {/* <h1>Welcome to Studentcoordinators Co-ordinators Page</h1> */}
+import SData from "../data/SData";
 
-        <div className="pro-container">
-            <div className="pro">
-                <img src="https://res.cloudinary.com/dpcpegpsn/image/upload/v1655825096/TEAM/Anushka_mospte.jpg" alt="Error loading image"/>
-                <div className="des">
-             <span>Anushka Yadav</span>
-             <h5>ECE 3rd Year</h5>
-             <h4>Student Coordinator</h4>
-                </div>
-            </div>
+const Studentcoordinators = () => {
+  return (
+    <>
+      <Navsm />
+      <div className="about">Our Team</div>
+      <div className="borderpromalumni"></div>
+
+      <div>
+        <div className="container">
+          <div className="row">
+            {SData.map(element => {
+              return (
+                <>
+                  <StudentCoordinator key={element.id} data={element} />
+                </>
+              );
+            })}
+          </div>
         </div>
-        <div className="pro-container">
-            <div className="pro">
-                <img src="https://res.cloudinary.com/dpcpegpsn/image/upload/v1655825096/TEAM/Anushka_mospte.jpg" alt="Error loading image"/>
-                <div className="des">
-             <span>Anushka Yadav</span>
-             <h5>ECE 3rd Year</h5>
-             <h4>Student Coordinator</h4>
-                </div>
-            </div>
-        </div>
-        <div className="pro-container">
-            <div className="pro">
-                <img src="https://res.cloudinary.com/dpcpegpsn/image/upload/v1655825096/TEAM/Anushka_mospte.jpg" alt="Error loading image"/>
-                <div className="des">
-             <span>Anushka Yadav</span>
-             <h5>ECE 3rd Year</h5>
-             <h4>Student Coordinator</h4>
-                </div>
-            </div>
-        </div>
-       
-        </>
-    );
+      </div>
+    </>
+  );
 };
 
 export default Studentcoordinators;
