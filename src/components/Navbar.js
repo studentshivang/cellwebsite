@@ -26,7 +26,8 @@ const Navbar = ()=>{
                         <li><NavLink to="/academics" className="dropdownnavlink">Academics</NavLink></li>
                         <li><NavLink to="/graduates" className="dropdownnavlink">Graduating Students</NavLink></li>
                         <li><NavLink to="/" className="dropdownnavlink">Achievements</NavLink></li>
-                        <li><NavLink to="/recruiters" className="dropdownnavlink">Past Recruiting Organisations</NavLink></li>
+                        <li><NavLink to="/alumni" className="dropdownnavlink">Alumni</NavLink></li>
+                        <li><NavLink to="/recruiters" className="dropdownnavlink" id="pastrecruit">Past Recruiting Organisations</NavLink></li>
                     </ul>
                 </div>
                 </li>
