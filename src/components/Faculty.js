@@ -1,24 +1,22 @@
 import Navsm from "./Navsm";
-import Fdata from '../data/Fdata';
-import FIndividual from "./FIndividual";
+import Fdata from "../data/Fdata";
+import FacultyIndividual from "./FacultyIndividual";
 
-const Faculty =()=>{
-    return(
-        <>
-        <Navsm/>
-        <h2>Faculty Coordinators</h2>
-
-        <div className="coordinators">
-        {Fdata.map((data,index)=>{
-            return(
-                <FIndividual 
-                    key={data.id} 
-                    data={data}/>
-            )
+const Faculty = () => {
+  return (
+    <>
+      <Navsm />
+      <div className="about">Faculty Coordinators</div>
+      <div className="borderpromalumni"></div>
+      <div className="container">
+        <div className="row">
+        {Fdata.map((data, index) => {
+          return <FacultyIndividual key={data.id} data={data} />;
         })}
-        </div>
-        </>
-    );
+      </div>
+      </div>
+    </>
+  );
 };
 
 export default Faculty;

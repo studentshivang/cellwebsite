@@ -1,0 +1,24 @@
+/*---------------Faculty individual -------------*/
+
+.f_image {
+    margin: 2rem 0;
+  width: 299.42px;
+  height: 299.42px;
+  border: 2.68938px solid #457b9d;
+  border-radius: 19.7221px 0px;
+}
+img{
+    width: 299.42px;
+    height: 299.42px;
+    object-fit:fill;
+    border-radius: 19.7221px 0px;
+}
+
+.coordinators {
+  width: 100%;
+  display: grid;
+}
+
+.f_object {
+  width: 30%;
+}
