@@ -373,6 +373,20 @@ const List = () => {
                 Z
               </button>
             </li>
+            <li className="nav-item" role="presentation">
+              <button
+                className="nav-link"
+                id="pills-specialCharac-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-specialCharac"
+                type="button"
+                role="tab"
+                aria-controls="pills-specialCharac"
+                aria-selected="false"
+              >
+                #
+              </button>
+            </li>
           </ul>
         </div>
         <div className="comps ms-3">
@@ -685,6 +699,18 @@ const List = () => {
             >
               <ul>
                 {CompanyData[25].map((element, index) => (
+                  <li key={index}>{element}</li>
+                ))}
+              </ul>
+            </div>
+            <div
+              className="tab-pane fade"
+              id="pills-specialCharac"
+              role="tabpanel"
+              aria-labelledby="pills-specialCharac-tab"
+            >
+              <ul>
+                {CompanyData[26].map((element, index) => (
                   <li key={index}>{element}</li>
                 ))}
               </ul>
