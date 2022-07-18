@@ -22,7 +22,7 @@ const Navbar = ()=>{
                 <div className="dropdown_menu">
                     <ul>
                         <li><NavLink to="/about" className="dropdownnavlink">About MMMUT</NavLink></li>
-                        <li><NavLink to="/" className="dropdownnavlink">Life@MMMUT</NavLink></li>
+                        <li><NavLink to="/lifeatmmmut" className="dropdownnavlink">Life@MMMUT</NavLink></li>
                         <li><NavLink to="/academics" className="dropdownnavlink">Academics</NavLink></li>
                         <li><NavLink to="/graduates" className="dropdownnavlink">Graduating Students</NavLink></li>
                         <li><NavLink to="/" className="dropdownnavlink">Achievements</NavLink></li>
