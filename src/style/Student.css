@@ -175,3 +175,16 @@ border-radius: 15px;
 }
 
 
+@media (max-width:300px){
+  #Stud_title{
+    margin-left: 4rem;
+  }
+  .student .borderpromalumni{
+    margin-left: 4rem;
+
+  }
+  #our-team{
+    width: 80%;
+    
+  }
+}
