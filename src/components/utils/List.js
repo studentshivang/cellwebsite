@@ -4,7 +4,7 @@ import React from "react";
 const List =()=>{
     return(
     <>
-    <>Shivang Code</>
+    <h1>Hari Bol!</h1>
     </>
     )
 }

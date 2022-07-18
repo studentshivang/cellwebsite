@@ -8,8 +8,9 @@ const Studentcoordinators = () => {
   return (
     <>
       <Navsm />
-      <div className="about">Our Team</div>
-      <div className="borderpromalumni"></div>
+      <div className="student">
+      <div className="about" id="Stud_title">Our Team</div>
+      <div className="borderpromalumni" id="stud_title"></div>
 
       <div>
         <div className="container">
@@ -23,6 +24,7 @@ const Studentcoordinators = () => {
             })}
           </div>
         </div>
+      </div>
       </div>
       <Footer/>
     </>

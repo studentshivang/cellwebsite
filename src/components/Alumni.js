@@ -9,7 +9,7 @@ const Alumni = () => {
   return (
     <>
       <Navsm />
-      <div className="about">Prominent Alumni</div>
+      <div className="about" id="alumn_title">Prominent Alumni</div>
       <div className="borderpromalumni"></div>
 
       <div>

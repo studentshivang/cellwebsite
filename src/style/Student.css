@@ -114,6 +114,9 @@ border-radius: 15px;
   color: #1369ce;
   background-color: #f7f5ec;
 }
+#stud_title{
+  width: 10rem;
+}
 
 @media (max-width:768px) {
   .borderpromalumni{
@@ -123,3 +126,52 @@ border-radius: 15px;
     margin: 2rem;
   }
 }
+
+@media (max-width:471px) {
+  .student .borderpromalumni{
+    width:14rem;
+  }
+  
+}
+
+@media (max-width:399px) {
+  .student .about{
+    margin-left: 5rem;
+    
+  }
+  .student .borderpromalumni{
+    width:14rem;
+    margin-left: 5rem;
+  }
+}
+@media (min-width:768px) {
+  .student .container{
+    padding-left: 7%;
+  }
+  #Stud_title{
+    margin-left: 7rem;
+  }
+  .student .borderpromalumni{
+    margin-left: 7rem;
+
+  }
+}
+@media (min-width:991px) {
+  .student .container{
+    padding-left: 2%;
+  }
+}
+
+@media (min-width:1058px) {
+  .student .container{
+    padding-left: 1%;
+  }
+}
+
+@media (min-width:1200px) {
+  .student .container{
+    padding-left: 4%;
+  }
+}
+
+

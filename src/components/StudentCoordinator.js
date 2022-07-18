@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const StudentCoordinator = (data) => {
   return (
     <>
-      <div className="col-12 col-sm-6 col-md-4 col-lg-4">
+      <div className="col-12 col-sm-12 col-md-6 col-lg-4">
         <div id="our-team"> 
           <div className="picture">
             <img className="img-fluid" src={data.data.image} alt="Alumnus" />

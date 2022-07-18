@@ -2,6 +2,9 @@
 /* 
 .f_image {
 } */
+.f .container{
+  padding-left: 20%;
+}
 .f_image img {
   margin: 2rem 0;
   width: 299.42px;
@@ -17,9 +20,68 @@
 
 .coordinators {
   width: 100%;
-  display: grid;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .f_object {
-  width: 30%;
+  width: 100%;
+  /* margin: auto ;
+  align-self: center; */
 }
+
+.F_text h4,h5{
+  width: 300px;
+  text-align: center;
+}
+.f .row{
+  width: 100%;
+  /* align-items: center!important; */
+  /* padding-right: 20%!important; */
+}
+.f .borderpromalumni{
+  width:22rem;
+}
+
+@media (max-width:471px) {
+  .f .borderpromalumni{
+    width:14rem;
+  }
+  
+}
+
+@media (max-width:399px) {
+  .f .about{
+    margin-left: 5rem;
+    
+  }
+  .f .borderpromalumni{
+    width:14rem;
+    margin-left: 5rem;
+  }
+}
+@media (min-width:768px) {
+  .f .container{
+    padding-left: 7%;
+  }
+}
+@media (min-width:991px) {
+  .f .container{
+    padding-left: 2%;
+  }
+}
+
+@media (min-width:1058px) {
+  .f .container{
+    padding-left: 1%;
+  }
+}
+
+@media (min-width:1200px) {
+  .f .container{
+    padding-left: 4%;
+  }
+}
+
+
