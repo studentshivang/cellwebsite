@@ -11,10 +11,10 @@ const FacultyIndividual=(props)=>{
             <img src={props.data.image} alt="" />
         </div>
         <div className="F_text">
-            <h5>{props.data.name}</h5>
+            <h5><b>{props.data.name}</b></h5>
             <h4>{props.data.post},</h4>
             <h4>Training & Placement Cell</h4>
-            <h4>MMMUT Gorakhpur</h4>
+            {/* <h4>MMMUT Gorakhpur</h4> */}
         </div>
         </div>
         </div>
