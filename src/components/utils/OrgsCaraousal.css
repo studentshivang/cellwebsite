@@ -39,6 +39,9 @@
     cursor: grab;
     overflow: hidden;
 }
+.carousel-item{
+    transform: scale(0.75);
+}
 @media (max-width: 450px){
     .item{
         height: 4rem;
