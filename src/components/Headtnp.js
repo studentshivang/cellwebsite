@@ -17,9 +17,9 @@ const Headtnp = () => {
           <h4>Professor, Training & Placement Cell</h4>
           <h4>MMMUT, Gorakhpur</h4>
           <br />
-          <h4><img src={Email} alt="" /> tnp@mmmut.ac.in/ vkdtnp@mmmut.ac.in</h4>
+          <h4><img src={Email} alt="email icon" className="img-fluid"/> tnp@mmmut.ac.in/ vkdtnp@mmmut.ac.in</h4>
           <br />
-          <h4><img src={Phone} alt="" />+91 XXXX XXXX XX</h4>
+          <h4><img src={Phone} alt="phone icon" className="img-fluid" />+91 XXXX XXXX XX</h4>
           <br />
       
           <h4 style={{'color':'#457B9D'}}>Home</h4>

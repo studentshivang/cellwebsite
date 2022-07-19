@@ -18,22 +18,22 @@ const Procedure = () => {
         </div>
         <div className="procedures">
           <div className="procedure">
-            <img src={step1} alt="step1" />{" "}
+            <img src={step1} alt="step1" />
             <span>
-              Interested recruiters mail us the JD at{" "}
+              Interested recruiters mail us the JD at
               <a href="mailto:tnp@mmmut.ac.in">tnp@mmmut.ac.in</a> (including
               CTC, Job Role, Eligible Streams and other relevant details)
             </span>
           </div>
           <div className="procedure">
-            <img src={step2} alt="step2" />{" "}
+            <img src={step2} alt="step2" />
             <span>
               We share it among the eligible and interested candidates through
               Superset Platform/Notice & GForm.
             </span>
           </div>
           <div className="procedure">
-            <img src={step3} alt="step3" />{" "}
+            <img src={step3} alt="step3" />
             <span>
               Within a few working days, we share the excel containing list of
               interested & eligible candidates to the recruiter.
@@ -47,7 +47,7 @@ const Procedure = () => {
             </span>
           </div>
           <div className="procedure">
-            <img src={step5} alt="step5" />{" "}
+            <img src={step5} alt="step5" />
             <span>
               The company rolls out the offer letter either to T&P or to the
               candidates, and we coordinate accordingly.

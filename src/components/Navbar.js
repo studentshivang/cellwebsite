@@ -19,14 +19,15 @@ const Navbar = ()=>{
                 <li><NavLink to ="/" className="navbarlink">Home</NavLink></li>
                 <li>Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
 
-                <div className="dropdown_menu">
+                <div className="dropdown_menu" id="whyRec">
                     <ul>
                         <li><NavLink to="/about" className="dropdownnavlink">About MMMUT</NavLink></li>
-                        <li><NavLink to="/" className="dropdownnavlink">Life@MMMUT</NavLink></li>
+                        <li><NavLink to="/lifeatmmmut" className="dropdownnavlink">Life@MMMUT</NavLink></li>
                         <li><NavLink to="/academics" className="dropdownnavlink">Academics</NavLink></li>
                         <li><NavLink to="/graduates" className="dropdownnavlink">Graduating Students</NavLink></li>
                         <li><NavLink to="/" className="dropdownnavlink">Achievements</NavLink></li>
-                        <li><NavLink to="/recruiters" className="dropdownnavlink">Past Recruiting Organisations</NavLink></li>
+                        <li><NavLink to="/alumni" className="dropdownnavlink">Alumni</NavLink></li>
+                        <li><NavLink to="/recruiters" className="dropdownnavlink" id="pastrecruit">Past Recruiting Organisations</NavLink></li>
                     </ul>
                 </div>
                 </li>

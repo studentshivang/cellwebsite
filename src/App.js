@@ -13,6 +13,8 @@ import Procedure from './components/Procedure';
 import Reachingmmmut from './components/Reachingmmmut';
 import Recruiters from './components/Recruiters';
 import Studentcoordinators from './components/Studentcoordinators';
+import Alumni from './components/Alumni';
+import Lifeatmmmut from "./components/LifeAtMMMUT";
 // import Navbar from "./components/Navbar";
 
 
@@ -34,7 +36,8 @@ const Routing =()=>{
         <Route path="/HeadTnP" element={<Headtnp />} />
         <Route path="/facultyCoordinators" element={<Faculty />} />
         <Route path="/studentCoordinators" element={<Studentcoordinators />} />
-        
+        <Route path="/alumni" element={<Alumni/>} />
+        <Route path="/lifeatmmmut" element={<Lifeatmmmut />} />
   
         <Route path="*" element={<Errorpage />} />
 

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import "../style/Homepage.css";
 import "./utils/Footer";
+
 // import Footer from './utils/Footer';
 const Homepage = () => {
   return (
@@ -33,6 +34,7 @@ const Homepage = () => {
 
       <div className="quicklinks">
         <h2>Quick Links</h2>
+
         <img
           className="img1"
           src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536300/link_1_dxwycj.png"
@@ -84,6 +86,7 @@ const Homepage = () => {
             />{" "}
             Placement Stats
           </h5>
+
         </div>
 
         {/* <div className='firsttwo'> 
@@ -101,6 +104,7 @@ const Homepage = () => {
         <h2>Downloads</h2>
         {/* <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img1'/> */}
         <div className="first_two_01">
+
           <h5>
             {" "}
             <img
@@ -139,6 +143,7 @@ const Homepage = () => {
             />{" "}
             Invitation
           </h5>
+
         </div>
       </div>
 
@@ -230,7 +235,9 @@ const Homepage = () => {
         </div>
       </div>
 
+
       {/* <div className="tpo_desk">
+
   <div className="tpo_text">
     <h2>From the Vice-Chancellor’s Desk</h2>
     <p>Madan Mohan Malviya University of Technology (MMMUT), Gorakhpur has grown to become the national flagship of UP State Government, known for the excellence of it's teaching to the national and international communities. MMMUT has been strategically created (established in 2013) on the legacy of success presented by Madan Mohan Malviya Engineering College Gorakhpur (established in 1962 by Government of UP) towards providing cutting edge learning technology, internationally benchmarked education and critical research opportunities in frontier areas of contemporary concern. The confidence posed by the industries for our institute is indicated by the fact that maximum students are placed and are serving in various leading global industries.</p>
