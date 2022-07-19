@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
-import { Link } from 'react-router-dom';
+// import React, { Component } from 'react';
+// import { render } from 'react-dom';
+// import { Link } from 'react-router-dom';
 import Navbar from "./Navbar";
 import "../style/Homepage.css";
 import "./utils/Footer"
+import Footer from './utils/Footer';
 // import Footer from './utils/Footer';
 const Homepage = () => {
   return (
@@ -36,16 +37,16 @@ const Homepage = () => {
       
 
         <h2>Quick Links</h2>
-        <img className="img1" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536300/link_1_dxwycj.png" alt="Error loading image" />
+        <img className="img1" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536300/link_1_dxwycj.png" alt="Error loading " />
         <div className="first_two">
         
-       <h5><img className="img2" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536655/Fill-8_1_mqa0ub.png" alt="Error loading image"/>Login to Superset</h5>
+       <h5><img className="img2" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536655/Fill-8_1_mqa0ub.png" alt="Error loading "/>Login to Superset</h5>
     
-       <h5><img className="img3" alt="Error loading image" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"/>Brochures</h5>
+       <h5><img className="img3" alt="Error loading " src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"/>Brochures</h5>
         </div>
         <div className="last_two">
-        <h5> <img className="img4" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/communicate_1_o8akqp.png" alt='Error loading image'/> Student Coordinators</h5>
-       <h5> <img className="img5" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_1_yusxhi.png" alt='Error loading image'/> Placement Stats</h5>
+        <h5> <img className="img4" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/communicate_1_o8akqp.png" alt='Error loading '/> Student Coordinators</h5>
+       <h5> <img className="img5" src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_1_yusxhi.png" alt='Error loading '/> Placement Stats</h5>
         </div>
 
 
@@ -66,12 +67,12 @@ const Homepage = () => {
         <h2>Downloads</h2>
         {/* <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img1'/> */}
         <div className="first_two_01">
-        <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png' className='img2' alt='Error loading image'/> Placement Reports</h5>
-        <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img3' alt='Error loading image '/> Resume Template</h5>
+        <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png' className='img2' alt='Error loading '/> Placement Reports</h5>
+        <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img3' alt='Error loading  '/> Resume Template</h5>
         </div>
         <div className="last_two_01">
-           <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img4' alt='Error loading image '/> Placement Policy</h5>
-           <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img5'  alt='Error loading image '/> Invitation</h5>
+           <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img4' alt='Error loading  '/> Placement Policy</h5>
+           <h5> <img src='https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_yrbr7z.png' className='img5'  alt='Error loading  '/> Invitation</h5>
         </div>
       </div>
 
@@ -135,7 +136,8 @@ const Homepage = () => {
       </div>
 
 
-    <div className="footer">
+   <Footer/>
+    {/* <div className="footer">
    <div className="text-area">
     <h5>©2022, Training & Placement Cell,  MMMUT, Gorakhpur</h5>
    </div>
@@ -145,7 +147,7 @@ const Homepage = () => {
    <img src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655502070/cell_website/email_buxtqz.png" alt="Error loading iage"/>
    <img src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655502070/cell_website/globe_r355qa.png" alt="Error loading iage"/>
    </div>
-    </div>
+    </div> */}
 
 
 
