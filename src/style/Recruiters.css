@@ -1,9 +1,11 @@
-.PastROUnderline{
-    width:31rem!important;
-}
+/*--List--*/
 .navList{
     background: #F5F9FF;
     width: fit-content;
+}
+/*--Headings--*/
+.PastROUnderline{
+    width:31rem!important;
 }
 
 

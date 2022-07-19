@@ -1,7 +1,6 @@
 //Past Recruiting Organisations List
 import React from "react";
 import CompanyData from "../../data/CompanyData";
-import './List.css';
 
 const List = () => {
   return (
