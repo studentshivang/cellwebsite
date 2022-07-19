@@ -12,7 +12,7 @@
 
 
 import Navsm from "./Navsm";
-import React, { useState } from 'react';
+import React from 'react';
 import '../style/Faq.css';
 import Footer from "./utils/Footer";
 // import data from './Data'

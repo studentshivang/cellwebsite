@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
+import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import "../style/Homepage.css";
@@ -38,14 +37,14 @@ const Homepage = () => {
         <img
           className="img1"
           src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536300/link_1_dxwycj.png"
-          alt="Error loading image"
+          alt="Error loading "
         />
         <div className="first_two">
           <h5>
             <img
               className="img2"
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536655/Fill-8_1_mqa0ub.png"
-              alt="Error loading image"
+              alt="Error loading "
             />
             Login to Superset
           </h5>
@@ -53,16 +52,16 @@ const Homepage = () => {
           <h5>
             <img
               className="img3"
-              alt="Error loading image"
+              alt="Error loading "
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"
             />
             Brochures
             <div className="dropdown">
         <ul>
-                        <li><a href="#"/>Placement Brochure 2021-2022</li>
-                        <li><a href="#"/>Placement Brochure 2021-2022</li>
-                        <li><a href="#"/>Placement Brochure 2021-2022</li>
-                        <li><a href="#"/>Placement Brochure 2021-2022</li>
+                        <li><Link to="#"/>Placement Brochure 2021-2022</li>
+                        <li><Link to="#"/>Placement Brochure 2021-2022</li>
+                        <li><Link to="#"/>Placement Brochure 2021-2022</li>
+                        <li><Link to="#"/>Placement Brochure 2021-2022</li>
         </ul>
             </div>
           </h5>
@@ -73,7 +72,7 @@ const Homepage = () => {
             <img
               className="img4"
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/communicate_1_o8akqp.png"
-              alt="Error loading image"
+              alt="Error loading "
             />{" "}
             Student Coordinators
           </h5>
@@ -82,22 +81,14 @@ const Homepage = () => {
             <img
               className="img5"
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_1_yusxhi.png"
-              alt="Error loading image"
+              alt="Error loading "
             />{" "}
             Placement Stats
           </h5>
 
         </div>
 
-        {/* <div className='firsttwo'> 
-      <Link to="/about"  style={{textDecoration:"none"}} className='class001'>Login to Superset</Link>
-        <Link to="/about"  style={{textDecoration:"none"}} className='class001'>Brochures</Link>
-       </div>
-   <div className='lasttwo'>
-   <Link to="/about"  style={{textDecoration:"none"}} className='class001'>Student Coordinators</Link>
-        <Link to="/about" style={{textDecoration:"none"}}  className='class001'>Placement Stats</Link>
-
-   </div> */}
+     
       </div>
 
       <div className="Downloads">
@@ -110,7 +101,7 @@ const Homepage = () => {
             <img
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png"
               className="img2"
-              alt="Error loading image"
+              alt="Error loading "
             />{" "}
             Placement Reports
           </h5>
@@ -119,7 +110,7 @@ const Homepage = () => {
             <img
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597836/templates_1_xyrfpr.png"
               className="img3"
-              alt="Error loading image "
+              alt="Error loading  "
             />{" "}
             Resume Template
           </h5>
@@ -130,7 +121,7 @@ const Homepage = () => {
             <img
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648277/insurance_1_ufp80u.png "
               className="img4"
-              alt="Error loading image "
+              alt="Error loading  "
             />{" "}
             Placement Policy
           </h5>
@@ -139,7 +130,7 @@ const Homepage = () => {
             <img
               src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648352/invitation_1_t0whud.png"
               className="img5"
-              alt="Error loading image "
+              alt="Error loading  "
             />{" "}
             Invitation
           </h5>
@@ -236,14 +227,6 @@ const Homepage = () => {
       </div>
 
 
-      {/* <div className="tpo_desk">
-
-  <div className="tpo_text">
-    <h2>From the Vice-Chancellor’s Desk</h2>
-    <p>Madan Mohan Malviya University of Technology (MMMUT), Gorakhpur has grown to become the national flagship of UP State Government, known for the excellence of it's teaching to the national and international communities. MMMUT has been strategically created (established in 2013) on the legacy of success presented by Madan Mohan Malviya Engineering College Gorakhpur (established in 1962 by Government of UP) towards providing cutting edge learning technology, internationally benchmarked education and critical research opportunities in frontier areas of contemporary concern. The confidence posed by the industries for our institute is indicated by the fact that maximum students are placed and are serving in various leading global industries.</p>
-  </div>
-  <div className="tpo_image"></div>
-  </div> */}
     </>
   );
 };
