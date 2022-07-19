@@ -1,13 +1,14 @@
 //Past Recruiting Organisations List
 import React from "react";
 import CompanyData from "../../data/CompanyData";
+import './List.css';
 
 const List = () => {
   return (
     <>
-      <h1>Hari Bol!</h1>
-      <div className="recruitersComp ms-5">
-        <div className="navList">
+      {/* <h1 className="ms-4 ms-lg-5 my-3">Hari Bol!</h1> */}
+      <div className="recruitersComp ms-4 ms-lg-5">
+        <div className="navList me-4 me-lg-5">
           <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li className="nav-item" role="presentation">
               <button
@@ -389,7 +390,7 @@ const List = () => {
             </li>
           </ul>
         </div>
-        <div className="comps ms-3">
+        <div className="comps ms-2">
           <div className="tab-content" id="pills-tabContent">
             <div
               className="tab-pane fade show active"
