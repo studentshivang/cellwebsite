@@ -20,7 +20,7 @@ const Invitation = () => {
           <span className="head-text-1">
             [NIRF ACCREDITED, ranked-227]
           </span>{" "}
-          <br /> <br />
+          <br /> 
           Telephone No.: 9953001761/8765783675 <br />
           E-mail: tnp@mmmut.ac.in
         </div>
