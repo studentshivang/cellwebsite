@@ -97,9 +97,12 @@
   margin-left: -32px;
   width: 252px;
 }
+.navbar .menu :hover #whyRec,#whyRec ul li{
+  width: 240px;
 
+}
 .navbar .menu :hover .navwidth1{
-  width: 197px;
+  width: 197px; 
 }
 
 .navbar .menu :hover .dropdown_menu .navwidth{
@@ -180,7 +183,7 @@
   object-fit: cover;
   width: 100%;
   position: relative;
-  height: 20rem;
+  height:51vh;
   background-repeat: no-repeat;
   background-size: 100%;
   animation: caraouse 2s 1s infinite alternate step-end;
@@ -447,6 +450,7 @@ color: black;
 @media (max-width:1366px) {
   .pages_nav{
     background-size: cover;
+    height: 20rem;
   }
   .homediv{
     background-size: cover;
@@ -480,7 +484,6 @@ color: black;
     width: 100%;
     cursor: pointer;
   }
-
   .navbar .expanded{
     display: block;
   }
@@ -489,9 +492,13 @@ color: black;
     transform:translateY(-14rem);
     left: auto;
     align-self: center;
+    z-index: 100;
   }
 
   .navbar .menu :hover .navwidth1{
+    transform:translateY(-10rem);
+  }
+  .navbar .menu :hover #whyRec{
     transform:translateY(-10rem);
   }
 
@@ -905,17 +912,3 @@ color: #000000;
   font-size: 0.6rem;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* STUDENT COORDINATOR CSS STARTS FROM HERE  */
