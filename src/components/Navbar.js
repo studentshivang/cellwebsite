@@ -18,7 +18,7 @@ const Navbar = ()=>{
         }>
                 <li><NavLink to ="/" className="navbarlink">Home</NavLink></li>
                 <li>Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
-
+ 
                 <div className="dropdown_menu" id="whyRec">
                     <ul>
                         <li><NavLink to="/about" className="dropdownnavlink">About MMMUT</NavLink></li>
