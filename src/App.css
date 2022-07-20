@@ -538,7 +538,7 @@
 
   .text1 {
     font-size: 1.2rem;
-
+  }}
 @media(max-width: 500px){
 
   .about{
@@ -568,7 +568,7 @@
   }
 
   .text2 {
-    font-size: 1.2rem;
+    font-size: 1.2rem;}
 
   .border1{
     margin-left: 1rem;
@@ -604,6 +604,7 @@
 
   .text3 {
     font-size: 1.2rem;
+  }
 /* ======= */
   .border2{
     margin-left: 1rem;

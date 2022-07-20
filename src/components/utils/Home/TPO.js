@@ -18,7 +18,7 @@ const TPO = () => {
       });
     } else {
       animationMessage.start({
-        x: "+100vw",
+        x: "-100vw",
       });
     }
   }, [inViewMessage]);
