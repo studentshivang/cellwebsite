@@ -523,123 +523,128 @@ color: black;
 
 }
 
-@media(min-width: 400px) and (max-width: 900px){
+@media(max-width: 500px){
 
   .about{
-    font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text1{
-    font-size: 1.2rem;
+    font-size: 1rem;
     word-spacing: normal;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .border1{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 64%;
   }
 
   .vision{
-    font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text2{
-    font-size: 1.2rem;
+    font-size: 1rem;
     word-spacing: normal;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .border2{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 40%;
   }
 
   .mission{
-    font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text3{
-    font-size: 1.2rem;
+    font-size: 1rem;
     word-spacing: normal;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .border3{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 40%;
   }
 
   .loc{
-    font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text4{
-    font-size: 1.2rem;
+    font-size: 1rem;
     word-spacing: normal;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .border4{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 84%;
   }
 
   .map{
-    font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text5{
     font-size: 1.2rem;
     word-spacing: normal;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .border5{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 24%;
   }
 
   .campus{
-    font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text6{
-    font-size: 1.2rem;
+    font-size: 1rem;
     word-spacing: normal;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .border6{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 80%;
   }
-
-  .video{
-    padding: auto;
-    }
+ .video{
+  width: auto;
+ }
 
   .footer-links img{
-      height: 0.8rem;
-      width: 0.8rem;
+      height: 0.7rem;
+      width: 0.7rem;
   }
   .footer-text{
     font-size: 0.6rem;
