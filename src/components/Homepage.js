@@ -9,10 +9,6 @@ import VCsir from "./utils/Home/VCsir";
 import QuickLinks from "./utils/Home/QuikLinks";
 import About from "./utils/Home/About";
 
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
-
 const Homepage = () => {
   return (
     <>
@@ -29,7 +25,6 @@ const Homepage = () => {
           <div className="border1 ms-4 ms-md-5" id="aboutAnn"></div>
           <p className="ms-2 ms-md-5 homePg">Coming soon!</p>
         </div>
-
         <QuickLinks />
         <VCsir />
         <TPO />

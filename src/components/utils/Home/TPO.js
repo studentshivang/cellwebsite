@@ -21,7 +21,7 @@ const TPO = () => {
         x: "-100vw",
       });
     }
-  }, [inViewMessage]);
+  }, [inViewMessage, animationMessage]);
   return (
     <>
       <div ref={refMessage}>

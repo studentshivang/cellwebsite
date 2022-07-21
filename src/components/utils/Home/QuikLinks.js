@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { motion, useAnimation } from "framer-motion";
+import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Modal from "../Modal";
 
 const QuickLinks = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const close = () => setModalOpen(false);
+  const open = () => setModalOpen(true);
+
   const { ref, inView } = useInView();
   const animation = useAnimation();
   useEffect(() => {
@@ -22,7 +28,7 @@ const QuickLinks = () => {
         x: "-100vw",
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <>
@@ -34,71 +40,79 @@ const QuickLinks = () => {
               <h2 className="text-center mt-2">
                 {" "}
                 <img
-                  className="img1"
+                  className="img"
                   src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536300/link_1_dxwycj.png"
                   alt="Error loading "
                 />{" "}
                 Quick Links
               </h2>
-              <div className="rowQLbig col-12 col-md-12">
-                <div className="rowQL my-4 col-12 col-md-6">
-                  <h4>
-                    {" "}
-                    <img
-                      className="img2"
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536655/Fill-8_1_mqa0ub.png"
-                      alt="Error loading "
-                    />{" "}
+              <div className="rowQLbig">
+                <motion.h4
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  {" "}
+                  <img
+                    className="img"
+                    style={{ height: "50px", width: "50px" }}
+                    src="https://s3.ap-south-1.amazonaws.com/assets.ynos.in/startup-logos/YNOS336741.jpg"
+                    alt="Error loading "
+                  />{" "}
+                  <a
+                    style={{ textDecoration: "none", color: "#000" }}
+                    href="https://app.joinsuperset.com/#/s/feed"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Login to Superset
-                  </h4>
-                  <h4>
+                  </a>
+                </motion.h4>
+                <motion.h4
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  {" "}
+                  <img
+                    className="img"
+                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/communicate_1_o8akqp.png"
+                    alt="Error loading "
+                  />{" "}
+                  <Link className="link" to="/studentCoordinators">
                     {" "}
-                    <img
-                      className="img4"
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/communicate_1_o8akqp.png"
-                      alt="Error loading "
-                    />{" "}
-                    Student Coordinators
-                  </h4>
-                </div>
-                <div className="rowQL my-4 col-12 col-md-6">
-                  <div className="HomeDropdn1">
-                    <h4>
-                      {" "}
-                      <img
-                        className="img3"
-                        alt="Error loading "
-                        src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"
-                      />{" "}
-                      Brochures
-                    </h4>
-                    <div className="hid1">
-                      <ul>
-                        <li>
-                          <Link to="#">Placement Brochure 2021-2022</Link>
-                        </li>
-                        <li>
-                          <Link to="#">Placement Brochure 2021-2022</Link>
-                        </li>
-                        <li>
-                          <Link to="#">Placement Brochure 2021-2022</Link>
-                        </li>
-                        <li>
-                          <Link to="#">Placement Brochure 2021-2022</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <h4>
-                    {" "}
-                    <img
-                      className="img5"
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_1_yusxhi.png"
-                      alt="Error loading "
-                    />{" "}
-                    Placement Stats
-                  </h4>
-                </div>
+                    Contact Us
+                  </Link>
+                </motion.h4>
+
+                <motion.h4
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="save-button"
+                  onClick={() => (modalOpen ? close() : open())}
+                >
+                  {" "}
+                  <img
+                    className="img"
+                    alt="Error loading "
+                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"
+                  />{" "}
+                  Brochures
+                </motion.h4>
+
+                <motion.h4
+                  className="placementStats"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  {" "}
+                  <img
+                    className="img"
+                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/analytics_1_1_yusxhi.png"
+                    alt="Error loading "
+                  />{" "}
+                  <Link to="/placement_training" className="link">
+                    Placement Statistics & Trainings
+                  </Link>
+                </motion.h4>
               </div>
             </div>
           </div>
@@ -108,70 +122,85 @@ const QuickLinks = () => {
                 {" "}
                 <img
                   src="https://res.cloudinary.com/dltqjc99w/image/upload/v1658265845/cell/download_1_hs3qzf.png"
-                  className="img4"
+                  className="img"
                   alt="Error loading  "
                 />{" "}
                 Downloads
               </h2>
-              <div className="rowQLbig col-12 col-md-12">
-                <div className="rowQL my-4 col-12 col-md-6">
-                  <div className="HomeDropdn1">
-                    <h4>
-                      {" "}
-                      <img
-                        src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png"
-                        className="img2"
-                        alt="Error loading "
-                      />{" "}
-                      Placement Reports
-                    </h4>
-                    <div className="hid1">
-                      <ul>
-                        <li>
-                          <Link to="#">Placement Report 2021-2022</Link>
-                        </li>
-                        <li>
-                          <Link to="#">Placement Report 2021-2022</Link>
-                        </li>
-                        <li>
-                          <Link to="#">Placement Report 2021-2022</Link>
-                        </li>
-                        <li>
-                          <Link to="#">Placement Report 2021-2022</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <h4>
-                    {" "}
-                    <img
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648277/insurance_1_ufp80u.png "
-                      className="img4"
-                      alt="Error loading  "
-                    />{" "}
+              <div className="rowQLbig">
+                <motion.h4
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  {" "}
+                  <img
+                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png"
+                    className="img"
+                    alt="Error loading "
+                  />{" "}
+                  Placement Reports
+                </motion.h4>
+                {/* <div className="hid1">
+                    <ul>
+                      <li>
+                        <Link to="#">Placement Report 2021-2022</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Placement Report 2021-2022</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Placement Report 2021-2022</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Placement Report 2021-2022</Link>
+                      </li>
+                    </ul>
+                  </div> */}
+                <motion.h4
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  {" "}
+                  <img
+                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648277/insurance_1_ufp80u.png "
+                    className="img"
+                    alt="Error loading  "
+                  />{" "}
+                  <a
+                    href="https://res.cloudinary.com/vaish1101/image/upload/v1658241167/gyan%20sir/T_P_Policy_2022_kf9g0e.pdf"
+                    className="link"
+                  >
                     Placement Policy
-                  </h4>
-                </div>
-                <div className="rowQL my-4 col-12 col-md-6">
-                  <h4>
-                    {" "}
-                    <img
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597836/templates_1_xyrfpr.png"
-                      className="img3"
-                      alt="Error loading  "
-                    />{" "}
+                  </a>
+                </motion.h4>
+                <motion.h4
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  {" "}
+                  <img
+                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597836/templates_1_xyrfpr.png"
+                    className="img"
+                    alt="Error loading  "
+                  />{" "}
+                  <a className="link" href="https://bit.ly/3zhzNVy">
                     Resume Template
-                  </h4>
-                  <h4>
-                    {" "}
-                    <img
-                      src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648352/invitation_1_t0whud.png"
-                      className="img5"
-                      alt="Error loading  "
-                    />{" "}
+                  </a>
+                </motion.h4>
+                <motion.h4
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  {" "}
+                  <img
+                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657648352/invitation_1_t0whud.png"
+                    className="img"
+                    alt="Error loading  "
+                  />{" "}
+                  <Link to="/invite" className="link">
                     Invitation
-                  </h4>
-                </div>
+                  </Link>
+                </motion.h4>
               </div>
             </div>
           </div>
