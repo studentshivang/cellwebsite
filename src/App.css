@@ -553,6 +553,7 @@
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    
   }
 
   .text1 {
@@ -569,8 +570,8 @@
 
   .vision {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text2 {
@@ -596,14 +597,14 @@
   }
 
   .border2 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .mission {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text3 {
@@ -650,14 +651,15 @@
   }
 
   .border4 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 88%;
   }
 
   .map {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text5 {
@@ -668,14 +670,15 @@
   }
 
   .border5 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 28%;
   }
 
   .campus {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text6 {
@@ -687,14 +690,24 @@
   }
 
   .border6 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 88%;
   }
 
   .video {
     padding: auto;
   }
-
+ .loc{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+ }
+ .map{
+  font-size: 1.5rem;
+ }
+ .campus{
+  font-size: 1.5rem;
+ }
   .footer-links img {
     height: 0.8rem;
     width: 0.8rem;
@@ -862,7 +875,7 @@
 .Heading-procedure {
   font-size: 1.5rem;
   font-family: Montserrat;
-  font-weight: 800;
+  font-weight: 600;
 }
 .Heading-procedure div {
   height: 0.2rem;
@@ -887,8 +900,8 @@
   align-content: center;
 }
 .procedure img {
-  height: 80%;
-  width: 6%;
+  height: 75%;
+  width: 5%;
   margin: 0 1rem 0 1rem;
 }
 .procedure span {
@@ -902,15 +915,18 @@
   font-weight: 900;
   margin: auto;
   margin-top: 3%;
+  display: flex;
+  align-items: center;
 }
 .mail-procedure-button {
   font-family: Montserrat;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 900;
   height: 2.5rem;
-  width: 110%;
+  width: 100%;
   background-color: #c4d9ff;
   border-radius: 3rem;
+  margin: auto;
 }
 .button-procedure {
   margin: auto;
@@ -932,7 +948,7 @@
 .footer-procedure div {
   margin: auto;
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .Heading-procedure {
     font-size: 1.2rem;
   }
@@ -945,11 +961,11 @@
   }
   .procedure img {
     height: 63%;
-    width: 8%;
+    width: 14%;
   }
   .procedure span {
     font-family: Montserrat;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 600;
   }
   .button-text {
@@ -968,3 +984,41 @@
     font-size: 0.6rem;
   }
 }
+@media (min-width: 601px) and (max-width: 1200px) {
+  .Heading-procedure {
+    font-size: 1.2rem;
+  }
+  .Heading-procedure div {
+    width: 65%;
+  }
+  .procedure {
+    height: 4rem;
+    border-radius: 2rem;
+  }
+  .procedure img {
+    height: 67%;
+    width: 6%;
+  }
+  .procedure span {
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .button-text {
+    font-size: 1rem;
+   margin: auto;
+  }
+  .mail-procedure-button {
+    font-size: 0.7rem;
+    height: 2rem;
+    border-radius: 3rem;
+  }
+  .footer-links-procedure img {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+  .footer-text-procedure {
+    font-size: 0.6rem;
+  }
+}
+
