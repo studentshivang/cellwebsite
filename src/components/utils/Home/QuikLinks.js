@@ -28,7 +28,7 @@ const QuickLinks = () => {
         x: "-100vw",
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <>

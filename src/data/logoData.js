@@ -248,4 +248,145 @@ export const LogoData = [
       "https://res.cloudinary.com/vaish1101/image/upload/v1658218951/Client-logo/Accenture_logo_qxznbt.png",
     altText: "company_logo",
   },
+  {
+    id: "43",
+    imgLink: "https://www.thinksys.com/assets/images/logo1.png",
+    altText: "company_logo",
+  },
+  {
+    id: "44",
+    imgLink:
+      "https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "45",
+    imgLink:
+      "https://newgensoft.com/wp-content/themes/newgensoftware/images/Newgen.logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "46",
+    imgLink: "https://www.step2gen.com/WebsiteAssets/assets/images/logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "47",
+    imgLink: "https://shop.siyaram.com/images/Siyaram-Logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "48",
+    imgLink: "https://www.unthinkable.co/wp-content/uploads/2021/03/logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "49",
+    imgLink: "https://www.digicommsemi.com/images/logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "50",
+    imgLink: "https://www.codeyoung.com/_nuxt/img/codeyoung-logo.4c8144c.svg",
+    altText: "company_logo",
+  },
+  {
+    id: "51",
+    imgLink:
+      "https://www.pinclick.com/pinclick/images/PinClick%20Full%20Colour.svg",
+    altText: "company_logo",
+  },
+  {
+    id: "52",
+    imgLink: "https://download.logo.wine/logo/Verifone/Verifone-Logo.wine.png",
+    altText: "company_logo",
+  },
+  {
+    id: "53",
+    imgLink: "https://mma.prnewswire.com/media/1654428/logo.jpg?p=facebook",
+    altText: "company_logo",
+  },
+  {
+    id: "54",
+    imgLink:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1658397189/T_P%20Site/colored_medium_1_f5kzrk.png",
+    altText: "company_logo",
+  },
+  {
+    id: "55",
+    imgLink: "https://www.prismanmolrishtey.com/images/prismlogo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "56",
+    imgLink:
+      "https://d2kh7o38xye1vj.cloudfront.net/wp-content/uploads/2018/08/SR-logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "57",
+    imgLink:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1658397073/T_P%20Site/Learning-Routes-logo-e1622515029525_pfzpd1.png",
+    altText: "company_logo",
+  },
+  {
+    id: "58",
+    imgLink:
+      "https://download.logo.wine/logo/Hexaware_Technologies/Hexaware_Technologies-Logo.wine.png",
+    altText: "company_logo",
+  },
+  {
+    id: "59",
+    imgLink:
+      "https://dev.cedcoss.com/wordpress/wp-content/uploads/2020/09/Cedcoss-Logo-Edited-HQD-27-June-2-1.png",
+    altText: "company_logo",
+  },
+  {
+    id: "60",
+    imgLink:
+      "https://clearwateranalytics.com/wp-content/uploads/2021/07/clearwater-logo.svg",
+    altText: "company_logo",
+  },
+  {
+    id: "61",
+    imgLink:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Bharat_Electronics_logo.svg/1920px-Bharat_Electronics_logo.svg.png",
+    altText: "company_logo",
+  },
+  {
+    id: "62",
+    imgLink:
+      "https://1000logos.net/wp-content/uploads/2020/06/MG-Logo-1952.png",
+    altText: "company_logo",
+  },
+  {
+    id: "63",
+    imgLink:
+      "https://www.biopetroclean.co.in/wp-content/uploads/2020/11/bpc-logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "64",
+    imgLink:
+      "https://seekvectorlogo.com/wp-content/uploads/2018/01/escorts-group-vector-logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "65",
+    imgLink:
+      "https://revature.com/wp-content/uploads/2017/12/revature-logo-600x219.png",
+    altText: "company_logo",
+  },
+  {
+    id: "66",
+    imgLink:
+      "https://www.pyramidci.com/images/Logo/Pyramid_Consulting_Horz.png",
+    altText: "company_logo",
+  },
+  {
+    id: "67",
+    imgLink:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Vodafone_2017_logo.svg/1920px-Vodafone_2017_logo.svg.png",
+    altText: "company_logo",
+  },
 ];

@@ -22,7 +22,7 @@ const colorArray = [
 
 const borderColor = "#000";
 
-function Placement_Training() {
+function PlacementTraining() {
   const [offersData, setOffersData] = useState({
     labels: PlacementData.map((data) => data.Year),
     datasets: [
@@ -136,4 +136,4 @@ function Placement_Training() {
   );
 }
 
-export default Placement_Training;
+export default PlacementTraining;

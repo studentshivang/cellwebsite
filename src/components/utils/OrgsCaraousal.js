@@ -3,18 +3,9 @@ import React from "react";
 import "./OrgsCaraousal.css";
 import testimo from "./Testimonial.png";
 import Footer from "./Footer";
-import { motion } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
 import Logos from "../LogoComponent/Logos";
 
 const OrgsCaraousal = () => {
-  const [width, setWidth] = useState(0);
-  const ref = useRef(null);
-
-  useEffect(() => {
-    setWidth(ref.current.scrollWidth - ref.current.offsetWidth);
-  }, []);
-
   return (
     <>
       <div className="testimonials">
@@ -77,10 +68,10 @@ const OrgsCaraousal = () => {
           <h2>Past Recruiters</h2>
           <div className="underline-head2"></div>
         </div>
-        <div ref={ref}>
-          <motion.div className="inner-crousel">
+        <div>
+          <div className="inner-crousel">
             <Logos />
-          </motion.div>
+          </div>
         </div>
       </div>
 
