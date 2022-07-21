@@ -554,6 +554,7 @@
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    
   }
 
   .text1 {
@@ -570,8 +571,8 @@
 
   .vision {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text2 {
@@ -598,14 +599,14 @@
   }
 
   .border2 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .mission {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text3 {
@@ -652,14 +653,15 @@
   }
 
   .border4 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 88%;
   }
 
   .map {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text5 {
@@ -670,14 +672,15 @@
   }
 
   .border5 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 28%;
   }
 
   .campus {
     font-size: 2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .text6 {
@@ -689,14 +692,24 @@
   }
 
   .border6 {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 88%;
   }
 
   .video {
     padding: auto;
   }
-
+ .loc{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+ }
+ .map{
+  font-size: 1.5rem;
+ }
+ .campus{
+  font-size: 1.5rem;
+ }
   .footer-links img {
     height: 0.8rem;
     width: 0.8rem;
