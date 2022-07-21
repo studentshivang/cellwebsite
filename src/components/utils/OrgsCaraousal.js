@@ -68,13 +68,12 @@ const OrgsCaraousal = () => {
           <h2>Past Recruiters</h2>
           <div className="underline-head2"></div>
         </div>
+
         <div>
           <div className="inner-crousel">
             <Logos />
           </div>
         </div>
-      </div>
-
       <div className="btns-invitation">
         <div className="btn-invitation">
           <button className="downloadBrochure-button">
@@ -101,8 +100,7 @@ const OrgsCaraousal = () => {
           </button>
         </div>
       </div>
-      <br />
-      <br />
+      </div>
       <Footer />
     </>
   );
