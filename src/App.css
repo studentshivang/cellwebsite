@@ -183,7 +183,7 @@
   object-fit: cover;
   width: 100%;
   position: relative;
-  height: 51vh;
+  height: 49.9vh;
   background-repeat: no-repeat;
   background-size: 100%;
   animation: caraouse 2s 1s infinite alternate step-end;

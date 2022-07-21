@@ -2,26 +2,12 @@ body {
     font-family: 'Montserrat';
 }
 
-.heading {
-    position: absolute;
-    width: 87px;
-    height: 39px;
-    left: 240px;
-    top: 344px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    
-    color: #000000;
-}
 .accordion {
     padding: 70px 15px;
-
+    
+}
+#faq{
+    width: 6rem;
 }
 .accordion-item {
     box-sizing: border-box;
@@ -45,19 +31,5 @@ width: 100% !important;
 .accordion-item {
     padding: 12px;
     margin: 20px 1px;
-}
-
-
-.accordion::before {
-    content: "";
-    display: block;
-    width: 112px;
-/* height: 0px; */
-    height: 3px;
-    background: #457B9D;
-    left: 16%;
-    top: 54%;
-    position: absolute;
-    
 }
 
