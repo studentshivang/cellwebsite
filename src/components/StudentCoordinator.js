@@ -25,11 +25,11 @@ const StudentCoordinator = (data) => {
           </div>
           <ul className="social">
             <li>
-              <Link
-                to={data.data.phone}
+              <a
+                href="tel:+91{data.data.phone}"
                 className="fa fa-phone"
                 aria-hidden="true"
-              ></Link>
+              ></a>
             </li>
 
             <li>

@@ -10,7 +10,7 @@ function LogoItem() {
     slidesToShow: 7,
     dots: true,
     mobileFirst: true,
-    slidesToScroll: 7,
+    slidesToScroll: 3,
     initialSlide: 0,
     pauseOnHover: true,
     cssEase: "linear",
