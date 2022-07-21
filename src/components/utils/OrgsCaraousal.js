@@ -5,10 +5,11 @@ import testimo from "./Testimonial.png";
 import Footer from "./Footer";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import Logos from "../LogoComponent/Logos";
 
 const OrgsCaraousal = () => {
   const [width, setWidth] = useState(0);
-  const ref = useRef();
+  const ref = useRef(null);
 
   useEffect(() => {
     setWidth(ref.current.scrollWidth - ref.current.offsetWidth);
@@ -16,7 +17,7 @@ const OrgsCaraousal = () => {
 
   return (
     <>
-      <div className="Testimonials">
+      <div className="testimonials">
         <h2>Testimonials From Past Recruiters</h2>
         <div className="underline-head"></div>
         <div
@@ -72,268 +73,13 @@ const OrgsCaraousal = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-        <div className="Testimonials">
+        <div className="testimonials">
           <h2>Past Recruiters</h2>
           <div className="underline-head2"></div>
         </div>
         <div ref={ref}>
-          <motion.div
-            drag="x"
-            dragConstraints={{ right: 0, left: -width }}
-            className="inner-crousel"
-          >
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218957/Client-logo/Wipro_logo_oprttd.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218957/Client-logo/Zensar_Technologies_logo_nqhohn.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/tech_mahindra_logo_xf1mkp.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/Walmart_logo_bf1enm.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/planetspark_logo_li6ybb.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/TCS_logo_joqiax.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/TCS_logo_joqiax.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/practo_logo_okgjya.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/practo_logo_okgjya.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/NIIT_logo_c3x2jv.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218955/Client-logo/Nuclei_logo_tz6fpx.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218955/Client-logo/nagarro_logo_vustw8.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218955/Client-logo/myntra_logo_aam8qx.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218955/Client-logo/lumiq_logo_af8wx7.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218955/Client-logo/Lowes_Companies_Logo_vsw08c.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218955/Client-logo/microsoft_logo_bpxmjm.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218955/Client-logo/L_T_logo_u5lyv9.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218954/Client-logo/juspay_logo_yx89w8.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218954/Client-logo/Indiamart_logo_swaovg.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218954/Client-logo/jkcement_logo_h50wyf.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218954/Client-logo/jaro_rueru3.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218954/Client-logo/intellipaat_logo_yjve4t.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218954/Client-logo/Infosys_logo_jxsvmr.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218953/Client-logo/Ericsson_logo_jpo0tj.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218953/Client-logo/hummingwave_logo_i9cmjw.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218953/Client-logo/HCL_Technologies_logo_a1kiow.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218953/Client-logo/GlobalLogic_logo_bpffuq.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218953/Client-logo/hexaview_logo_i5dinx.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218953/Client-logo/Extramarks_Logo_uptncz.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218953/Client-logo/delhivery_logo_hq2quh.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218952/Client-logo/de_shaw_logo_s1cisj.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218952/Client-logo/Dentsu_logo_cyirvw.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218952/Client-logo/Coforge-Logo_k4hfyb.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218952/Client-logo/cognizant_logo_fjcfox.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218952/Client-logo/cognizant_logo_fjcfox.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218952/Client-logo/Capgemini_logo_i0ina8.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218952/Client-logo/Aditya_Birla_Group_Logo_a1tqgn.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218951/Client-logo/amazon_logo_yb1kpm.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218951/Client-logo/BNY_Mellon_logo_yuuwmq.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218951/Client-logo/appirio_logo_hj3tkc.jpg"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218951/Client-logo/BYJU_S_logo_upmbnb.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
-            <motion.div className="item">
-              <img
-                src="https://res.cloudinary.com/vaish1101/image/upload/v1658218951/Client-logo/Accenture_logo_qxznbt.png"
-                alt="past recruiter"
-              ></img>
-            </motion.div>
+          <motion.div className="inner-crousel">
+            <Logos />
           </motion.div>
         </div>
       </div>

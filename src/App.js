@@ -16,6 +16,7 @@ import Studentcoordinators from "./components/Studentcoordinators";
 import Alumni from "./components/Alumni";
 import Lifeatmmmut from "./components/LifeAtMMMUT";
 import Placement_Training from "./components/Placement_Training";
+
 // import Navbar from "./components/Navbar";
 
 const Routing = () => {
