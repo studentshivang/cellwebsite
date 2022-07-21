@@ -20,7 +20,7 @@ const Procedure = () => {
           <div className="procedure">
             <img src={step1} alt="step1" />
             <span>
-              Interested recruiters mail us the JD at
+              Interested recruiters mail us the JD at &nbsp;
               <a href="mailto:tnp@mmmut.ac.in">tnp@mmmut.ac.in</a> (including
               CTC, Job Role, Eligible Streams and other relevant details)
             </span>
@@ -54,7 +54,7 @@ const Procedure = () => {
             </span>
           </div>
         </div>
-        <div className="button-text">Interested in Recruitment?</div>
+        <div className="button-text"><div>Interested in Recruitment?</div></div>
         <div className="button-procedure">
           <button className="mail-procedure-button">
             <strong>Mail To:</strong> tnp@mmmut.ac.in
