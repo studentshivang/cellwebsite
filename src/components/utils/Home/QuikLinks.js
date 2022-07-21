@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AnimatePresence, motion, useAnimation } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
-import Modal from "../Modal";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
 const QuickLinks = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -83,20 +84,44 @@ const QuickLinks = () => {
                   </Link>
                 </motion.h4>
 
-                <motion.h4
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                  className="save-button"
-                  onClick={() => (modalOpen ? close() : open())}
+                <Popup
+                  trigger={
+                    <motion.h4
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      className="save-button"
+                    >
+                      {" "}
+                      <img
+                        className="img"
+                        alt="Error loading "
+                        src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"
+                      />{" "}
+                      Brochures
+                    </motion.h4>
+                  }
+                  on={"hover"}
+                  position="bottom left"
                 >
-                  {" "}
-                  <img
-                    className="img"
-                    alt="Error loading "
-                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655536006/brochure_1_gl6ekz.png"
-                  />{" "}
-                  Brochures
-                </motion.h4>
+                  <div className="hid1">
+                    <ul>
+                      <li>
+                        <a href="http://www.mmmut.ac.in/Pdf/T&P%20Placement%20Brochure%202022-23.pdf">
+                          Placement Brochure 2021-2022
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">Placement Brochure 2020-2021</a>
+                      </li>
+                      <li>
+                        <a href="#">Placement Brochure 2019-2020</a>
+                      </li>
+                      <li>
+                        <a href="#">Placement Brochure 2018-2019</a>
+                      </li>
+                    </ul>
+                  </div>
+                </Popup>
 
                 <motion.h4
                   className="placementStats"
@@ -128,34 +153,55 @@ const QuickLinks = () => {
                 Downloads
               </h2>
               <div className="rowQLbig">
-                <motion.h4
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
+                <Popup
+                  trigger={
+                    <motion.h4
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                    >
+                      {" "}
+                      <img
+                        src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png"
+                        className="img"
+                        alt="Error loading "
+                      />{" "}
+                      Placement Reports
+                    </motion.h4>
+                  }
+                  // modal="true"
+                  on={"hover"}
+                  position="bottom right"
                 >
-                  {" "}
-                  <img
-                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1657597253/report_1_mlgglr.png"
-                    className="img"
-                    alt="Error loading "
-                  />{" "}
-                  Placement Reports
-                </motion.h4>
-                {/* <div className="hid1">
+                  <div className="hid1">
                     <ul>
                       <li>
-                        <Link to="#">Placement Report 2021-2022</Link>
+                        <a href="http://www.mmmut.ac.in/pdf/TNP2021-22.pdf">
+                          Placement Report 2021-2022
+                        </a>
                       </li>
                       <li>
-                        <Link to="#">Placement Report 2021-2022</Link>
+                        <a href="http://www.mmmut.ac.in/pdf/TNP2020-21a.pdf">
+                          Placement Report 2020-2021
+                        </a>
                       </li>
                       <li>
-                        <Link to="#">Placement Report 2021-2022</Link>
+                        <a href="http://www.mmmut.ac.in/pdf/2019-20.pdf">
+                          Placement Report 2019-2020
+                        </a>
                       </li>
                       <li>
-                        <Link to="#">Placement Report 2021-2022</Link>
+                        <a href="http://www.mmmut.ac.in/pdf/2018-19.pdf">
+                          Placement Report 2018-2019
+                        </a>
+                      </li>
+                      <li>
+                        <a href="http://www.mmmut.ac.in/pdf/2017-18.pdf">
+                          Placement Report 2017-2018
+                        </a>
                       </li>
                     </ul>
-                  </div> */}
+                  </div>
+                </Popup>
                 <motion.h4
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}

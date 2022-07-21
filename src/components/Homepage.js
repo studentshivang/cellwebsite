@@ -8,25 +8,40 @@ import TPO from "./utils/Home/TPO";
 import VCsir from "./utils/Home/VCsir";
 import QuickLinks from "./utils/Home/QuikLinks";
 import About from "./utils/Home/About";
+import { motion, useScroll } from "framer-motion";
 
 const Homepage = () => {
+  const { scrollYProgress } = useScroll();
   return (
     <>
       <div className="homediv">
         <Navbar />
       </div>
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      ></motion.div>
       <div className="container homeContainer">
         <h2 className="about ms-2 ms-md-5 mt-5">About Us</h2>
+        <div className="border1 ms-4 ms-md-5" id="aboutBor"></div>
         <div className="row col-12">
           <About />
         </div>
         <h2 className="about ms-2 ms-md-5">Announcements</h2>
+        <div className="border1 ms-4 ms-md-5" id="aboutAnn"></div>
         <div className="row col-12">
-          <div className="border1 ms-4 ms-md-5" id="aboutAnn"></div>
           <p className="ms-2 ms-md-5 homePg">Coming soon!</p>
         </div>
         <QuickLinks />
+
+        <div className="about ms-2 ms-md-5">
+          From the Vice-Chancellor’s Desk
+        </div>
+        <div className="border1 ms-4 ms-md-5" id="aboutVCM"></div>
         <VCsir />
+
+        <div className="about ms-2 ms-md-5">From the TPO’s Desk</div>
+        <div className="border1 ms-2 ms-md-5" id="aboutTPOM"></div>
         <TPO />
       </div>
       <Footer />

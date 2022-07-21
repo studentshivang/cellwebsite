@@ -27,14 +27,10 @@ const VCsir = () => {
       <div ref={refMessage}>
         <motion.div className="div" animate={animationMessage}>
           <div className="row col-12">
-            <div className="about ms-2 ms-md-5">
-              From the Vice-Chancellor’s Desk
-            </div>
-            <div className="border1 ms-4 ms-md-5" id="aboutVCM"></div>
             <div className="row col-12 d-flex flex-row-reverse">
               <div className="col-12 col-md-4 col-lg-4">
                 {/* <div className="f_object"> */}
-                <div className="f_image text-center">
+                <div className="f_image text-center f-image">
                   <img
                     src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655486033/cell_website/VC_Sir_nztioa.jpg"
                     alt="VC sir"
@@ -45,8 +41,8 @@ const VCsir = () => {
                   <h5 className="mx-auto">
                     <b>Prof. J.P. Pandey</b>
                   </h5>
-                  <h4>Vice-Chancellor</h4>
-                  <h4>MMMUT, Gorakhpur</h4>
+                  <h6>Vice-Chancellor</h6>
+                  <h6>MMMUT, Gorakhpur</h6>
                   {/* <h4>MMMUT Gorakhpur</h4> */}
                 </div>
               </div>

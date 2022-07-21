@@ -199,11 +199,13 @@
   height: 5px;
   background: red;
   transform-origin: 0%;
+  z-index: 1;
 }
 
 .about {
   margin-top: 1rem;
   margin-left: 7rem;
+  /* margin-right: 3rem; */
 
   font-family: "Montserrat";
   font-style: normal;
@@ -224,9 +226,10 @@
 }
 
 .text1 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -259,10 +262,11 @@
 }
 
 .text2 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
   top: 414px;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -295,10 +299,11 @@
 }
 
 .text3 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
   top: 414px;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -333,9 +338,10 @@
 }
 
 .text4 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -355,6 +361,14 @@
   font-size: 32px;
   line-height: 39px;
   color: black;
+}
+
+.mapFrame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 94%;
 }
 
 .border5 {
@@ -537,23 +551,22 @@
   /* Error Page UI ends*/
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+/* @media (min-width: 400px) and (max-width: 900px) {
   .about {
     font-size: 2rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-right: 4rem;
   }
 
   .text1 {
     font-size: 1.2rem;
-  }}
-@media(max-width: 500px){
-
-  .about{
+  }
+}
+@media (max-width: 500px) {
+  .about {
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    
   }
 
   .text1 {
@@ -575,7 +588,8 @@
   }
 
   .text2 {
-    font-size: 1.2rem;}
+    font-size: 1.2rem;
+  }
 
   .border1 {
     margin-left: 1rem;
@@ -610,8 +624,8 @@
   .text3 {
     font-size: 1.2rem;
   }
-/* ======= */
-  .border2{
+
+  .border2 {
     margin-left: 1rem;
     margin-right: 1rem;
     width: 40%;
@@ -698,16 +712,16 @@
   .video {
     padding: auto;
   }
- .loc{
-  font-size: 1.5rem;
-  margin-left: 1rem;
- }
- .map{
-  font-size: 1.5rem;
- }
- .campus{
-  font-size: 1.5rem;
- }
+  .loc {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  .map {
+    font-size: 1.5rem;
+  }
+  .campus {
+    font-size: 1.5rem;
+  }
   .footer-links img {
     height: 0.8rem;
     width: 0.8rem;
@@ -716,7 +730,7 @@
   .footer-text {
     font-size: 0.6rem;
   }
-}
+} */
 /* ---------invitation page------------- */
 .head1 {
   width: 100%;
@@ -1006,7 +1020,7 @@
   }
   .button-text {
     font-size: 1rem;
-   margin: auto;
+    margin: auto;
   }
   .mail-procedure-button {
     font-size: 0.7rem;
@@ -1021,4 +1035,3 @@
     font-size: 0.6rem;
   }
 }
-
