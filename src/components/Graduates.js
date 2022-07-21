@@ -1,12 +1,14 @@
 import Navsm from "./Navsm";
 
-const Graduates =()=>{
-    return(
-        <>
-        <Navsm/>
-        <h1>Welcome to Graduating Students Page</h1>
-        </>
-    );
+const Graduates = () => {
+  return (
+    <>
+      <Navsm />
+      <h2>Graduating Students</h2>
+
+     
+    </>
+  );
 };
 
 export default Graduates;
