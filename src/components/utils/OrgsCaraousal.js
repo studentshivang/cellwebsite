@@ -3,17 +3,9 @@ import React from "react";
 import "./OrgsCaraousal.css";
 import testimo from "./Testimonial.png";
 import Footer from "./Footer";
-<<<<<<< HEAD
-
-
-const OrgsCaraousal = () => {
- 
- 
-=======
 import Logos from "../LogoComponent/Logos";
 
 const OrgsCaraousal = () => {
->>>>>>> b4886e347a0fe3026f2177c758b8e1a7f8a80819
   return (
     <>
       <div className="testimonials">
@@ -76,18 +68,12 @@ const OrgsCaraousal = () => {
           <h2>Past Recruiters</h2>
           <div className="underline-head2"></div>
         </div>
-<<<<<<< HEAD
-       
-=======
+
         <div>
           <div className="inner-crousel">
             <Logos />
           </div>
         </div>
->>>>>>> b4886e347a0fe3026f2177c758b8e1a7f8a80819
-      </div>
-      
-     
       <div className="btns-invitation">
         <div className="btn-invitation">
           <button className="downloadBrochure-button">
@@ -114,7 +100,7 @@ const OrgsCaraousal = () => {
           </button>
         </div>
       </div>
-      
+      </div>
       <Footer />
     </>
   );
