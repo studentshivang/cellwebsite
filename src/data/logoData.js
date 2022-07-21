@@ -389,4 +389,63 @@ export const LogoData = [
       "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Vodafone_2017_logo.svg/1920px-Vodafone_2017_logo.svg.png",
     altText: "company_logo",
   },
+  {
+    id: "68",
+    imgLink: "https://cdn.coai.com/sites/default/files/2017-04/jio.png",
+    altText: "company_logo",
+  },
+  {
+    id: "69",
+    imgLink:
+      "http://biztechindia.com/wp-content/uploads/2017/06/chaipoint-tea.png",
+    altText: "company_logo",
+  },
+  {
+    id: "70",
+    imgLink: "https://www.pepcoding.com/images/logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "71",
+    imgLink: "https://www.unthinkable.co/wp-content/uploads/2021/03/logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "72",
+    imgLink: "https://cucet.cuchd.in/new-assets/images/cu-logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "73",
+    imgLink:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1658401911/T_P%20Site/pngegg_g36ooc.png",
+    altText: "company_logo",
+  },
+  {
+    id: "74",
+    imgLink: "https://www.dltlabs.com/assets/images/DLT-logo-std.svg",
+    altText: "company_logo",
+  },
+  {
+    id: "75",
+    imgLink:
+      "https://jupiter.money/assets/images/header-white.svg?v=5dee553127",
+    altText: "company_logo",
+  },
+  {
+    id: "76",
+    imgLink: "https://railtech.co.in/images1/logo1.png",
+    altText: "company_logo",
+  },
+  {
+    id: "77",
+    imgLink: "https://rxlogix.bamboohr.com/jobs/share_image/28",
+    altText: "company_logo",
+  },
+  {
+    id: "78",
+    imgLink:
+      "https://www.qsstechnosoft.com/wp-content/themes/qss/assets/img/logo-new.png",
+    altText: "company_logo",
+  },
 ];

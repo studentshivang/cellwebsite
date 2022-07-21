@@ -2,20 +2,22 @@
 /* 
 .f_image {
 } */
-.f .container{
+.f .container {
   padding-left: 20%;
 }
 .f_image img {
   margin: 2rem 0;
-  width: 299.42px;
-  height: 299.42px;
-  width: 299.42px;
-  height: 299.42px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   object-position: 50%;
   /* border-radius: 19.7221px 0px; */
   border: 2px solid #457b9d;
   border-radius: 19.7221px 0px;
+  z-index: 0;
+}
+.f-image img {
+  margin: 5px;
 }
 
 .coordinators {
@@ -31,83 +33,85 @@
   align-self: center; */
 }
 
-.F_text h4,h5{
-  width: 250px;
+.F_text h4 {
+  font-size: 16px;
+}
+.F_text h4,
+h5 {
   text-align: center;
 }
-.f .row{
+.f .row {
   width: 100%;
   /* align-items: center!important; */
   /* padding-right: 20%!important; */
 }
-.f .borderpromalumni{
-  width:22rem;
+.f .borderpromalumni {
+  width: 22rem;
 }
 
-@media (max-width:471px) {
-  .f .borderpromalumni{
-    width:14rem;
+@media (max-width: 471px) {
+  .f .borderpromalumni {
+    width: 14rem;
   }
-  
 }
 
-@media (max-width:399px) {
+@media (max-width: 399px) {
   .f_image img {
     width: 240px;
     height: 240px;
   }
-  .F_text h4,h5{
+  .F_text h4,
+  h5 {
     width: 240px;
   }
-  .f .about{
+  .f .about {
     margin-left: 5rem;
-    
   }
-  .f .borderpromalumni{
-    width:14rem;
+  .f .borderpromalumni {
+    width: 14rem;
     margin-left: 5rem;
   }
 }
-@media (min-width:768px) {
-  .f .container{
+@media (min-width: 768px) {
+  .f .container {
     padding-left: 7%;
   }
 }
-@media (min-width:991px) {
-  .f .container{
+@media (min-width: 991px) {
+  .f .container {
     padding-left: 2%;
   }
 }
 
-@media (min-width:1058px) {
-  .f .container{
+@media (min-width: 1058px) {
+  .f .container {
     padding-left: 1%;
   }
 }
 
-@media (min-width:1200px) {
-  .f .container{
+@media (min-width: 1200px) {
+  .f .container {
     padding-left: 4%;
   }
 }
 
-@media (max-width:300px) {
+@media (max-width: 300px) {
   .f_image img {
     width: 210px;
     height: 210px;
   }
-  .F_text h4,h5{
+  .F_text h4,
+  h5 {
     width: 210px;
   }
-  .f .about{
-    margin-left: 2.5rem;
-    
-  }
-  .f .borderpromalumni{
-    width:14rem;
+  .f .about {
     margin-left: 2.5rem;
   }
-  .f .container{
+  .f .borderpromalumni {
+    width: 14rem;
+    margin-left: 2.5rem;
+  }
+  .f .container {
     padding-left: 14%;
   }
 }

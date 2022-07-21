@@ -12,11 +12,11 @@
   font-weight: 600;
 }
 .homeContainer #aboutBor {
-  width: 12.4rem;
+  width: 170px;
   margin-bottom: 1.5rem;
 }
 .homeContainer #aboutAnn {
-  width: 19.7rem;
+  width: 285px;
   margin-bottom: 1.5rem;
 }
 .homeContainer #aboutVCM {
@@ -29,7 +29,7 @@
 }
 /*--------------------------QLinks--------------------*/
 .quicklinks {
-  width: 70%;
+  width: 60%;
   height: fit-content;
   margin: 1.2rem auto;
   justify-items: center;
@@ -60,23 +60,24 @@
   margin-right: 10px;
 }
 
-.quicklinks .hid1 {
-  position: absolute;
-  /* visibility: hidden; */
-  display: none;
-  width: fit-content;
-  height: fit-content;
-  padding: 0.5rem;
-  /* margin: 1.2rem auto; */
-  background: #f5f9ff;
-  border: 1px solid #212121;
-  border-radius: 15px;
-  padding-top: 1.5rem;
-  padding-left: 0rem;
-  padding-right: 2rem;
-
-  padding-bottom: 0.4rem;
+.popup-content {
+  margin: auto !important;
+  height: 150px !important;
+  padding: 10px !important;
 }
+
+[role="tooltip"].popup-content {
+  width: 325px !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px !important;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+[data-popup="tooltip"].popup-overlay {
+  background: transparent !important;
+}
+
 .quicklinks .hid1 ul li {
   text-decoration: none !important;
   font-family: "Montserrat";
@@ -90,18 +91,12 @@
   /* Primary Color */
   color: #457b9d;
 }
-.HomeDropdn1:hover .hid1 {
-  display: block;
-  z-index: 99;
-}
 
 @media (max-width: 768px) {
   .quicklinks {
     width: 80%;
   }
-  /* .quicklinks .rowQLbig {
-    grid-template-columns: repeat(3, 1fr);
-  } */
+
   .quicklinks h4 {
     margin: 1rem;
   }
