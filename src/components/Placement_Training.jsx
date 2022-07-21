@@ -8,6 +8,7 @@ import { Chart as ChartJs } from "chart.js/auto";
 import TrainingTable from "./TrainingTable";
 import Footer from "./utils/Footer";
 import TrainingList from "./TrainingList";
+import Logos from "./LogoComponent/Logos";
 
 const colorArray = [
   "#1F4690",
@@ -110,6 +111,14 @@ function Placement_Training() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          <div className="testimonials">
+            <h2>Past Recruiters</h2>
+            <div className="underline-head2"></div>
+          </div>
+          <Logos />
         </div>
 
         {/* Training Part */}

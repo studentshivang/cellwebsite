@@ -2,6 +2,7 @@ import React from "react";
 import Navsm from "./Navsm";
 import Footer from "./utils/Footer";
 import { motion, useScroll } from "framer-motion";
+import Logos from "./LogoComponent/Logos";
 
 const Invitation = () => {
   const { scrollYProgress } = useScroll();
@@ -134,6 +135,11 @@ const Invitation = () => {
               </strong>
             </span>
           </div>
+
+          <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+            <Logos />
+          </div>
+
           <div className="btns-invitation">
             <div className="btn-invitation">
               <button className="downloadBrochure-button">
@@ -162,6 +168,7 @@ const Invitation = () => {
           </div>
         </motion.div>
       </div>
+
       <Footer />
     </>
   );

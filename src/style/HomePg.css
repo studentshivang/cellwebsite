@@ -2,7 +2,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
   text-align: justify;
   color: #212121;
@@ -32,32 +32,36 @@
   width: 70%;
   height: fit-content;
   margin: 1.2rem auto;
+  justify-items: center;
   background: #f5f9ff;
   border: 1px solid #212121;
   border-radius: 15px;
 }
 
+.link {
+  text-decoration: none;
+  color: black;
+}
+
 .quicklinks .rowQLbig {
-  display: flex;
-  flex-direction: row;
-  /* text-align: left!important; */
-}
-.quicklinks .rowQL {
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: auto;
   align-items: center;
-  flex-direction: column;
-  text-align: center;
 }
+
 .quicklinks h4 {
-  margin: 2rem;
-  position: relative;
+  margin: 1.5rem;
+  /* position: relative; */
   cursor: pointer;
+  flex-grow: 1;
+}
+.img {
+  margin-right: 10px;
 }
 
 .quicklinks .hid1 {
-    position: absolute;
+  position: absolute;
   /* visibility: hidden; */
   display: none;
   width: fit-content;
@@ -70,11 +74,11 @@
   padding-top: 1.5rem;
   padding-left: 0rem;
   padding-right: 2rem;
-  
+
   padding-bottom: 0.4rem;
 }
 .quicklinks .hid1 ul li {
-    text-decoration: none !important;
+  text-decoration: none !important;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -86,19 +90,18 @@
   /* Primary Color */
   color: #457b9d;
 }
-.HomeDropdn1:hover .hid1{
-    display: block;
-    z-index: 99;
+.HomeDropdn1:hover .hid1 {
+  display: block;
+  z-index: 99;
 }
-
 
 @media (max-width: 768px) {
   .quicklinks {
     width: 80%;
   }
-  .quicklinks .rowQLbig {
-    flex-direction: column;
-  }
+  /* .quicklinks .rowQLbig {
+    grid-template-columns: repeat(3, 1fr);
+  } */
   .quicklinks h4 {
     margin: 1rem;
   }
@@ -106,10 +109,9 @@
     width: 100%;
   }
 
-  .HomeDropdn1:hover .hid1{
-    left:45px;
-}
-
+  .HomeDropdn1:hover .hid1 {
+    left: 45px;
+  }
 
   .homePg {
     font-size: 14px;
