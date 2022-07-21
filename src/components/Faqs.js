@@ -32,15 +32,8 @@ const Faqs = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                The institute is a 20 minute drive from the airport and prepaid taxis can be availed of directly at the airport. Depending on the available transport resources the Placement Cell has at hand, and provided the visiting company intimates the Cell full schedule of it's arrival and stay on the campus, transport could be provided to the delegates from the company.
+Also, local transport facilities are always available in case of any inconvenience. Moreover, any of the Training and Placement Cell member will always be there to pick up the company officials and drop at their desired destination.
                 </div>
               </div>
             </div>
