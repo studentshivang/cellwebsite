@@ -20,7 +20,8 @@ body {
     color: #000000;
 }
 .accordion {
-    padding: 70px 150px;
+    padding: 70px 15px;
+
 }
 .accordion-item {
     box-sizing: border-box;
@@ -31,6 +32,7 @@ body {
 /* border: 2.29565px solid #457B9D; */
 box-shadow: 0px 6.88695px 8.3652px rgba(74, 58, 255, 0.19);
 border-radius: 16.0695px;
+width: 100% !important;                                      
 }
 .collapsed {
     background: #F5F9FF;

@@ -1,0 +1,132 @@
+.homePg {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #212121;
+}
+
+.homePg span {
+  font-weight: 600;
+}
+.homeContainer #aboutBor {
+  width: 12.4rem;
+  margin-bottom: 1.5rem;
+}
+.homeContainer #aboutAnn {
+  width: 19.7rem;
+  margin-bottom: 1.5rem;
+}
+.homeContainer #aboutVCM {
+  width: 36.6rem;
+  margin-bottom: 1.5rem;
+}
+.homeContainer #aboutTPOM {
+  width: 25rem;
+  margin-bottom: 1.5rem;
+}
+/*--------------------------QLinks--------------------*/
+.quicklinks {
+  width: 70%;
+  height: fit-content;
+  margin: 1.2rem auto;
+  background: #f5f9ff;
+  border: 1px solid #212121;
+  border-radius: 15px;
+}
+
+.quicklinks .rowQLbig {
+  display: flex;
+  flex-direction: row;
+  /* text-align: left!important; */
+}
+.quicklinks .rowQL {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.quicklinks h4 {
+  margin: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.quicklinks .hid1 {
+    position: absolute;
+  /* visibility: hidden; */
+  display: none;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  /* margin: 1.2rem auto; */
+  background: #f5f9ff;
+  border: 1px solid #212121;
+  border-radius: 15px;
+  padding-top: 1.5rem;
+  padding-left: 0rem;
+  padding-right: 2rem;
+  
+  padding-bottom: 0.4rem;
+}
+.quicklinks .hid1 ul li {
+    text-decoration: none !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24 px;
+  text-align: center;
+  list-style: none;
+
+  /* Primary Color */
+  color: #457b9d;
+}
+.HomeDropdn1:hover .hid1{
+    display: block;
+    z-index: 99;
+}
+
+
+@media (max-width: 768px) {
+  .quicklinks {
+    width: 80%;
+  }
+  .quicklinks .rowQLbig {
+    flex-direction: column;
+  }
+  .quicklinks h4 {
+    margin: 1rem;
+  }
+  .quicklinks .rowQL {
+    width: 100%;
+  }
+
+  .HomeDropdn1:hover .hid1{
+    left:45px;
+}
+
+
+  .homePg {
+    font-size: 14px;
+    line-height: 21px;
+    width: 100%;
+  }
+
+  .homeContainer #aboutBor {
+    width: 9.5rem;
+  }
+  .homeContainer #aboutAnn {
+    width: 17rem;
+  }
+  .homeContainer #aboutVCM {
+    width: 18rem;
+  }
+  .homeContainer #aboutTPOM {
+    width: 18rem;
+  }
+}

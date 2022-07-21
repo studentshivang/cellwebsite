@@ -99,7 +99,7 @@ const InvitationText =()=>{
               <span className="bld">
                 <strong>
                   {" "}
-                  Prof. V.K. Dwivedi Professor, <br /> T&P MMMUT, Gorakhpur
+                  Prof. V.K. Dwivedi <br />Professor, T&P <br /> MMMUT, Gorakhpur
                 </strong>
               </span>
             </div>

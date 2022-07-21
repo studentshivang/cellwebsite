@@ -1,76 +1,191 @@
-.pro-container img {
-    height: 120.98999786376953px;
-width: 120.98999786376953px;
- }
- .pro-container {
-    border: 3px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
- }
+.borderpromalumni{
+  width: 310px;
+  height: 3px;
+  left: 162px;
+  top: 394px; 
+  background-color: #457B9D ;
+  border: 1.60618px solid #457B9D;
+  margin-left: 7rem;
+}
+#our-team {
+  padding: 30px 0 40px;
+  margin: 20px 2rem;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 264px;
+height: 23rem;
+background: #FFFFFF!important;
+box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.12);
+border-radius: 15px;
+}
 
-  
-  #product1 .pro:hover {
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.5);
+#our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+#our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+#our-team:hover .picture::before {
+  height: 100%;
+}
+
+#our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+#our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+#our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+#our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+#our-team:hover .social {
+  bottom: 0;
+}
+
+#our-team .social li {
+  display: inline-block;
+}
+
+#our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+#our-team .social li a:hover {
+  color: #1369ce;
+  background-color: #f7f5ec;
+}
+#stud_title{
+  width: 10rem;
+}
+
+@media (max-width:768px) {
+  .borderpromalumni{
+    margin-left:4.1rem;
+  }
+  #our-team{
+    margin: 2rem;
+    height: 22.2rem;
+  }
+}
+
+@media (max-width:471px) {
+  .student .borderpromalumni{
+    width:14rem;
   }
   
-  #product1 .pro .des {
-    text-align: start;
-    padding: 10px 0;
+}
+
+@media (max-width:399px) {
+  .student .about{
+    margin-left: 5rem;
+    
   }
-  #product1 .pro .des span {
-    color: #606063;
-    font-size: 12px;
+  .student .borderpromalumni{
+    width:14rem;
+    margin-left: 5rem;
   }
-  #product1 .pro .des h5 {
-    padding-top: 7px;
-    color: #1a1a1a;
-    font-size: 14px;
+}
+@media (min-width:768px) {
+  .student .container{
+    padding-left: 7%;
   }
-  
-  #product1 .pro .des i {
-    font-size: 12px;
-    color: rgb(243, 181, 25);
+  #Stud_title{
+    margin-left: 7rem;
   }
-  
-  #product1 .pro .des h4 {
-    padding-top: 7px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #088178;
+  .student .borderpromalumni{
+    margin-left: 7rem;
+
   }
-  
-  #product1 .pro .cart {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50px;
-    background-color: #e8f6ea;
-  
-    color: #088178;
-    border: 1px solid #cce7d0;
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
+}
+@media (min-width:991px) {
+  .student .container{
+    padding-left: 2%;
   }
-  
-  #product1 .pro-container {
-    display: flex;
-  
-    justify-content: space-between;
-    padding-top: 20px;
-    flex-wrap: wrap;
+}
+
+@media (min-width:1058px) {
+  .student .container{
+    padding-left: 1%;
   }
-  
-  #banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
+}
+
+@media (min-width:1200px) {
+  .student .container{
+    padding-left: 4%;
   }
+}
+
+
+@media (max-width:300px){
+  #Stud_title{
+    margin-left: 4rem;
+  }
+  .student .borderpromalumni{
+    margin-left: 4rem;
+
+  }
+  #our-team{
+    width: 80%;
+    
+  }
+}
