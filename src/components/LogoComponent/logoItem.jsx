@@ -9,10 +9,10 @@ function LogoItem() {
     autoplaySpeed: 2000,
     slidesToShow: 7,
     dots: true,
-    pauseOnHover: false,
     mobileFirst: true,
     slidesToScroll: 7,
     initialSlide: 0,
+    pauseOnHover: true,
     cssEase: "linear",
     infinite: true,
     responsive: [
