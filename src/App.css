@@ -183,7 +183,7 @@
   object-fit: cover;
   width: 100%;
   position: relative;
-  height: 51vh;
+  height: 49.9vh;
   background-repeat: no-repeat;
   background-size: 100%;
   animation: caraouse 2s 1s infinite alternate step-end;
@@ -546,11 +546,10 @@
 
   .text1 {
     font-size: 1.2rem;
-  }
-}
+  }}
+@media(max-width: 500px){
 
-@media (max-width: 500px) {
-  .about {
+  .about{
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -576,8 +575,7 @@
   }
 
   .text2 {
-    font-size: 1.2rem;
-  }
+    font-size: 1.2rem;}
 
   .border1 {
     margin-left: 1rem;
@@ -612,8 +610,8 @@
   .text3 {
     font-size: 1.2rem;
   }
-  /* ======= */
-  .border2 {
+/* ======= */
+  .border2{
     margin-left: 1rem;
     margin-right: 1rem;
     width: 40%;

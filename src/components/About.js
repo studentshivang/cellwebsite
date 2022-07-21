@@ -2,7 +2,7 @@ import Navsm from "./Navsm";
 import Footer from "./utils/Footer";
 import { motion, useAnimation, useScroll } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 const About = () => {
   const { scrollYProgress } = useScroll();
@@ -23,7 +23,7 @@ const About = () => {
         x: "-100vw",
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <>

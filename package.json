@@ -22,6 +22,10 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
+<<<<<<< HEAD
+=======
+    "reactjs-popup": "^2.0.5",
+>>>>>>> b4886e347a0fe3026f2177c758b8e1a7f8a80819
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },

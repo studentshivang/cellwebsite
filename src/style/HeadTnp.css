@@ -37,3 +37,8 @@
   height: auto;
   vertical-align: middle;
 }
+
+.headImg h4{
+  font-size: 16px;
+  line-height: 14px;
+}

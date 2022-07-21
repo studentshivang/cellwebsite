@@ -8,6 +8,7 @@ import { Chart as ChartJs } from "chart.js/auto";
 import TrainingTable from "./TrainingTable";
 import Footer from "./utils/Footer";
 import TrainingList from "./TrainingList";
+import Logos from "./LogoComponent/Logos";
 
 const colorArray = [
   "#1F4690",
@@ -21,7 +22,7 @@ const colorArray = [
 
 const borderColor = "#000";
 
-function Placement_Training() {
+function PlacementTraining() {
   const [offersData, setOffersData] = useState({
     labels: PlacementData.map((data) => data.Year),
     datasets: [
@@ -112,6 +113,14 @@ function Placement_Training() {
           </div>
         </div>
 
+        <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          <div className="testimonials">
+            <h2>Past Recruiters</h2>
+            <div className="underline-head2"></div>
+          </div>
+          <Logos />
+        </div>
+
         {/* Training Part */}
         <div className="training-head ms-4 ms-lg-5" id="Graduate-title">
           Training Activities
@@ -127,4 +136,4 @@ function Placement_Training() {
   );
 }
 
-export default Placement_Training;
+export default PlacementTraining;
