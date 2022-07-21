@@ -15,7 +15,8 @@ import Recruiters from "./components/Recruiters";
 import Studentcoordinators from "./components/Studentcoordinators";
 import Alumni from "./components/Alumni";
 import Lifeatmmmut from "./components/LifeAtMMMUT";
-import Placement_Training from "./components/Placement_Training";
+import PlacementTraining from "./components/Placement_Training";
+
 // import Navbar from "./components/Navbar";
 
 const Routing = () => {
@@ -32,7 +33,7 @@ const Routing = () => {
         <Route path="/invite" element={<Invitation />} />
         <Route path="/procedure" element={<Procedure />} />
         <Route path="/reachingMMMUT" element={<Reachingmmmut />} />
-        <Route path="/placement_training" element={<Placement_Training />} />
+        <Route path="/placement_training" element={<PlacementTraining />} />
         <Route path="/faqs" element={<Faqs />}></Route>
         <Route path="/HeadTnP" element={<Headtnp />} />
         <Route path="/facultyCoordinators" element={<Faculty />} />
