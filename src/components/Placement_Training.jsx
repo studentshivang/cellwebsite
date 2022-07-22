@@ -72,13 +72,7 @@ function PlacementTraining() {
         <div className="stats-container">
           <div className="stats">
             <div className="border-outer-placement">
-              <div
-                className="bar"
-                style={{
-                  position: "relative",
-                  margin: "0 auto",
-                }}
-              >
+              <div className="bar">
                 <BarChart chartData={offersData} />
               </div>
             </div>
@@ -114,9 +108,12 @@ function PlacementTraining() {
         </div>
 
         <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <div className="testimonials">
+          <div className="testimonials ms-4 ms-lg-5">
             <h2>Past Recruiters</h2>
-            <div className="underline-head2"></div>
+            <div
+              className="border-placement ms-1 ms-lg-1"
+              id="recruiters"
+            ></div>
           </div>
           <Logos />
         </div>

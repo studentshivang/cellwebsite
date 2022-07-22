@@ -4,6 +4,8 @@ const BarGraph = ({ chartData }) => {
   const header = chartData.datasets[0].label;
 
   const options = {
+    responsive: true,
+    maintainAspectRatio: false,
     categoryPercentage: 0.5,
     elements: {
       points: {
