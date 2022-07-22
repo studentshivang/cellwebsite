@@ -1,5 +1,6 @@
 import Navsm from "./Navsm";
-
+import "../style/reaching.css"
+import Footer from "./utils/Footer";
 const Reachingmmmut =()=>{
     return(
         <>
@@ -17,6 +18,8 @@ const Reachingmmmut =()=>{
          <div className="map">Map</div>
          <div className="borderr3"></div>
 
+
+         <Footer />
         </>
     );
 };

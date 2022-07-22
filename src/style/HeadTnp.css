@@ -1,0 +1,44 @@
+.headTNP {
+  width: 100%;
+  height: auto;
+}
+
+.headImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 53px;
+}
+
+.imaGE {
+  width: 271px;
+  height: 271px;
+  
+  background-image: url("https://res.cloudinary.com/dltqjc99w/image/upload/v1655482503/cell/VK_Dwivedi_Sir_gy9t9g.jpg");
+  background-size: cover;
+  background-position: 50%;
+  border: 2.6439px solid #457b9d;
+  border-radius: 22.0924px 0px;
+}
+
+.headImg h4{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px; 
+  color: #212121;
+  text-align: center;
+}
+
+
+.headImg h4 img{
+  width:40px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.headImg h4{
+  font-size: 16px;
+  line-height: 14px;
+}

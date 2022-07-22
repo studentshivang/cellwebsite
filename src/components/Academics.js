@@ -1,5 +1,6 @@
 import Navsm from "./Navsm";
-import Footer from "./Footer";
+import "../style/academics.css";
+import Footer from "./utils/Footer";
 
 const Academics =()=>{
     return(
@@ -140,9 +141,9 @@ const Academics =()=>{
          </ul>
          <div className="dp">Doctoral Programmes</div>
          <div className="borderrr4"></div>
-         <div className="text1">The university offers doctoral programmes (full-time and part-time both) in various discipline</div >
+         <div className="text1">The university offers doctoral programmes (full-time and part-time both) in various discipline.</div >
          
-      {/* <Footer/> */}
+         <Footer />
         </>
     );
 };
