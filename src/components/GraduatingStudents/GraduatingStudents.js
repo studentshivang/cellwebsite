@@ -1,11 +1,11 @@
-import Navsm from "./Navsm";
-import Footer from "../components/utils/Footer";
+import Navsm from "../Navbar/Navsm";
+import Footer from "../utils/Footer";
 import PieChart from "./PieChart";
 
 import { useState } from "react";
-import { ChartData, ChartDataCourse, ChartDataPG } from "../data/ChartData";
+import { ChartData, ChartDataCourse, ChartDataPG } from "../../data/ChartData";
 
-import "../style/Graduates.css";
+import "../../style/Graduates.css";
 
 const colorArray = [
   "#1F4690",
@@ -19,7 +19,7 @@ const colorArray = [
 
 const borderColor = "#343a40";
 
-const Graduates = () => {
+const GraduatingStudent = () => {
   const [chartDataBTech, setChartDataBTech] = useState({
     labels: ChartData.map((data) => data.Branch),
     datasets: [
@@ -108,4 +108,4 @@ const Graduates = () => {
   );
 };
 
-export default Graduates;
+export default GraduatingStudent;

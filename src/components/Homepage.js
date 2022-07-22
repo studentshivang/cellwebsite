@@ -1,14 +1,12 @@
-import React from "react";
-// import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 import "./utils/Footer";
 import Footer from "./utils/Footer";
-import "../style/HomePg.css";
+import "../style/homePage.css";
 import TPO from "./utils/Home/TPO";
 import VCsir from "./utils/Home/VCsir";
-import QuickLinks from "./utils/Home/QuikLinks";
-import About from "./utils/Home/About";
+import QuickLinks from "./utils/Home/quickLink";
 import { motion, useScroll } from "framer-motion";
+import AboutText from "./utils/Home/AboutText";
 
 const Homepage = () => {
   const { scrollYProgress } = useScroll();
@@ -25,7 +23,7 @@ const Homepage = () => {
         <h2 className="about ms-2 ms-md-5 mt-5">About Us</h2>
         <div className="border1 ms-4 ms-md-5" id="aboutBor"></div>
         <div className="row col-12">
-          <About />
+          <AboutText />
         </div>
 
         <h2 className="about ms-2 ms-md-5">Announcements</h2>

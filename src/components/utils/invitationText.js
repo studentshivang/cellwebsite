@@ -1,5 +1,5 @@
 import React from "react";
-import Logos from "../LogoComponent/Logos";
+import Logos from "../Logo/Logos";
 
 const InvitationText = () => {
   return (

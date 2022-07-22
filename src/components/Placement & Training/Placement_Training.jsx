@@ -1,14 +1,14 @@
 import { useState } from "react";
-import "../style/placement_training.css";
+import "../../style/placement_training.css";
 import BarChart from "./BarGraph";
-import Navsm from "./Navsm";
-import { PlacementData } from "../data/PlacementData";
+import Navsm from "../Navbar/Navsm";
+import Footer from "../utils/Footer";
+import { PlacementData } from "../../data/PlacementData";
 import { Chart as ChartJs } from "chart.js/auto";
 
 import TrainingTable from "./TrainingTable";
-import Footer from "./utils/Footer";
 import TrainingList from "./TrainingList";
-import Logos from "./LogoComponent/Logos";
+import Logos from "../Logo/Logos";
 
 const colorArray = [
   "#1F4690",

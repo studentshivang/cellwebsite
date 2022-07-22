@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const AboutText = () => {
   return (
     <>
       <p className="homePg ms-2 ms-md-5 col-12">
@@ -17,4 +17,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutText;

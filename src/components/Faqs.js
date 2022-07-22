@@ -1,4 +1,4 @@
-import Navsm from "./Navsm";
+import Navsm from "./Navbar/Navsm";
 import React from "react";
 import "../style/Faq.css";
 import Footer from "./utils/Footer";

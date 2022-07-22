@@ -52,7 +52,7 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/" className="dropdownnavlink">
+                  <NavLink to="/achievements" className="dropdownnavlink">
                     Achievements
                   </NavLink>
                 </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
                     className="dropdownnavlink"
                     id="pastrecruit"
                   >
-                    Past Recruiting Organisations
+                    Past Recruiting Organizations
                   </NavLink>
                 </li>
               </ul>

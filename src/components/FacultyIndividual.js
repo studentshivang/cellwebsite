@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/Faculty.css";
-import { Link } from "react-router-dom";
 
 const FacultyIndividual = (props) => {
   return (

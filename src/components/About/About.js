@@ -1,5 +1,5 @@
-import Navsm from "./Navsm";
-import Footer from "./utils/Footer";
+import Navsm from "../Navbar/Navsm";
+import Footer from "../utils/Footer";
 import { motion, useAnimation, useScroll } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";

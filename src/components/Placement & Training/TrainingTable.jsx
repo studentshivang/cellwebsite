@@ -1,7 +1,7 @@
 import { DataGrid } from "@mui/x-data-grid";
-import { userColumns, userRows } from "../data/TableData";
+import { userColumns, userRows } from "../../data/TableData";
 import { useState } from "react";
-import "../style/dataTable.css";
+import "../../style/dataTable.css";
 
 function TrainingTable() {
   const [data, setData] = useState(userRows);
