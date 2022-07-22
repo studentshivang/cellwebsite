@@ -21,15 +21,7 @@ const Navbar = () => {
             <i className="fa fa-bars"></i>
           )}
         </motion.button>
-        <motion.ul
-          layout
-          animate={{ opacity: 0.5 }}
-          transition={{
-            opacity: { ease: "linear" },
-            layout: { duration: 0.3 },
-          }}
-          className={isNavExpanded ? "menu expanded" : "menu"}
-        >
+        <motion.ul layout className={isNavExpanded ? "menu expanded" : "menu"}>
           <li>
             <NavLink to="/" className="navbarlink">
               Home

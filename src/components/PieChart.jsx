@@ -6,8 +6,8 @@ const PieChart = ({ chartData }) => {
   const header = chartData.datasets[0].label;
 
   const options = {
-    // responsive: true,
-    // maintainAspectRatio: false,
+    responsive: true,
+    maintainAspectRatio: false,
     elements: {
       points: {
         pointStyle: "circle",
@@ -30,6 +30,16 @@ const PieChart = ({ chartData }) => {
         borderWidth: 2,
         borderDash: [5, 5],
         borderDashOffset: 2,
+      },
+      tooltip: {
+        titleFont: {
+          size: 10,
+          family: "Montserrat",
+        },
+        bodyFont: {
+          size: 10,
+          family: "Montserrat",
+        },
       },
       title: {
         display: true,
