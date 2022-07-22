@@ -27,15 +27,13 @@ const TPO = () => {
       <div ref={refMessage}>
         <motion.div animate={animationMessage}>
           <div className="row col-12">
-            <div className="about ms-2 ms-md-5">From the TPO’s Desk</div>
-            <div className="border1 ms-4 ms-md-5" id="aboutTPOM"></div>
             <div className="row d-flex flex-row-reverse">
               <div className=" col-12 col-md-4 col-lg-4">
                 {/* <div className="f_object"> */}
-                <div className="f_image text-center">
+                <div className="f_image text-center f-image">
                   <img
-                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655486032/cell_website/VK_Dwivedi_Sir_pishon.jpg"
-                    alt="VC sir"
+                    src="https://res.cloudinary.com/daxilgrvn/image/upload/v1658460990/T_P%20Site/photo_2022-07-22_09-06-03_bd29u3.jpg"
+                    alt="TPO sir"
                   />
                 </div>
                 {/* </div> */}
@@ -43,8 +41,8 @@ const TPO = () => {
                   <h5 className="mx-auto">
                     <b>Prof. V.K. Dwivedi</b>
                   </h5>
-                  <h4>Professor, T&P</h4>
-                  <h4>MMMUT, Gorakhpur</h4>
+                  <h6>Professor, T&P</h6>
+                  <h6>MMMUT, Gorakhpur</h6>
                   {/* <h4>MMMUT Gorakhpur</h4> */}
                 </div>
               </div>

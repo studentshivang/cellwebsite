@@ -54,6 +54,7 @@
   align-items: space-around;
   /* padding-left: 5rem; */
   padding: auto;
+  height: fit-content;
 }
 
 .navbar .menu .navbarlink {
@@ -88,7 +89,7 @@
   text-align: center;
   padding: auto;
   margin: auto;
-  margin-left: 32px;
+  /* margin-left: 32px; */
 }
 .navbar .menu :hover .dropdown_menu ul {
   font-family: "Montserrat" !important;
@@ -98,14 +99,19 @@
   line-height: 17px;
   text-align: left;
   margin-left: -32px;
-  width: 252px;
+  width: fit-content;
 }
 .navbar .menu :hover #whyRec,
 #whyRec ul li {
   width: 240px;
 }
+
 .navbar .menu :hover .navwidth1 {
   width: 197px;
+}
+.navbar .menu :hover .navwidth2 {
+  width: fit-content;
+  /* padding: 0 .5rem; */
 }
 
 .navbar .menu :hover .dropdown_menu .navwidth {
@@ -137,7 +143,6 @@
   text-decoration: none;
   color: #212121;
 }
-
 /* Error Page UI starts {color scheme to be changed} */
 
 .errpage {
@@ -199,11 +204,13 @@
   height: 5px;
   background: red;
   transform-origin: 0%;
+  z-index: 1;
 }
 
 .about {
   margin-top: 1rem;
   margin-left: 7rem;
+  /* margin-right: 3rem; */
 
   font-family: "Montserrat";
   font-style: normal;
@@ -224,9 +231,10 @@
 }
 
 .text1 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -259,10 +267,11 @@
 }
 
 .text2 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
   top: 414px;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -295,10 +304,11 @@
 }
 
 .text3 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
   top: 414px;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -333,9 +343,10 @@
 }
 
 .text4 {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  /* margin-left: 7rem;
+  margin-right: 7rem; */
   padding-top: 1.5rem;
+  width: 94%;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -355,6 +366,14 @@
   font-size: 32px;
   line-height: 39px;
   color: black;
+}
+
+.mapFrame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 94%;
 }
 
 .border5 {
@@ -488,16 +507,15 @@
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 77px);
+    height: fit-content;
     background-color: rgba(69, 123, 157, 0.4);
     display: none;
   }
 
+  
   .navbar .menu li {
     text-align: center;
     margin: 0;
-    padding-right: calc(25%);
-    width: 100%;
     cursor: pointer;
   }
   .navbar .expanded {
@@ -505,18 +523,21 @@
   }
 
   .navbar .menu :hover .dropdown_menu {
-    transform: translateY(-14rem);
-    left: auto;
-    align-self: center;
+    /* transform: translateY(-14rem); */
+      display: block;
+      position: relative;
     z-index: 100;
   }
-
-  .navbar .menu :hover .navwidth1 {
-    transform: translateY(-10rem);
+  .navbar .menu :hover .dropdown_menu li{
+    text-align: center;
+    padding-left:0%!important;
   }
-  .navbar .menu :hover #whyRec {
+  /* .navbar .menu :hover .navwidth1 {
     transform: translateY(-10rem);
-  }
+  } */
+  /* .navbar .menu :hover .dropdown_menu{
+    transform: translateY(0.1rem);
+  } */
 }
 
 @media (max-width: 768px) {
@@ -537,23 +558,22 @@
   /* Error Page UI ends*/
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+/* @media (min-width: 400px) and (max-width: 900px) {
   .about {
     font-size: 2rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-right: 4rem;
   }
 
   .text1 {
     font-size: 1.2rem;
-  }}
-@media(max-width: 500px){
-
-  .about{
+  }
+}
+@media (max-width: 500px) {
+  .about {
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    
   }
 
   .text1 {
@@ -575,7 +595,8 @@
   }
 
   .text2 {
-    font-size: 1.2rem;}
+    font-size: 1.2rem;
+  }
 
   .border1 {
     margin-left: 1rem;
@@ -611,7 +632,11 @@
     font-size: 1.2rem;
   }
 
+<<<<<<< HEAD
   .border2{
+=======
+  .border2 {
+>>>>>>> 1c416066018d2df582911efb89699fbaece01b69
     margin-left: 1rem;
     margin-right: 1rem;
     width: 40%;
@@ -698,16 +723,16 @@
   .video {
     padding: auto;
   }
- .loc{
-  font-size: 1.5rem;
-  margin-left: 1rem;
- }
- .map{
-  font-size: 1.5rem;
- }
- .campus{
-  font-size: 1.5rem;
- }
+  .loc {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  .map {
+    font-size: 1.5rem;
+  }
+  .campus {
+    font-size: 1.5rem;
+  }
   .footer-links img {
     height: 0.8rem;
     width: 0.8rem;
@@ -716,7 +741,7 @@
   .footer-text {
     font-size: 0.6rem;
   }
-}
+} */
 /* ---------invitation page------------- */
 .head1 {
   width: 100%;
@@ -983,6 +1008,10 @@
   .footer-text-procedure {
     font-size: 0.6rem;
   }
+   /* Navbar */
+   .navbar .menu :hover .dropdown_menu{
+    /* transform: translateY(0.1rem) translateX(2vw); */
+  }
 }
 @media (min-width: 601px) and (max-width: 1200px) {
   .Heading-procedure {
@@ -1006,7 +1035,7 @@
   }
   .button-text {
     font-size: 1rem;
-   margin: auto;
+    margin: auto;
   }
   .mail-procedure-button {
     font-size: 0.7rem;
@@ -1020,5 +1049,12 @@
   .footer-text-procedure {
     font-size: 0.6rem;
   }
-}
 
+ 
+}
+/* 
+@media (max-width:360px) {
+  .navbar .menu :hover .dropdown_menu{
+    transform: translateY(0.1rem) translateX(-17vw); 
+  }
+}*/

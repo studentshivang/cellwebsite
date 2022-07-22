@@ -1,4 +1,4 @@
-import Navsm from "./Navsm";
+import Navsm from "./Navbar/Navsm";
 import "../style/reaching.css"
 import Footer from "./utils/Footer";
 const Reachingmmmut =()=>{
@@ -22,6 +22,7 @@ const Reachingmmmut =()=>{
          <Footer />
         </>
     );
+
 };
 
 export default Reachingmmmut;

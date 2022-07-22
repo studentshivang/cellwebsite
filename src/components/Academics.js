@@ -1,4 +1,4 @@
-import Navsm from "./Navsm";
+import Navsm from "./Navbar/Navsm";
 import "../style/academics.css";
 import Footer from "./utils/Footer";
 
@@ -146,6 +146,7 @@ const Academics =()=>{
          <Footer />
         </>
     );
+
 };
 
 export default Academics;

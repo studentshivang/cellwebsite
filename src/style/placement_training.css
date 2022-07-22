@@ -15,20 +15,30 @@
 .border-placement {
   width: 360px;
   height: 3px;
-  left: 162px;
+  /* left: 162px; */
   top: 394px;
   background-color: #457b9d;
   border: 1px solid #457b9d;
-  margin-left: 7rem;
+  /* margin-left: 7rem; */
+}
+
+#recruiters {
+  width: 260px;
+  height: 3px;
+  /* left: 162px; */
+  top: 394px;
+  background-color: #457b9d;
+  border: 1px solid #457b9d;
+  /* margin-left: 7rem; */
 }
 
 .bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
-  height: 650px;
+  margin: 10px;
   width: 650px;
+  height: 350px;
 }
 
 .stats-container {
@@ -70,7 +80,7 @@
   /* justify-content: center; */
   margin-top: 1rem;
   border: 3px solid #457b9d;
-  width: 700px;
+  width: 680px;
   height: 425px;
 }
 
@@ -117,61 +127,176 @@ h2 {
   transform: translateX(0px) translateY(75px);
 }
 
+.chartjs-size-monitor-shrink {
+  position: absolute;
+  direction: ltr;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  z-index: -1;
+}
+
 @media (max-width: 1200px) {
   .border-placement {
     align-self: start;
   }
+  #recruiters {
+    width: 220px;
+  }
 }
+
 @media (max-width: 900px) {
   .border-placement {
     align-self: start;
     margin-left: 4rem;
   }
-  .chart {
-    height: 600px;
-    width: 600px;
+  #recruiters {
+    width: 220px;
   }
 }
 
-@media (max-width: 433px) {
+@media (max-width: 700px) {
   .border-placement {
-    width: 12rem;
+    align-self: start;
+    margin-left: 4rem;
   }
-  .chart {
-    height: 400px;
+  .border-outer-placement {
+    width: 600px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 550px;
+    margin-left: 10px;
+  }
+  #recruiters {
+    width: 220px;
+  }
+}
+@media (max-width: 600px) {
+  .border-placement {
+    align-self: start;
+    margin-left: 4rem;
+  }
+  .border-outer-placement {
+    width: 475px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 450px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 485px) {
+  .border-placement {
+    align-self: start;
+    margin-left: 4rem;
+  }
+  .border-outer-placement {
+    width: 465px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 450px;
+    margin-left: 10px;
+  }
+  #recruiters {
+    width: 200px;
+  }
+}
+
+@media (max-width: 465px) {
+  .border-placement {
+    width: 21rem;
+  }
+  .border-outer-placement {
     width: 400px;
+    height: 300px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 350px;
+    height: 250px;
+    margin-left: 10px;
   }
 }
 @media (max-width: 399px) {
   .border-placement {
     margin-left: 3rem;
-    width: 19.3rem;
+    width: 22rem;
   }
   #Graduate-title {
     margin-left: 3rem;
+  }
+  .border-outer-placement {
+    width: 380px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 350px;
+    height: 180px;
+    margin-left: 10px;
+  }
+  #recruiters {
+    width: 190px;
   }
 }
 @media (max-width: 368px) {
   .border-placement {
     margin-left: 1.4rem;
-    width: 19.1rem;
+    width: 12rem;
   }
   #Graduate-title {
     margin-left: 1.4rem;
+  }
+  .border-outer-placement {
+    width: 350px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 300px;
+    height: 180px;
+    margin-left: 10px;
   }
 }
 @media (max-width: 336px) {
   .border-placement {
     margin-left: 0.7rem;
-    width: 19.1rem;
+    width: 14rem;
   }
   #Graduate-title {
     margin-left: 0.7rem;
+  }
+  .border-outer-placement {
+    width: 300px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 280px;
+    height: 180px;
+    margin-left: 10px;
   }
 }
 
 @media (max-width: 316px) {
   .border-placement {
-    width: 12rem;
+    width: 10rem;
+  }
+  .border-outer-placement {
+    width: 300px;
+    height: 200px;
+    /* height: 425px; */
+  }
+  .bar {
+    width: 280px;
+    height: 180px;
+    margin-left: 10px;
   }
 }

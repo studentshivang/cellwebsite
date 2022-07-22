@@ -12,19 +12,15 @@ const Footer = () => {
       </div>
       <div className="footer-links">
         <a href="https://www.facebook.com/TnP.MMMUT">
-  
           <img src={Facebook} alt="Facebook icon" />
         </a>
         <a href="https://www.linkedin.com/in/tnpmmm/">
-          
           <img src={Linkedin} alt="Linkedin icon" />
         </a>
         <a href="mailto:tnp@mmmut.ac.in">
-        
           <img src={Email} alt="Email icon" />
         </a>
         <a href="http://www.mmmut.ac.in/">
-          
           <img src={Globe} alt="Globe icon" />
         </a>
       </div>

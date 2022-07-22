@@ -7,20 +7,19 @@ export const LogoData = [
   },
   {
     id: "2",
-    imgLink:
-      "https://res.cloudinary.com/vaish1101/image/upload/v1658218957/Client-logo/Zensar_Technologies_logo_nqhohn.png",
+    imgLink: "https://iconape.com/wp-content/files/au/350989/svg/350989.svg",
     altText: "company_logo",
   },
   {
     id: "3",
     imgLink:
-      "https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/tech_mahindra_logo_xf1mkp.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tech_Mahindra_New_Logo.svg/1920px-Tech_Mahindra_New_Logo.svg.png",
     altText: "company_logo",
   },
   {
     id: "4",
     imgLink:
-      "https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/Walmart_logo_bf1enm.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Walmart_logo.svg/1920px-Walmart_logo.svg.png",
     altText: "company_logo",
   },
   {
@@ -38,7 +37,7 @@ export const LogoData = [
   {
     id: "7",
     imgLink:
-      "https://res.cloudinary.com/vaish1101/image/upload/v1658218956/Client-logo/TCS_logo_joqiax.jpg",
+      "https://www.tcs.com/content/dam/tcs/images/Newtcslogo/tcs-logo-tata-blue-1x-dec2021.png",
     altText: "company_logo",
   },
   {
@@ -387,6 +386,107 @@ export const LogoData = [
     id: "67",
     imgLink:
       "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Vodafone_2017_logo.svg/1920px-Vodafone_2017_logo.svg.png",
+    altText: "company_logo",
+  },
+  {
+    id: "68",
+    imgLink: "https://cdn.coai.com/sites/default/files/2017-04/jio.png",
+    altText: "company_logo",
+  },
+  {
+    id: "69",
+    imgLink:
+      "http://biztechindia.com/wp-content/uploads/2017/06/chaipoint-tea.png",
+    altText: "company_logo",
+  },
+  {
+    id: "70",
+    imgLink: "https://www.pepcoding.com/images/logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "71",
+    imgLink: "https://www.unthinkable.co/wp-content/uploads/2021/03/logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "72",
+    imgLink: "https://cucet.cuchd.in/new-assets/images/cu-logo.png",
+    altText: "company_logo",
+  },
+  {
+    id: "73",
+    imgLink:
+      "https://res.cloudinary.com/daxilgrvn/image/upload/v1658401911/T_P%20Site/pngegg_g36ooc.png",
+    altText: "company_logo",
+  },
+  {
+    id: "74",
+    imgLink: "https://www.dltlabs.com/assets/images/DLT-logo-std.svg",
+    altText: "company_logo",
+  },
+  {
+    id: "75",
+    imgLink:
+      "https://jupiter.money/assets/images/header-white.svg?v=5dee553127",
+    altText: "company_logo",
+  },
+  {
+    id: "76",
+    imgLink: "https://railtech.co.in/images1/logo1.png",
+    altText: "company_logo",
+  },
+  {
+    id: "77",
+    imgLink: "https://rxlogix.bamboohr.com/jobs/share_image/28",
+    altText: "company_logo",
+  },
+  {
+    id: "78",
+    imgLink:
+      "https://www.qsstechnosoft.com/wp-content/themes/qss/assets/img/logo-new.png",
+    altText: "company_logo",
+  },
+  {
+    id: "79",
+    imgLink:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/1920px-Deloitte.svg.png",
+    altText: "company_logo",
+  },
+  {
+    id: "80",
+    imgLink:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/ServiceNow_logo.svg/1920px-ServiceNow_logo.svg.png",
+    altText: "company_logo",
+  },
+  {
+    id: "81",
+    imgLink:
+      "https://www.bigohtech.com/storage/2022/05/MicrosoftTeams-image.jpg",
+    altText: "company_logo",
+  },
+  {
+    id: "82",
+    imgLink:
+      "https://images.samsung.com/is/image/samsung/assets/in/about-us/brand/logo/pc/300_186_1.png?$568_N_PNG$",
+    altText: "company_logo",
+  },
+  {
+    id: "83",
+    imgLink:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Kotak_Mahindra_Group_logo.svg/330px-Kotak_Mahindra_Group_logo.svg.png",
+    altText: "company_logo",
+  },
+  {
+    id: "84",
+    imgLink:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ICICI_Bank_Logo.svg/1920px-ICICI_Bank_Logo.svg.png",
+    altText: "company_logo",
+  },
+  {
+    id: "85",
+    imgLink:
+      "https://d1.awsstatic.com/gcrp_adverbTechnologies_03282022.4e0f935e4bb413543057504676b4eba9e018b9cd.png",
     altText: "company_logo",
   },
 ];
