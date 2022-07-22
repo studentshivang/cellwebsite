@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/alumni.css";
+import "../../style/alumni.css";
 import { Link } from "react-router-dom";
 
 const Alumnus = (data) => {

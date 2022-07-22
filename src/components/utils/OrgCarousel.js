@@ -1,11 +1,11 @@
 //Past Recruiting Organisations Caraousel
 import React from "react";
-import "./OrgsCaraousal.css";
-import testimo from "./Testimonial.png";
+import "./OrgCarousel.css";
+import testimonialImage from "./Testimonial.png";
 import Footer from "./Footer";
-import Logos from "../LogoComponent/Logos";
+import Logos from "../Logo/Logos";
 
-const OrgsCaraousal = () => {
+const OrgCarousel = () => {
   return (
     <>
       <div className="testimonials">
@@ -19,21 +19,21 @@ const OrgsCaraousal = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src={testimo}
+                src={testimonialImage}
                 className="d-block w-100"
                 alt="caraousel item"
               />
             </div>
             <div className="carousel-item">
               <img
-                src={testimo}
+                src={testimonialImage}
                 className="d-block w-100"
                 alt="caraousel item"
               />
             </div>
             <div className="carousel-item">
               <img
-                src={testimo}
+                src={testimonialImage}
                 className="d-block w-100"
                 alt="caraousel item"
               />
@@ -74,36 +74,36 @@ const OrgsCaraousal = () => {
             <Logos />
           </div>
         </div>
-      <div className="btns-invitation">
-        <div className="btn-invitation">
-          <button className="downloadBrochure-button">
-            <i className="fa fa-download" aria-hidden="true">
-              {" "}
-            </i>
-            <span>
-              {" "}
-              &nbsp;{" "}
-              <a
-                href="https://drive.google.com/file/d/1H2UVnWmQmS-wATsCzgiXyqNX31WDKqw1/view?usp=drivesdk"
-                target="_"
-              >
-                <strong>Placement Brochure</strong>
+        <div className="btns-invitation">
+          <div className="btn-invitation">
+            <button className="downloadBrochure-button">
+              <i className="fa fa-download" aria-hidden="true">
+                {" "}
+              </i>
+              <span>
+                {" "}
+                &nbsp;{" "}
+                <a
+                  href="https://drive.google.com/file/d/1H2UVnWmQmS-wATsCzgiXyqNX31WDKqw1/view?usp=drivesdk"
+                  target="_"
+                >
+                  <strong>Placement Brochure</strong>
+                </a>
+              </span>
+            </button>
+          </div>
+          <div className="btn-invitation">
+            <button className="mail-button">
+              <a href="mailto:tnp@mmmut.ac.in">
+                <strong>Mail To: tnp@mmmut.ac.in</strong>
               </a>
-            </span>
-          </button>
+            </button>
+          </div>
         </div>
-        <div className="btn-invitation">
-          <button className="mail-button">
-            <a href="mailto:tnp@mmmut.ac.in">
-              <strong>Mail To: tnp@mmmut.ac.in</strong>
-            </a>
-          </button>
-        </div>
-      </div>
       </div>
       <Footer />
     </>
   );
 };
 
-export default OrgsCaraousal;
+export default OrgCarousel;

@@ -1,4 +1,4 @@
-import "../style/placement_training.css";
+import "../../style/placement_training.css";
 
 function TrainingList() {
   return (

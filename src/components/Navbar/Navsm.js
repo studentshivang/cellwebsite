@@ -4,12 +4,7 @@ const Navsm = () => {
   return (
     <>
       <div className="pages_nav">
-        {/* <div className="layer_nav">
-        </div> */}
-
-           
-
-          <Navbar />
+        <Navbar />
       </div>
     </>
   );

@@ -1,13 +1,13 @@
-import Navsm from "./Navsm";
-import "../style/HeadTnp.css";
-import Footer from "./utils/Footer";
-import InvitationText from "./utils/IntvitationText";
-import Email from "../images/email2.png";
-import Phone from "../images/phone-call.png";
+import Navsm from "../Navbar/Navsm";
+import "../../style/HeadTnp.css";
+import Footer from "../utils/Footer";
+import InvitationText from "../utils/invitationText";
+import Email from "../../images/email2.png";
+import Phone from "../../images/phone-call.png";
 import { Link } from "react-router-dom";
 import { motion, useScroll } from "framer-motion";
 
-const Headtnp = () => {
+const HeadTNP = () => {
   const { scrollYProgress } = useScroll();
   return (
     <>
@@ -69,4 +69,4 @@ const Headtnp = () => {
   );
 };
 
-export default Headtnp;
+export default HeadTNP;

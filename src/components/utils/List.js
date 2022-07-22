@@ -5,7 +5,6 @@ import CompanyData from "../../data/CompanyData";
 const List = () => {
   return (
     <>
-      {/* <h1 className="ms-4 ms-lg-5 my-3">Hari Bol!</h1> */}
       <div className="recruitersComp ms-4 ms-lg-5 my-3">
         <div className="navList me-4 me-lg-5">
           <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">

@@ -1,9 +1,8 @@
 import React from "react";
-import Navsm from "./Navsm";
-import Footer from "./utils/Footer";
+import Navsm from "../Navbar/Navsm";
+import Footer from "../utils/Footer";
 import { motion, useScroll } from "framer-motion";
-import Logos from "./LogoComponent/Logos";
-import InvitationText from "./utils/IntvitationText";
+import InvitationText from "../utils/invitationText";
 
 const Invitation = () => {
   const { scrollYProgress } = useScroll();

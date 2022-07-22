@@ -1,5 +1,4 @@
 import React from "react";
-// import "../style/alumni.css";
 import { Link } from "react-router-dom";
 import { motion, useScroll } from "framer-motion";
 
