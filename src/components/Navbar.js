@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -7,7 +8,8 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <button
+        <motion.button
+          layout
           className="hamburger"
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);
@@ -18,8 +20,16 @@ const Navbar = () => {
           ) : (
             <i className="fa fa-bars"></i>
           )}
-        </button>
-        <ul className={isNavExpanded ? "menu expanded" : "menu"}>
+        </motion.button>
+        <motion.ul
+          layout
+          animate={{ opacity: 0.5 }}
+          transition={{
+            opacity: { ease: "linear" },
+            layout: { duration: 0.3 },
+          }}
+          className={isNavExpanded ? "menu expanded" : "menu"}
+        >
           <li>
             <NavLink to="/" className="navbarlink">
               Home
@@ -27,9 +37,9 @@ const Navbar = () => {
           </li>
           <li>
             Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu" id="whyRec">
-              <ul>
-                <li>
+            <div layout className="dropdown_menu" id="whyRec">
+              <ul layout>
+                <li layout>
                   <NavLink to="/about" className="dropdownnavlink">
                     About MMMUT
                   </NavLink>
@@ -183,7 +193,7 @@ const Navbar = () => {
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </li>
           </a>
-        </ul>
+        </motion.ul>
       </div>
     </>
   );

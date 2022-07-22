@@ -25,14 +25,6 @@ const StudentCoordinator = (data) => {
           </div>
           <ul className="social">
             <li>
-              <a
-                href="tel:+91{data.data.phone}"
-                className="fa fa-phone"
-                aria-hidden="true"
-              ></a>
-            </li>
-
-            <li>
               <Link
                 to={data.data.in}
                 className="fa fa-linkedin"

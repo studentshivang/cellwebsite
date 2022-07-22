@@ -32,8 +32,8 @@ const TPO = () => {
                 {/* <div className="f_object"> */}
                 <div className="f_image text-center f-image">
                   <img
-                    src="https://res.cloudinary.com/dd6idpm2e/image/upload/v1655486032/cell_website/VK_Dwivedi_Sir_pishon.jpg"
-                    alt="VC sir"
+                    src="https://res.cloudinary.com/daxilgrvn/image/upload/v1658460990/T_P%20Site/photo_2022-07-22_09-06-03_bd29u3.jpg"
+                    alt="TPO sir"
                   />
                 </div>
                 {/* </div> */}
