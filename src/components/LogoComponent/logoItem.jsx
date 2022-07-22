@@ -45,10 +45,15 @@ function LogoItem() {
   };
   return (
     <Slider {...settings}>
-      {LogoData.map((data, id) => {
+      {LogoData.map((data) => {
         return (
           <div className="slide">
-            <img className="image" src={data.imgLink} alt={data.altText} />
+            <img
+              className="image"
+              src={data.imgLink}
+              alt={data.altText}
+              key={data.id}
+            />
           </div>
         );
       })}

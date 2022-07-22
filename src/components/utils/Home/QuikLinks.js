@@ -7,11 +7,6 @@ import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 
 const QuickLinks = () => {
-  const [modalOpen, setModalOpen] = useState(false);
-
-  const close = () => setModalOpen(false);
-  const open = () => setModalOpen(true);
-
   const { ref, inView } = useInView();
   const animation = useAnimation();
   useEffect(() => {
