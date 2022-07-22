@@ -75,7 +75,7 @@ const Navbar = () => {
           </li>
           <li>
             For Companies <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu">
+            <div className="dropdown_menu navwidth2">
               <ul>
                 <li>
                   <NavLink to="/invite" className="dropdownnavlink">

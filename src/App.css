@@ -54,6 +54,7 @@
   align-items: space-around;
   /* padding-left: 5rem; */
   padding: auto;
+  height: fit-content;
 }
 
 .navbar .menu .navbarlink {
@@ -88,7 +89,7 @@
   text-align: center;
   padding: auto;
   margin: auto;
-  margin-left: 32px;
+  /* margin-left: 32px; */
 }
 .navbar .menu :hover .dropdown_menu ul {
   font-family: "Montserrat" !important;
@@ -98,14 +99,19 @@
   line-height: 17px;
   text-align: left;
   margin-left: -32px;
-  width: 252px;
+  width: fit-content;
 }
 .navbar .menu :hover #whyRec,
 #whyRec ul li {
   width: 240px;
 }
+
 .navbar .menu :hover .navwidth1 {
   width: 197px;
+}
+.navbar .menu :hover .navwidth2 {
+  width: fit-content;
+  /* padding: 0 .5rem; */
 }
 
 .navbar .menu :hover .dropdown_menu .navwidth {
@@ -502,7 +508,7 @@
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 77px);
+    height: fit-content;
     background-color: rgba(69, 123, 157, 0.4);
     display: none;
   }
@@ -518,18 +524,21 @@
   }
 
   .navbar .menu :hover .dropdown_menu {
-    transform: translateY(-14rem);
-    left: auto;
-    align-self: center;
+    /* transform: translateY(-14rem); */
+      display: block;
+      position: relative;
     z-index: 100;
   }
-
-  .navbar .menu :hover .navwidth1 {
+  .navbar .menu :hover .dropdown_menu li{
+    text-align: center;
+    padding-left:0%!important;
+  }
+  /* .navbar .menu :hover .navwidth1 {
     transform: translateY(-10rem);
-  }
-  .navbar .menu :hover .dropdown_menu{
-    transform: translateY(0.1rem) translateX(30vw);
-  }
+  } */
+  /* .navbar .menu :hover .dropdown_menu{
+    transform: translateY(0.1rem);
+  } */
 }
 
 @media (max-width: 768px) {
@@ -998,7 +1007,7 @@
   }
    /* Navbar */
    .navbar .menu :hover .dropdown_menu{
-    transform: translateY(0.1rem) translateX(2vw);
+    /* transform: translateY(0.1rem) translateX(2vw); */
   }
 }
 @media (min-width: 601px) and (max-width: 1200px) {
@@ -1040,9 +1049,9 @@
 
  
 }
-
+/* 
 @media (max-width:360px) {
   .navbar .menu :hover .dropdown_menu{
-    transform: translateY(0.1rem) translateX(-17vw);
+    transform: translateY(0.1rem) translateX(-17vw); 
   }
-}
+}*/
