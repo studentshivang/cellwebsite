@@ -54,6 +54,7 @@
   align-items: space-around;
   /* padding-left: 5rem; */
   padding: auto;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -99,6 +100,7 @@
   line-height: 17px;
   text-align: left;
   margin-left: -32px;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .navbar .menu :hover #whyRec,
@@ -110,8 +112,8 @@
   width: 197px;
 }
 .navbar .menu :hover .navwidth2 {
+  width: -moz-fit-content;
   width: fit-content;
-  /* padding: 0 .5rem; */
 }
 
 .navbar .menu :hover .dropdown_menu .navwidth {
@@ -508,12 +510,12 @@
     left: 0;
     flex-direction: column;
     width: 100%;
+    height: -moz-fit-content;
     height: fit-content;
     background-color: rgba(69, 123, 157, 0.4);
     display: none;
   }
 
-  
   .navbar .menu li {
     text-align: center;
     margin: 0;
@@ -525,13 +527,13 @@
 
   .navbar .menu :hover .dropdown_menu {
     /* transform: translateY(-14rem); */
-      display: block;
-      position: relative;
+    display: block;
+    position: relative;
     z-index: 100;
   }
-  .navbar .menu :hover .dropdown_menu li{
+  .navbar .menu :hover .dropdown_menu li {
     text-align: center;
-    padding-left:0%!important;
+    padding-left: 0% !important;
   }
   /* .navbar .menu :hover .navwidth1 {
     transform: translateY(-10rem);
@@ -1005,10 +1007,6 @@
   .footer-text-procedure {
     font-size: 0.6rem;
   }
-   /* Navbar */
-   .navbar .menu :hover .dropdown_menu{
-    /* transform: translateY(0.1rem) translateX(2vw); */
-  }
 }
 @media (min-width: 601px) and (max-width: 1200px) {
   .Heading-procedure {
@@ -1046,8 +1044,6 @@
   .footer-text-procedure {
     font-size: 0.6rem;
   }
-
- 
 }
 /* 
 @media (max-width:360px) {
