@@ -57,15 +57,7 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                You'll be given accommodation subject to availability in University Guest House or well rated hotels of Gorakhpur along with conveyance facilities.
                 </div>
               </div>
             </div>
@@ -89,15 +81,7 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                Placement Procedure briefly begins with interested recruiters mailing us JD at our official email id tnp@mmmut.ac.in which is then shared among students and then the data of interested students is shared with the company. Then the recruiters can discuss with us appropriate dates for the drive and members coordinate accordingly. After successful completion of drive, selected candidates are given their offer letters.
                 </div>
               </div>
             </div>
@@ -122,15 +106,7 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                The average package of the University has raised exponentially in the recent years. Beginning from 3.3 LPA in 2016-17, the average package has grown upto 7 LPA in the year 2022.
                 </div>
               </div>
             </div>
@@ -155,15 +131,8 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                The placement session usually commence in the month of July and ends next year in the month of June-July.
+
                 </div>
               </div>
             </div>
@@ -189,15 +158,7 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                The infrastructural facilities majorly includes 7 seminar halls with a capacity of 120 students each fully functional with projector and mic systems. Four general computing labs having 240 nos. computers (UG-160 & PG-90) namely (Computing Lab 1, 2, 3, 4 and PG Lab 1 & 2 with a Seminar Hall of 180 seating. We have 4 interview rooms in Training and Placement Cell for interview purpose and a conference hall with a seating capacity of 60 and 3 Lecture Hall Complexes for smooth conduction of written rounds.
                 </div>
               </div>
             </div>
@@ -223,15 +184,12 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                The eligibilty of a students depends on the brackets including:
+• Up to 6 LPA
+• 6 LPA - 10 LPA
+• Above 10 LPA
+
+If a student is placed in any of the brackets, he/she would be allowed to appear only for the companies whose package lies in the bracket higher than in which he/she has been placed.
                 </div>
               </div>
             </div>
@@ -256,15 +214,7 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                There is no fees associated before or after the placement process. Also, we avert those companies which charge any amount adhering to the training after the placement final offer
                 </div>
               </div>
             </div>
@@ -290,15 +240,14 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                The different courses available in the University are:
+• B.Tech.
+• BBA
+• B.Pharma.
+• M.Tech.
+• MBA
+• MCA
+• M.Sc.
                 </div>
               </div>
             </div>
@@ -324,15 +273,7 @@ Also, local transport facilities are always available in case of any inconvenien
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                Yes, the students of MMMUT, Gorakhpur are allowed for a Semester Long Internship/ FTE in their 8th semester which tentatively starts from mid of January but they must be available in offline mode for all examinations. They can go for work from home or office mode in full-time Internship so there are no any restrictions for that.
                 </div>
               </div>
             </div>

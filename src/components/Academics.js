@@ -5,6 +5,7 @@ const Academics =()=>{
         <>
         <Navsm/>
         <h1>Welcome to Academics Page</h1>
+        
         </>
     );
 };
