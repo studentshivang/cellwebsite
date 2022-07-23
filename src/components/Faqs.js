@@ -1,3 +1,4 @@
+
 import Navsm from "./Navbar/Navsm";
 import React from "react";
 import "../style/Faq.css";

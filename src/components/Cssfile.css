@@ -1,0 +1,43 @@
+.accordion {
+    /* display: flex; */
+    width: 800px;
+  }
+  .accordion .contentBx {
+    position: relative;
+    margin: 10px 20px;
+  }
+  
+  
+  .accordion .contentBx .label {
+    position: relative;
+    padding: 10px;
+    background: #2694af;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .accordion .contentBx .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size : 1.5em;
+  }
+  
+  .accordion .contentBx .content {
+    position: relative;
+    /* padding: 10px; */
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    /* overflow-y: auto; */
+    overflow-y: auto;
+  }
+  
+  .accordion .contentBx.active .content {
+    /* height: 160px; */
+    height: 100px;
+  }
+  
