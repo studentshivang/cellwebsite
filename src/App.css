@@ -53,7 +53,7 @@
   justify-content: center;
   align-items: space-around;
   /* padding-left: 5rem; */
-  padding: auto;
+  padding: 0;
   height: fit-content;
 }
 
@@ -89,7 +89,7 @@
   text-align: center;
   padding: auto;
   margin: auto;
-  /* margin-left: 32px; */
+  margin-left: 32px;
 }
 .navbar .menu :hover .dropdown_menu ul {
   font-family: "Montserrat" !important;
@@ -143,6 +143,7 @@
   text-decoration: none;
   color: #212121;
 }
+
 /* Error Page UI starts {color scheme to be changed} */
 
 .errpage {
@@ -632,11 +633,7 @@
     font-size: 1.2rem;
   }
 
-<<<<<<< HEAD
-  .border2{
-=======
   .border2 {
->>>>>>> 1c416066018d2df582911efb89699fbaece01b69
     margin-left: 1rem;
     margin-right: 1rem;
     width: 40%;
