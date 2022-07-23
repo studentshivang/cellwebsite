@@ -31,6 +31,7 @@ function LogoItem() {
           slidesToShow: 4,
           slidesToScroll: 4,
           initialSlide: 2,
+          dots: false,
         },
       },
       {
