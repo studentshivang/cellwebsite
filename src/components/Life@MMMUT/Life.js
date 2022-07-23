@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import Footer from "../utils/Footer";
-import "../../style/life.css";
+import "../../style/Life.css";
 
 import EDB from "./images@header/EDB.png";
 import IICHE from "./images@header/IICHE.png";

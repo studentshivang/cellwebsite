@@ -29,7 +29,7 @@ const Navbar = () => {
           </li>
           <li>
             Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
-            <div layout className="dropdown_menu" id="whyRec">
+            <div layout className="dropdown_menu mx-auto mx-auto mx-auto" id="whyRec">
               <ul layout>
                 <li layout>
                   <NavLink to="/about" className="dropdownnavlink">
@@ -75,7 +75,7 @@ const Navbar = () => {
           </li>
           <li>
             For Companies <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu navwidth2">
+            <div className="dropdown_menu mx-auto mx-auto navwidth2">
               <ul>
                 <li>
                   <NavLink to="/invite" className="dropdownnavlink">
@@ -112,7 +112,7 @@ const Navbar = () => {
           </li>
           <li>
             Student Utilities <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu navwidth1">
+            <div className="dropdown_menu mx-auto navwidth1">
               <ul>
                 <li className="navwidth">
                   <a
@@ -154,7 +154,7 @@ const Navbar = () => {
           </li>
           <li>
             Contact Us <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu navwidth1">
+            <div className="dropdown_menu mx-auto navwidth1">
               <ul>
                 <li className="navwidth">
                   <NavLink to="/HeadTnP" className="dropdownnavlink">

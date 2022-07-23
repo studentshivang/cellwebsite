@@ -53,8 +53,7 @@
   justify-content: center;
   align-items: space-around;
   /* padding-left: 5rem; */
-  padding: auto;
-  height: -moz-fit-content;
+  padding: 0;
   height: fit-content;
 }
 
@@ -90,7 +89,7 @@
   text-align: center;
   padding: auto;
   margin: auto;
-  /* margin-left: 32px; */
+  margin-left: 32px;
 }
 .navbar .menu :hover .dropdown_menu ul {
   font-family: "Montserrat" !important;
