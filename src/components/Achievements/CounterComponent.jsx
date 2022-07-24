@@ -3,23 +3,52 @@ import { motion } from "framer-motion";
 import "./achievements.css";
 
 const CounterComponent = () => {
+  const parentVariant = {
+    hidden: {
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+    visible: {
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+  const childVariant = {
+    hidden: {
+      opacity: 0,
+      translateX: -40,
+    },
+    visible: {
+      opacity: 1,
+      translateX: 0,
+    },
+  };
+
+  const childTransition = {
+    duration: 0.2,
+  };
   return (
     <>
-      <div className="counter-row">
+      <motion.div
+        className="counter-row"
+        variants={parentVariant}
+        initial="hidden"
+        animate="visible"
+      >
         <div className="row-1">
           <motion.div
             className="quadrant-1"
-            initial={{ opacity: 0, translateX: -40 }}
-            animate={{ opacity: 1, translateX: 0 }}
-            transition={{ duration: 0.2, delay: 0.2 }}
+            variants={childVariant}
+            transition={childTransition}
           >
             <Counter end={985} title={" Offers"} />
           </motion.div>
           <motion.div
             className="quadrant-1"
-            initial={{ opacity: 0, translateX: -40 }}
-            animate={{ opacity: 1, translateX: 0 }}
-            transition={{ duration: 0.2, delay: 0.4 }}
+            variants={childVariant}
+            transition={childTransition}
           >
             <Counter end={100} suffix={"+"} title={"Companies Visited"} />
           </motion.div>
@@ -27,9 +56,8 @@ const CounterComponent = () => {
         <div className="row-2">
           <motion.div
             className="quadrant-1"
-            initial={{ opacity: 0, translateX: -40 }}
-            animate={{ opacity: 1, translateX: 0 }}
-            transition={{ duration: 0.2, delay: 0.6 }}
+            variants={childVariant}
+            transition={childTransition}
           >
             <Counter
               end={50}
@@ -39,9 +67,8 @@ const CounterComponent = () => {
           </motion.div>
           <motion.div
             className="quadrant-1"
-            initial={{ opacity: 0, translateX: -40 }}
-            animate={{ opacity: 1, translateX: 0 }}
-            transition={{ duration: 0.2, delay: 0.8 }}
+            variants={childVariant}
+            transition={childTransition}
           >
             <Counter
               end={7}
@@ -50,7 +77,7 @@ const CounterComponent = () => {
             />
           </motion.div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };

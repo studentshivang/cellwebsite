@@ -1,4 +1,4 @@
-.homePg {
+.about-text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -8,26 +8,27 @@
   color: #212121;
 }
 
-.homePg span {
-  font-weight: 600;
+.link {
+  word-wrap: normal;
+  word-break: normal;
 }
-.homeContainer #aboutBor {
-  width: 170px;
-  margin-bottom: 1.5rem;
+
+.row-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
 }
-.homeContainer #aboutAnn {
-  width: 285px;
-  margin-bottom: 1.5rem;
+
+.row-quick {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
 }
-.homeContainer #aboutVCM {
-  width: 36.6rem;
-  margin-bottom: 1.5rem;
-}
-.homeContainer #aboutTPOM {
-  width: 25rem;
-  margin-bottom: 1.5rem;
-}
-/*--------------------------QLinks--------------------*/
+
 .quicklinks {
   width: 60%;
   height: fit-content;
@@ -52,7 +53,6 @@
 
 .quicklinks h4 {
   margin: 1.5rem;
-  /* position: relative; */
   cursor: pointer;
   flex-grow: 1;
 }
@@ -87,9 +87,20 @@
   line-height: 24 px;
   text-align: center;
   list-style: none;
-
-  /* Primary Color */
   color: #457b9d;
+}
+
+#aboutBor {
+  width: 170px;
+}
+#aboutAnn {
+  width: 285px;
+}
+#aboutVCM {
+  width: 35rem;
+}
+#aboutTPOM {
+  width: 23rem;
 }
 
 @media (max-width: 768px) {
@@ -100,30 +111,35 @@
   .quicklinks h4 {
     margin: 1rem;
   }
+
   .quicklinks .rowQL {
     width: 100%;
   }
+}
+@media (max-width: 760px) {
+  #aboutVCM {
+    width: 30rem;
+  }
+}
 
-  .HomeDropdn1:hover .hid1 {
-    left: 45px;
+@media (max-width: 512px) {
+  #aboutVCM {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 484px) {
+  #aboutVCM {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 386px) {
+  #aboutVCM {
+    width: 19rem;
   }
 
-  .homePg {
-    font-size: 14px;
-    line-height: 21px;
-    width: 100%;
-  }
-
-  .homeContainer #aboutBor {
-    width: 9.5rem;
-  }
-  .homeContainer #aboutAnn {
+  #aboutTPOM {
     width: 17rem;
-  }
-  .homeContainer #aboutVCM {
-    width: 18rem;
-  }
-  .homeContainer #aboutTPOM {
-    width: 18rem;
   }
 }
