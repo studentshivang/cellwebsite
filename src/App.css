@@ -62,14 +62,6 @@
   color: #ffffff;
 }
 
-.navbar .nav-sm{
-  width: 100%;
-  height: 70px;
-  position: fixed;
-  top:0;
-  background-color: rgba(65, 133, 178, 0.8);
-  z-index: 126;
-}
 .navbar .hamburger {
   background-color: transparent;
   border: none;
@@ -212,11 +204,11 @@
 /* About MMMUT */
 .progress-bar {
   position: fixed;
-  top: 70px!important;
+  top: 0px!important;
   left: 0;
   right: 0;
   height: 5px;
-  background: crimson!important;
+  background: blue!important;
   transform-origin: 0%;
   z-index: 127;
 }
@@ -509,7 +501,17 @@
 
 @media (max-width: 1024px) {
   /* Responsive view */
-
+  .navbar .nav-sm{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top:0;
+    background-color: rgba(65, 133, 178, 0.8);
+    z-index: 126;
+  }
+  .progress-bar {
+    top: 70px !important;
+  }
   .navbar .hamburger {
     display: block;
     /* transform: scale(2); */
