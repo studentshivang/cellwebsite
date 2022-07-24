@@ -1,3 +1,9 @@
+.academics{
+  margin-left: -2rem;
+  margin-right: 7rem!important;
+  padding: 0%;
+}
+
 .program{
     margin-top: 1rem;
     margin-left: 7rem;
@@ -87,8 +93,11 @@
         
         color: #212121;
       }
-    
-    .pg{
+      .acad li{
+        margin-left: -.5rem;
+        
+      }
+      .pg{
       margin-top: 1rem;
       margin-left: 7rem;
       
@@ -132,3 +141,27 @@
           margin-left: 7rem;
         }
       
+        @media (max-width:768px) {
+          .academics .text1{
+            font-size: 18px;
+            margin-left: 7rem;
+          }
+          .academics .text2{
+            font-size: 18px;
+          }
+          .academics{
+            margin-left: -6rem;
+          }
+        }
+
+        @media (max-width:570px) {
+          .borderrr2{
+            width: 215px;
+          }
+          .borderrr3{
+            width: 215px;
+          }
+          .borderrr4{
+            width: 215px;
+          }
+        }

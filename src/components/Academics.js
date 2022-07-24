@@ -6,6 +6,7 @@ const Academics =()=>{
     return(
         <>
         <Navsm/>
+         <div className="academics">
          <div className="program">Programmes</div>
          <div className="borderrr1"></div>
          <div className="text1">The University offers various programmes at undergraduate, postgraduate and doctoral level.</div >
@@ -21,7 +22,7 @@ const Academics =()=>{
             <li><b>Duration:</b> 4 Years</li>
             <li><b>Admission Through:</b> JEE Mains</li>
             <li><b>Specialisations Offered:</b>
-               <ul className="acad">
+               <ul className="acad ms-2">
                  <li>Chemical Engineering (CHE)</li>
                  <li>Civil Engineering (CE)</li>
                  <li>Computer Science & Engineering (CSE)</li>
@@ -65,7 +66,7 @@ const Academics =()=>{
          <div className="list1">
                <ul className="acad">
                  <li>Civil Engineering:
-                  <ol className="acad">
+                  <ol className="acad ms-2">
                     <li>Structuring Engineering</li>
                     <li>Environmental Engineering</li>
                     <li>Seismic Design and Earthquake Engineering</li>
@@ -74,28 +75,28 @@ const Academics =()=>{
                  </li>
                  <br></br>
                  <li>Electrical Engineering:
-                  <ol className="acad">
+                  <ol className="acad ms-2">
                     <li>Power Electronics and Drives</li>
                     <li>Control and instrumentation</li>
                   </ol>
                  </li>
                  <br></br>
                  <li>Mechanical Engineering:
-                  <ol className="acad">
+                  <ol className="acad ms-2">
                     <li>Energy Technology and Management</li>
                     <li>Computer Integrated Manufacturing</li>
                   </ol>
                  </li>
                  <br></br>
                  <li>Electronics & Communication Engineering:
-                  <ol className="acad">
+                  <ol className="acad ms-2">
                     <li>Digital System</li>
                     <li>Communication Engineering</li>
                   </ol>
                  </li>
                  <br></br>
                  <li>Computer Science & Engineering:
-                  <ol className="acad">
+                  <ol className="acad ms-2">
                     <li>Computer Science and Engineering</li>
                     <li>Information Technology</li>
                   </ol>
@@ -132,7 +133,7 @@ const Academics =()=>{
             <li><b>Duration:</b> 2 Years</li>
             <li><b>Admission Through:</b> UPCET</li>
             <li><b>Specialisations Offered:</b>
-               <ul className="acad">
+               <ul className="acad ms-2">
                  <li>Physics</li>
                  <li>Chemistry</li>
                  <li>Mathematics</li>
@@ -142,7 +143,7 @@ const Academics =()=>{
          <div className="dp">Doctoral Programmes</div>
          <div className="borderrr4"></div>
          <div className="text1">The university offers doctoral programmes (full-time and part-time both) in various discipline.</div >
-         
+         </div>
          <Footer />
         </>
     );
