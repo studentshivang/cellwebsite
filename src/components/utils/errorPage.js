@@ -6,10 +6,10 @@ const Errorpage = () => {
     <>
       <div className="errpage">
         <h1 id="errpage_h1">404</h1>
-        <p id="errpage_p">Page Not Found!!</p>
+        <p id="errpage_p">Page Not Found</p>
         <NavLink to="/" id="errpage_btn">
           {" "}
-          Go to Home page
+          Click for Home page
         </NavLink>
       </div>
     </>

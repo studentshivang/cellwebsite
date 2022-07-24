@@ -27,15 +27,19 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li>
+          <motion.li layout="size">
             Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
-            <div layout className="dropdown_menu mx-auto mx-auto mx-auto" id="whyRec">
-              <ul layout>
-                <li layout>
+            <div
+              layout
+              className="dropdown_menu mx-auto mx-auto mx-auto"
+              id="whyRec"
+            >
+              <motion.ul>
+                <motion.li>
                   <NavLink to="/about" className="dropdownnavlink">
                     About MMMUT
                   </NavLink>
-                </li>
+                </motion.li>
                 <li>
                   <NavLink to="/lifeatmmmut" className="dropdownnavlink">
                     Life@MMMUT
@@ -70,10 +74,10 @@ const Navbar = () => {
                     Past Recruiting Organizations
                   </NavLink>
                 </li>
-              </ul>
+              </motion.ul>
             </div>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li layout="size">
             For Companies <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu mx-auto mx-auto navwidth2">
               <ul>
@@ -109,8 +113,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li layout="size">
             Student Utilities <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu mx-auto navwidth1">
               <ul>
@@ -146,13 +150,13 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li layout="size">
             <NavLink to="/faqs" className="navbarlink">
               FAQs
             </NavLink>
-          </li>
-          <li>
+          </motion.li>
+          <motion.li layout="size">
             Contact Us <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu mx-auto navwidth1">
               <ul>
@@ -179,7 +183,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>{" "}
-          </li>
+          </motion.li>
           <a href="https://in.linkedin.com/in/tnpmmm" target="blank">
             <li>
               <i className="fa fa-linkedin" aria-hidden="true"></i>

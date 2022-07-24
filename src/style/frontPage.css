@@ -1,0 +1,55 @@
+.about-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: justify;
+  color: #212121;
+}
+
+.link {
+  word-wrap: normal;
+  word-break: normal;
+}
+
+#aboutBor {
+  width: 170px;
+}
+#aboutAnn {
+  width: 285px;
+}
+#aboutVCM {
+  width: 35rem;
+}
+#aboutTPOM {
+  width: 23rem;
+}
+
+@media (max-width: 760px) {
+  #aboutVCM {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 512px) {
+  #aboutVCM {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 484px) {
+  #aboutVCM {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 386px) {
+  #aboutVCM {
+    width: 19rem;
+  }
+
+  #aboutTPOM {
+    width: 17rem;
+  }
+}

@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import Homepage from "./components/Homepage";
+import { AnimatePresence } from "framer-motion";
+
+import FrontPage from "./components/FrontPage";
 import About from "./components/About/About";
 import Academics from "./components/Academics";
-import ErrorPage from "./components/utils/errorPage";
+import GraduatingStudent from "./components/GraduatingStudents/GraduatingStudents";
 import Faculty from "./components/Faculty";
 import Faqs from "./components/Faqs";
-import GraduatingStudent from "./components/GraduatingStudents/GraduatingStudents";
 import HeadTNP from "./components/HeadTNP/headTNP";
 import Invitation from "./components/Invitation/Invitation";
 import Procedure from "./components/Procedure/Procedure";
@@ -15,14 +15,17 @@ import Recruiters from "./components/Past Recruiters/Recruiters";
 import Alumni from "./components/Alumni/Alumni";
 import PlacementTraining from "./components/Placement & Training/Placement_Training";
 import Achievements from "./components/Achievements/Achievements";
-import LifeAtMMMUT from "./components/Life@MMMUT/Life";
 import StudentCoordinators from "./components/Student Coordinator/StudentCoordinators";
+import LifeAtMMMUT from "./components/Life@MMMUT/Life";
+import ErrorPage from "./components/utils/errorPage";
+
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Routing = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<FrontPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/academics" element={<Academics />} />
         <Route path="/graduates" element={<GraduatingStudent />} />
@@ -48,8 +51,6 @@ const Routing = () => {
 function App() {
   return (
     <>
-      {/* <Homepage/>
-    <Navbar/> */}
       <Routing />
     </>
   );
