@@ -8,6 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
+        <div className="nav-sm">
         <motion.button
           layout
           className="hamburger"
@@ -21,6 +22,7 @@ const Navbar = () => {
             <i className="fa fa-bars"></i>
           )}
         </motion.button>
+        </div>
         <motion.ul layout className={isNavExpanded ? "menu expanded" : "menu"}>
           <li>
             <NavLink to="/" className="navbarlink">
