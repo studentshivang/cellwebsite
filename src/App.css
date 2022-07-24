@@ -990,15 +990,16 @@
     font-size: 1.2rem;
   }
   .Heading-procedure div {
-    width: 65%;
+    width: 75%;
   }
   .procedure {
-    height: 4rem;
-    border-radius: 2rem;
+    height: 5rem;
+    border-radius: 3rem;
+    padding: 0.5rem;
   }
   .procedure img {
-    height: 63%;
-    width: 14%;
+    height: 73%;
+    width: 24%;
   }
   .procedure span {
     font-family: Montserrat;
