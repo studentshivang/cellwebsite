@@ -5,7 +5,8 @@ import About from "./components/About/About";
 import Academics from "./components/Academics/Academics";
 import GraduatingStudent from "./components/GraduatingStudents/GraduatingStudents";
 import Faculty from "./components/Faculty";
-import Faqs from "./components/Faqs";
+// import Faqs from "./components/Faqs";
+import FAQs from './components/FAQs/FAQs';
 import HeadTNP from "./components/HeadTNP/headTNP";
 import Invitation from "./components/Invitation/Invitation";
 import Procedure from "./components/Procedure/Procedure";
@@ -34,7 +35,7 @@ const Routing = () => {
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/reachingMMMUT" element={<ReachingMMMUT />} />
         <Route path="/placement_training" element={<PlacementTraining />} />
-        <Route path="/faqs" element={<Faqs />}></Route>
+        <Route path="/faqs" element={<FAQs />}></Route>
         <Route path="/HeadTnP" element={<HeadTNP />} />
         <Route path="/facultyCoordinators" element={<Faculty />} />
         <Route path="/studentCoordinators" element={<StudentCoordinators />} />
