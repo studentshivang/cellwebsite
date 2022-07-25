@@ -1,167 +1,133 @@
-.academics{
-  margin-left: -2rem;
-  margin-right: 7rem!important;
-  padding: 0%;
+.container-academics {
+  font-family: "Montserrat" !important;
 }
 
-.program{
-    margin-top: 1rem;
+.border-head {
+  width: 230px;
+}
+
+.text1-all {
+  padding-top: 15px;
+  width: 94%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+
+  color: #212121;
+}
+
+.ug-head {
+  margin-top: 1rem;
+  margin-left: 7rem;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: black;
+}
+
+.border-UG {
+  width: 490px;
+}
+
+.border-PG {
+  width: 470px;
+}
+
+.border-DP {
+  width: 390px;
+}
+
+.text2-UG {
+  padding-top: 15px;
+  top: 414px;
+  width: 94%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+
+  color: #212121;
+}
+
+.acad {
+  padding-top: 10px;
+  top: 414px;
+
+  margin-top: 0px !important;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+
+  color: #212121;
+}
+.acad .sub-head {
+  font-weight: 600;
+}
+
+.acad li {
+  font-size: 20px;
+  text-align: left;
+}
+
+.li-type {
+  font-weight: 500;
+  list-style-type: lower-roman !important;
+}
+
+.sub-li {
+  list-style-type: lower-alpha;
+}
+
+@media (max-width: 768px) {
+  .academics .text1-all {
+    font-size: 18px;
     margin-left: 7rem;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-     font-weight: 600; 
-    font-size: 32px;
-    line-height: 39px;
-    color: black;
-    }
-    
-    .borderrr1{
-      width: 215px;
-      height: 3px;
-      left: 162px;
-      top: 394px; 
-      background-color: #457B9D ;
-      border: 1.60618px solid #457B9D;
-      margin-left: 7rem;
-    }
-    
-    .text1{
-      margin-left: 5em;
-      padding-top: 1.5rem;
-      margin-right: 5em;
-      
-      font-family: 'Montserrat';
-      font-style: normal;
-      /* font-weight: 600; */
-      font-size: 24px;
-      line-height: 29px;
-      text-align: justify;
-      
-      color: #212121;
-    }
-    .ug{
-      margin-top: 1rem;
-      margin-left: 7rem;
-      
-      font-family: 'Montserrat';
-      font-style: normal;
-       font-weight: 600; 
-      font-size: 32px;
-      line-height: 39px;
-      color: black;
-    }
-    
-    .borderrr2{
-      width: 480px;
-        height: 3px;
-        left: 162px;
-        top: 394px; 
-        background-color: #457B9D ;
-        border: 1.60618px solid #457B9D;
-        margin-left: 7rem; 
-    }
-    
-    .text2{
-      margin-left: 7rem;
-      margin-right: 7rem;
-      padding-top: 1.5rem;
-      top: 414px;
-      
-      font-family: 'Montserrat';
-      font-style: normal;
-      /* font-weight: 600; */
-      font-size: 24px;
-      line-height: 29px;
-      text-align: justify;
-      
-      color: #212121;
-    }
+  }
+  .academics .text2-UG {
+    font-size: 18px;
+  }
+  .academics {
+    margin-left: -6rem;
+  }
+}
 
-     .acad{
-        margin-left: 7rem;
-        margin-right: 7rem;
-        padding-top: 1.5rem;
-        top: 414px;
-        
-        font-family: 'Montserrat';
-        font-style: normal;
-        /* font-weight: 600; */
-        font-size: 24px;
-        line-height: 29px;
-        text-align: justify;
-        
-        color: #212121;
-      }
-      .acad li{
-        margin-left: -.5rem;
-        
-      }
-      .pg{
-      margin-top: 1rem;
-      margin-left: 7rem;
-      
-      font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 32px;
-      line-height: 39px;
-      color: black;
-    }
-    
-      .borderrr3{
-        width: 450px;
-        height: 3px;
-        left: 162px;
-        top: 394px; 
-        background-color: #457B9D ;
-        border: 1.60618px solid #457B9D;
-        margin-left: 7rem;
-      }
-    
-      .dp{
-        margin-top: 1rem;
-        margin-left: 7rem;
-        
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 39px;
-        color: black;
-      }
-      
-        .borderrr4{
-          width: 370px;
-          height: 3px;
-          left: 162px;
-          top: 394px; 
-          background-color: #457B9D ;
-          border: 1.60618px solid #457B9D;
-          margin-left: 7rem;
-        }
-      
-        @media (max-width:768px) {
-          .academics .text1{
-            font-size: 18px;
-            margin-left: 7rem;
-          }
-          .academics .text2{
-            font-size: 18px;
-          }
-          .academics{
-            margin-left: -6rem;
-          }
-        }
+@media (max-width: 510px) {
+  .border-UG {
+    width: 270px;
+  }
+  .border-PG {
+    width: 460px;
+  }
+}
 
-        @media (max-width:570px) {
-          .borderrr2{
-            width: 215px;
-          }
-          .borderrr3{
-            width: 215px;
-          }
-          .borderrr4{
-            width: 215px;
-          }
-        }
+@media (max-width: 460px) {
+  .border-PG {
+    width: 240px;
+  }
+}
+
+@media (max-width: 420px) {
+  .border-DP {
+    width: 370px;
+  }
+}
+
+@media (max-width: 375px) {
+  .border-DP {
+    width: 240px;
+  }
+}

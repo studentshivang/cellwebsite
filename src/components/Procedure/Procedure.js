@@ -1,4 +1,3 @@
-import React from "react";
 import Navsm from "../Navbar/Navsm";
 import step1 from "../../images/image@procedure/step1.png";
 import step2 from "../../images/image@procedure/step2.png";
@@ -14,7 +13,7 @@ const Procedure = () => {
       <div className="container-procedure">
         <div className="Heading-procedure">
           Placement Procedure
-          <div></div>
+          <div className="procedure-border"></div>
         </div>
         <div className="procedures">
           <div className="procedure">

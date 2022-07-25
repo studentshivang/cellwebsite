@@ -45,7 +45,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: bla;
   width: 100%;
 
   display: flex;
@@ -73,8 +73,8 @@
   margin: 0;
   padding: 0%;
   position: fixed;
-  top:18px;
-  right:22px;
+  top: 18px;
+  right: 22px;
   display: none;
 }
 
@@ -204,11 +204,11 @@
 /* About MMMUT */
 .progress-bar {
   position: fixed;
-  top: 0px!important;
+  top: 0px !important;
   left: 0;
   right: 0;
   height: 5px;
-  background: blue!important;
+  background: blue !important;
   transform-origin: 0%;
   z-index: 127;
 }
@@ -239,7 +239,7 @@
 .text1 {
   /* margin-left: 7rem;
   margin-right: 7rem; */
-  padding-top: 1.5rem;
+  padding-top: 10px;
   width: 94%;
 
   font-family: "Montserrat";
@@ -310,8 +310,6 @@
 }
 
 .text3 {
-  /* margin-left: 7rem;
-  margin-right: 7rem; */
   padding-top: 1.5rem;
   top: 414px;
   width: 94%;
@@ -501,11 +499,12 @@
 
 @media (max-width: 1024px) {
   /* Responsive view */
-  .navbar .nav-sm{
+  .navbar .nav-sm {
     width: 100%;
     height: 70px;
     position: fixed;
-    top:0;
+    top: 0;
+    border: 2px solid #000;
     background-color: rgba(65, 133, 178, 0.8);
     z-index: 126;
   }
@@ -1042,7 +1041,7 @@
     width: 6%;
   }
   .procedure span {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 0.8rem;
     font-weight: 600;
   }

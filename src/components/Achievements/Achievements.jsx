@@ -19,7 +19,7 @@ const Achievements = () => {
         style={{ scaleX: scrollYProgress }}
       ></motion.div>
 
-      <div>
+      <div className="container-fluid">
         <div className="about ms-3 ms-md-5 ms-lg-5">Achievements</div>
         <div className="border1 ms-3 ms-md-5 ms-lg-5"></div>
 
@@ -34,10 +34,7 @@ const Achievements = () => {
         <div className="alumni ms-3 ms-md-5 ms-lg-5 mt-2">
           Our Alumni Works At
         </div>
-        <div
-          className="border1 ms-3 ms-md-5 ms-lg-5"
-          style={{ width: "325px" }}
-        ></div>
+        <div className="border1 border-alumni ms-3 ms-md-5 ms-lg-5"></div>
         <div className="component-alumni">
           <div className="logo-component">
             <Logos />
