@@ -8,23 +8,19 @@ const StudentCoordinators = () => {
   return (
     <>
       <Navsm />
-      <div className="student">
-        <div className="about" id="Stud_title">
-          Our Team
-        </div>
-        <div className="borderpromalumni" id="stud_title"></div>
+      <div className="container-fluid">
+        <div className="about ms-3 ms-md-5 ms-lg-5">Our Team</div>
+        <div className="border1 border-student ms-3 ms-md-5 ms-lg-5"></div>
 
-        <div>
-          <div className="container">
-            <div className="row">
-              {SData.map((element) => {
-                return (
-                  <>
-                    <StudentCoordinator key={element.id} data={element} />
-                  </>
-                );
-              })}
-            </div>
+        <div className="row-container d-flex flex-row text-center mx-auto">
+          <div className="row text-center mx-auto">
+            {SData.map((element) => {
+              return (
+                <>
+                  <StudentCoordinator key={element.id} data={element} />
+                </>
+              );
+            })}
           </div>
         </div>
       </div>

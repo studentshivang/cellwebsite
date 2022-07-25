@@ -62,6 +62,7 @@ const HeadTNP = () => {
           </Link>
           <h2 style={{ textDecoration: "underline" }}>INVITATION</h2>
         </div>
+
         <InvitationText />
         <Footer />
       </div>

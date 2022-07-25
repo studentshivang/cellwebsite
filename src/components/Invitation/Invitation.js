@@ -13,6 +13,7 @@ const Invitation = () => {
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
       ></motion.div>
+
       <div>
         <div className="head1">
           <div className="head2">
@@ -29,6 +30,7 @@ const Invitation = () => {
               [NAAC 'A' Grade University]
             </span>{" "}
             <br />
+            <div style={{ marginBottom: "10px" }}></div>
             Telephone No.: <a href="tel:+919953001761">9953001761/</a>
             <a href="tel:+918765783675 ">8765783675 </a>
             <br />

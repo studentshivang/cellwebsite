@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
-import FrontPage from "./components/FrontPage";
+import FrontPage from "./components/HomePage/FrontPage";
 import About from "./components/About/About";
 import Academics from "./components/Academics/Academics";
 import GraduatingStudent from "./components/GraduatingStudents/GraduatingStudents";
-import Faculty from "./components/Faculty";
+import Faculty from "./components/Faculty Coordinator/Faculty";
 import Faqs from "./components/Faqs";
 import HeadTNP from "./components/HeadTNP/headTNP";
 import Invitation from "./components/Invitation/Invitation";
