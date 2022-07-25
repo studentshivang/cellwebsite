@@ -1,13 +1,4 @@
-.borderpromalumni {
-  width: 310px;
-  height: 3px;
-  left: 162px;
-  top: 394px;
-  background-color: #457b9d;
-  border: 1.60618px solid #457b9d;
-  margin-left: 7rem;
-}
-
+/* Student Individual */
 .progress-bar {
   position: fixed;
   top: 0;
@@ -18,6 +9,7 @@
   transform-origin: 0%;
 }
 
+/* Card Component */
 #our-team {
   padding: 30px 0 40px;
   margin: 20px 2rem;
@@ -29,7 +21,8 @@
   width: 264px;
   height: 23rem;
   background: #ffffff !important;
-  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border-radius: 15px;
 }
 
@@ -94,6 +87,10 @@
   text-transform: capitalize;
 }
 
+#our-team .team-content h3 {
+  word-wrap: normal;
+}
+
 #our-team .social {
   width: 100%;
   padding: 0;
@@ -122,76 +119,18 @@
   text-decoration: none;
 }
 
+.border-student {
+  width: 180px;
+}
+
 #our-team .social li a:hover {
   color: #1369ce;
   background-color: #f7f5ec;
 }
-#stud_title {
-  width: 10rem;
-}
 
 @media (max-width: 768px) {
-  .borderpromalumni {
-    margin-left: 4.1rem;
-  }
   #our-team {
     margin: 2rem;
     height: 22.2rem;
-  }
-}
-
-@media (max-width: 471px) {
-  .student .borderpromalumni {
-    width: 14rem;
-  }
-}
-
-@media (max-width: 399px) {
-  .student .about {
-    margin-left: 5rem;
-  }
-  .student .borderpromalumni {
-    width: 14rem;
-    margin-left: 5rem;
-  }
-}
-@media (min-width: 768px) {
-  .student .container {
-    padding-left: 7%;
-  }
-  #Stud_title {
-    margin-left: 7rem;
-  }
-  .student .borderpromalumni {
-    margin-left: 7rem;
-  }
-}
-@media (min-width: 991px) {
-  .student .container {
-    padding-left: 2%;
-  }
-}
-
-@media (min-width: 1058px) {
-  .student .container {
-    padding-left: 1%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .student .container {
-    padding-left: 4%;
-  }
-}
-
-@media (max-width: 300px) {
-  #Stud_title {
-    margin-left: 4rem;
-  }
-  .student .borderpromalumni {
-    margin-left: 4rem;
-  }
-  #our-team {
-    width: 80%;
   }
 }

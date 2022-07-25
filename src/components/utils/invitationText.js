@@ -1,12 +1,11 @@
-import React from "react";
 import Logos from "../Logo/Logos";
 
 const InvitationText = () => {
   return (
     <>
       <section>
-        <div className="invite-content">
-          <div className="invite-text">
+        <div className="container-md">
+          <div className="invite-text mt-5">
             <p>Dear Sir/Ma’am, </p>
             <p>
               I feel immense pleasure in introducing Madan Mohan Malaviya
@@ -91,20 +90,22 @@ const InvitationText = () => {
               (Internship) and Coordinator, (Mobile No: 09235500560). Looking
               forward to your kind response.{" "}
             </p>
-            <span className="bld">
-              <strong>Thanks & Regards,</strong>{" "}
+            <span>
+              <b>Thanks & Regards,</b>{" "}
             </span>
             <br />{" "}
-            <span className="bld">
-              <strong>
+            <span>
+              <b>
                 {" "}
                 Prof. V.K. Dwivedi <br />
                 Professor, T&P <br /> MMMUT, Gorakhpur
-              </strong>
+              </b>
             </span>
           </div>
 
-          <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          <div
+            style={{ marginTop: "2rem", marginBottom: "2rem", width: "90%" }}
+          >
             <Logos />
           </div>
 

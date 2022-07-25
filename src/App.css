@@ -759,6 +759,7 @@
   height: 20%;
   margin-top: 5%;
 }
+
 .head2 {
   font-family: "Montserrat";
   font-style: normal;
@@ -767,8 +768,11 @@
   line-height: 1.9rem;
   text-align: center;
 }
+
 .head-text-1 {
+  font-weight: 500;
   color: #457b9d;
+  line-height: 1.3rem;
 }
 
 .invite-content {
@@ -855,15 +859,10 @@
     font-size: 1rem;
     line-height: 1rem;
   }
-  .invite-content {
-    height: 100%;
-    margin-top: 6%;
-    margin-bottom: 6%;
-  }
   .invite-text {
-    font-weight: 300;
-    font-size: 0.9rem;
-    line-height: 1rem;
+    font-weight: 400;
+    /* font-size: 0.9rem; */
+    line-height: 1.4rem;
   }
   .downloadBrochure-button {
     width: 110%;

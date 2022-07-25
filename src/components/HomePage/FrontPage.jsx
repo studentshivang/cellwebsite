@@ -1,11 +1,12 @@
-import TPO from "./utils/Home/TPO";
-import VCsir from "./utils/Home/VCsir";
-import QuickLinks from "./utils/Home/quickLink";
-import Footer from "./utils/Footer";
-import Navbar from "./Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../utils/Footer";
+import QuickLinks from "../utils/Home/quickLink";
+import VCsir from "../utils/Home/VCsir";
+import TPO from "../utils/Home/TPO";
+
 import { motion, useScroll } from "framer-motion";
 
-import "../style/frontPage.css";
+import "../../style/frontPage.css";
 
 const FrontPage = () => {
   const { scrollYProgress } = useScroll();
