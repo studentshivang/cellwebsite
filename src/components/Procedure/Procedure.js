@@ -10,8 +10,8 @@ const Procedure = () => {
   return (
     <>
       <Navsm />
-      <div className="container-procedure">
-        <div className="Heading-procedure">
+      <div className="container-procedure ">
+        <div className="Heading-procedure ">
           Placement Procedure
           <div className="procedure-border"></div>
         </div>

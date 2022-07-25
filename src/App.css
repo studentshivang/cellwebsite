@@ -914,10 +914,14 @@
 }
 .Heading-procedure div {
   height: 0.2rem;
-  width: 24%;
+  width: 28%;
+  margin-left: 0px;
   background-color: #457b9d;
   border-radius: 0.01rem;
 }
+/* .border-p{
+  width: 40%;
+} */
 .procedures {
   margin-top: 2%;
   display: flex;
@@ -983,12 +987,46 @@
 .footer-procedure div {
   margin: auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 449px){
+  .Heading-procedure div {
+    width: 95%;
+  }
+  .procedure {
+    height: 5rem;
+    border-radius: 3rem;
+    padding: 0.5rem;
+  }
+  .procedure img {
+    height: 73%;
+    width: 24%;
+  }
+  .procedure span {
+    font-family: Montserrat;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  .button-text {
+    font-size: 1rem;
+  }
+  .mail-procedure-button {
+    font-size: 0.7rem;
+    height: 2rem;
+    border-radius: 3rem;
+  }
+  .footer-links-procedure img {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+  .footer-text-procedure {
+    font-size: 0.6rem;
+  }
+}
+@media (min-width:450px) and (max-width: 600px) {
   .Heading-procedure {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .Heading-procedure div {
-    width: 75%;
+    width: 72%;
   }
   .procedure {
     height: 5rem;
@@ -1024,12 +1062,12 @@
     /* transform: translateY(0.1rem) translateX(2vw); */
   }
 }
-@media (min-width: 601px) and (max-width: 1200px) {
+@media (min-width: 601px) and (max-width: 1000px) {
   .Heading-procedure {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .Heading-procedure div {
-    width: 65%;
+    width: 50%;
   }
   .procedure {
     height: 4rem;
