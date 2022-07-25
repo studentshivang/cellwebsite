@@ -1,16 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 
 import FrontPage from "./components/FrontPage";
 import About from "./components/About/About";
-import Academics from "./components/Academics";
+import Academics from "./components/Academics/Academics";
 import GraduatingStudent from "./components/GraduatingStudents/GraduatingStudents";
 import Faculty from "./components/Faculty";
 import Faqs from "./components/Faqs";
 import HeadTNP from "./components/HeadTNP/headTNP";
 import Invitation from "./components/Invitation/Invitation";
 import Procedure from "./components/Procedure/Procedure";
-import Reachingmmmut from "./components/Reachingmmmut";
+import ReachingMMMUT from "./components/ReachingMMMUT/ReachingMMMUT";
 import Recruiters from "./components/Past Recruiters/Recruiters";
 import Alumni from "./components/Alumni/Alumni";
 import PlacementTraining from "./components/Placement & Training/Placement_Training";
@@ -33,7 +32,7 @@ const Routing = () => {
         <Route path="/invite" element={<Invitation />} />
         <Route path="/procedure" element={<Procedure />} />
         <Route path="/achievements" element={<Achievements />} />
-        <Route path="/reachingMMMUT" element={<Reachingmmmut />} />
+        <Route path="/reachingMMMUT" element={<ReachingMMMUT />} />
         <Route path="/placement_training" element={<PlacementTraining />} />
         <Route path="/faqs" element={<Faqs />}></Route>
         <Route path="/HeadTnP" element={<HeadTNP />} />

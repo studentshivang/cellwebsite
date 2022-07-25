@@ -4,8 +4,7 @@ import { motion, useAnimation, useScroll } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
-const MapLink =
-  "https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d28503.809625394093!2d83.39001803139882!3d26.745135474779886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3991448b28fcff5b%3A0xd3af5c574cc2d6d2!2sGorakhpur%20Junction%20railway%20station%2C%20Kawwa%20Bagh%20Colony%2C%20Gorakhpur%2C%20Uttar%20Pradesh!3m2!1d26.7596246!2d83.3817701!4m5!1s0x39915ca3e2aa136b%3A0xc039bdf0211338a9!2sMadan%20Mohan%20Malaviya%20University%20Of%20Technology%2C%20Deoria%20Road%2C%20Singhariya%2C%20Kunraghat%2C%20Gorakhpur%2C%20Uttar%20Pradesh%20273016!3m2!1d26.731429499999997!2d83.43312759999999!5e0!3m2!1sen!2sin!4v1605951732141!5m2!1sen!2sin";
+const MapLink = "https://bit.ly/3b3DlkZ";
 
 const About = () => {
   const { scrollYProgress } = useScroll();
@@ -77,7 +76,7 @@ const About = () => {
 
         <div className="mission ms-3 ms-md-5 ms-lg-5">Mission</div>
         <div className="border3 ms-3 ms-md-5 ms-lg-5"></div>
-        <div className="text3 mx-auto">
+        <div className="text3 ms-3 ms-md-5 ms-lg-5">
           <p>
             The distinctive mission of the University is:
             <br />

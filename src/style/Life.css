@@ -1,120 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 
-
-.pages_life{
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135381/LifeAtMmmut-photos/Photos/IMG_7303_ieb9mn.jpg");
-    height: 85vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    animation: caraouse_life 30s 1s infinite alternate step-end;
-    
+.pages_life {
+  background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135381/LifeAtMmmut-photos/Photos/IMG_7303_ieb9mn.jpg");
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  animation: caraouse_life 30s 1s infinite alternate step-end;
 }
 @keyframes caraouse_life {
-    0%{
-      background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135381/LifeAtMmmut-photos/Photos/IMG_7303_ieb9mn.jpg");
-    }
-    8%{
-      background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0038_hvqk93.jpg");
-    }
-    15%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_5744_anungz.jpg");
-      }
-    23%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0546_une2o3.jpg");
-      }
-    30%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135376/LifeAtMmmut-photos/Photos/IMG_0467_ja2rcw.jpg");
-      }
-    35%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135376/LifeAtMmmut-photos/Photos/IMG_0203_znlesl.jpg");
-      }
-    40%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0337_gbrhpt.jpg");
-      }
-    45%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135393/LifeAtMmmut-photos/Photos/IMG_9878_rkdygl.jpg");
-      }
-    50%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135391/LifeAtMmmut-photos/Photos/IMG_8476_qq4laz.jpg");
-      }
-    55%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135390/LifeAtMmmut-photos/Photos/IMG_8116_peyrap.jpg");
-      }
-    60%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135389/LifeAtMmmut-photos/Photos/IMG_7504_j71ui8.jpg");
-      }
-    65%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135385/LifeAtMmmut-photos/Photos/IMG_7147_v4lapf.jpg");
-      }
-    70%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135384/LifeAtMmmut-photos/Photos/IMG_5978_u1zgg9.jpg");
-      }
-    75%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135382/LifeAtMmmut-photos/Photos/IMG_7576_hw1xml.jpg");
-      }
-    80%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0546_une2o3.jpg");
-      }
-    85%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0337_gbrhpt.jpg");
-      }
-    90%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_5744_anungz.jpg");
-      }
-    100%{
-        background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135382/LifeAtMmmut-photos/Photos/IMG_7576_hw1xml.jpg");
-      }
+  0% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135381/LifeAtMmmut-photos/Photos/IMG_7303_ieb9mn.jpg");
   }
-  .contents{
-    width: 80%;
-    margin: auto;
+  8% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0038_hvqk93.jpg");
   }
-  .underline{
-    height: 0.2rem;
-    width: 24%;
-    background-color: #457b9d;
-    border-radius: 0.01rem;
+  15% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_5744_anungz.jpg");
   }
-  .head1{
-    font-family: Montserrat ;
-    font-weight: 800;
-    font-size: 1.5rem;
+  23% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0546_une2o3.jpg");
   }
-  .content1{
-    font-family: Montserrat ;
+  30% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135376/LifeAtMmmut-photos/Photos/IMG_0467_ja2rcw.jpg");
+  }
+  35% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135376/LifeAtMmmut-photos/Photos/IMG_0203_znlesl.jpg");
+  }
+  40% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0337_gbrhpt.jpg");
+  }
+  45% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135393/LifeAtMmmut-photos/Photos/IMG_9878_rkdygl.jpg");
+  }
+  50% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135391/LifeAtMmmut-photos/Photos/IMG_8476_qq4laz.jpg");
+  }
+  55% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135390/LifeAtMmmut-photos/Photos/IMG_8116_peyrap.jpg");
+  }
+  60% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135389/LifeAtMmmut-photos/Photos/IMG_7504_j71ui8.jpg");
+  }
+  65% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135385/LifeAtMmmut-photos/Photos/IMG_7147_v4lapf.jpg");
+  }
+  70% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135384/LifeAtMmmut-photos/Photos/IMG_5978_u1zgg9.jpg");
+  }
+  75% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135382/LifeAtMmmut-photos/Photos/IMG_7576_hw1xml.jpg");
+  }
+  80% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0546_une2o3.jpg");
+  }
+  85% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0337_gbrhpt.jpg");
+  }
+  90% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_5744_anungz.jpg");
+  }
+  100% {
+    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135382/LifeAtMmmut-photos/Photos/IMG_7576_hw1xml.jpg");
+  }
+}
+.contents {
+  width: 80%;
+  margin: auto;
+}
+.underline {
+  height: 0.2rem;
+  width: 24%;
+  background-color: #457b9d;
+  border-radius: 0.01rem;
+}
+.head1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.content1 {
+  font-family: Montserrat;
+  font-size: 1rem;
+}
+.society {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.society div {
+  padding: 1rem;
+}
+.s-img {
+  height: 6rem;
+  width: 6.5rem;
+}
+.s-about {
+  font-family: Montserrat;
+  font-size: 1rem;
+}
+@media (max-width: 450px) {
+  .underline {
+    width: 64%;
+  }
+  .head1 {
     font-size: 1rem;
   }
-  .society{
-    display: flex;
-    align-content: center;
-    align-items: center;
+  .content1 {
+    font-size: 0.8rem;
   }
-  .society div{
-    padding: 1rem;
+  .society {
+    flex-direction: column;
   }
-  .s-img{
-    height: 6rem;
-    width: 6.5rem;
+  .s-about {
+    font-size: 0.8rem;
   }
-  .s-about{
-    font-family: Montserrat ;
-    font-size: 1rem;
-  }
-  @media (max-width: 450px){
-    .underline{
-        width: 64%;
-      }
-      .head1{
-        font-size: 1rem;
-      }
-      .content1{
-        font-size: 0.8rem;
-      }
-      .society{
-        flex-direction: column;
-      }
-      .s-about{
-        font-size: 0.8rem;
-      }
-  }
+}

@@ -1,5 +1,5 @@
 import Navsm from "../Navbar/Navsm";
-import "../../style/HeadTnp.css";
+import "../../style/headTNP.css";
 import Footer from "../utils/Footer";
 import InvitationText from "../utils/invitationText";
 import Email from "../../images/email2.png";

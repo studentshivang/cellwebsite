@@ -11,7 +11,7 @@ const Alumnus = (data) => {
             <img className="img-fluid" src={data.data.image} alt="Alumnus" />
           </div>
           <div className="team-content">
-            <h3 className="name">{data.data.name}</h3>
+            <h4 className="name">{data.data.name}</h4>
             <h4 className="title">{data.data.post}</h4>
           </div>
           <ul className="social">

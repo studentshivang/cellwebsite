@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat" !important;
 }
 
 .counter-row {
@@ -58,13 +59,22 @@
 }
 
 .alumni {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
+  font-family: "Montserrat" !important;
+}
+
+.border-alumni {
+  width: 370px;
 }
 
 .border-layout {
-  width: 420px;
+  width: 410px;
   margin-bottom: 10px;
+}
+
+.layout-container {
+  font-family: "Montserrat" !important;
 }
 
 .border-news {
@@ -80,6 +90,7 @@
 }
 
 .news-container {
+  font-family: "Montserrat" !important;
   margin: 10px;
   margin-bottom: 20px;
   align-items: center;
@@ -92,12 +103,33 @@
     margin: 15px;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 414px) {
   .border-layout {
     width: 240px;
   }
   .news-container {
     width: 90%;
     margin: 20px;
+  }
+  .border-alumni {
+    width: 365px;
+  }
+}
+
+@media (max-width: 392px) {
+  .border-alumni {
+    width: 340px;
+  }
+}
+
+@media (max-width: 366px) {
+  .border-alumni {
+    width: 320px;
+  }
+}
+
+@media (max-width: 366px) {
+  .border-alumni {
+    width: 220px;
   }
 }
