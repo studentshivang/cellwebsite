@@ -8,6 +8,9 @@
   width: 100%;
   animation: caraouse_life 30s 1s infinite alternate step-end;
 }
+.container{
+  font-family: "Montserrat" ;
+}
 @keyframes caraouse_life {
   0% {
     background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135381/LifeAtMmmut-photos/Photos/IMG_7303_ieb9mn.jpg");
@@ -74,14 +77,10 @@
   background-color: #457b9d;
   border-radius: 0.01rem;
 }
-.head1 {
-  font-family: Montserrat;
-  font-weight: 800;
-  font-size: 1.5rem;
-}
 .content1 {
-  font-family: Montserrat;
-  font-size: 1rem;
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+  justify-content: center;
 }
 .society {
   display: flex;
@@ -92,27 +91,258 @@
   padding: 1rem;
 }
 .s-img {
-  height: 6rem;
-  width: 6.5rem;
+  height: 8rem;
+  width: 10.5rem;
 }
 .s-about {
-  font-family: Montserrat;
-  font-size: 1rem;
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+  justify-content: center;
 }
-@media (max-width: 450px) {
-  .underline {
-    width: 64%;
-  }
-  .head1 {
-    font-size: 1rem;
-  }
-  .content1 {
-    font-size: 0.8rem;
-  }
+.stu-border{
+  width: 21%;
+}
+.edb-border{
+  width: 22%;
+}
+.iiche-border{
+  width: 25%;
+}
+.rc-border{
+  width: 16%;
+}
+.nss-border{
+  width: 28%;
+}
+.ncc-border{
+  width: 24%;
+}
+.seb-border{
+  width: 26.5%;
+}
+.sports-border{
+  width: 21.5%;
+}
+.ecell-border{
+  width: 45%;
+}
+.uic-border{
+  width: 28.5%;
+}
+.ieee-border{
+ width: 23%;
+}
+.sae-border{
+  width: 22%;
+}
+.cul-border{
+  width: 17%;
+}
+@media (min-width:300px) and (max-width:650px){
   .society {
     flex-direction: column;
   }
-  .s-about {
-    font-size: 0.8rem;
+  .stu-border{
+    width: 91%;
+  }
+  .edb-border{
+    width: 94%;
+  }
+  .iiche-border{
+    width: 90%;
+  }
+  .rc-border{
+    width: 95%;
+  }
+  .nss-border{
+    width: 95%;
+  }
+  .ncc-border{
+    width: 95%;
+  }
+  .seb-border{
+    width: 96.5%;
+  }
+  .sports-border{
+    width: 95.5%;
+  }
+  .ecell-border{
+    width: 95%;
+  }
+  .uic-border{
+    width: 95.5%;
+  }
+  .ieee-border{
+   width: 95%;
+  }
+  .sae-border{
+    width: 95%;
+  }
+  .cul-border{
+    width: 95%;
+  }
+}
+@media (min-width:651px) and (max-width:800px){
+  .stu-border{
+    width: 50%;
+  }
+  .edb-border{
+    width: 55%;
+  }
+  .iiche-border{
+    width: 61%;
+  }
+  .rc-border{
+    width: 41%;
+  }
+  .nss-border{
+    width: 66%;
+  }
+  .ncc-border{
+    width: 59%;
+  }
+  .seb-border{
+    width: 63%;
+  }
+  .sports-border{
+    width: 56%;
+  }
+  .ecell-border{
+    width: 95%;
+  }
+  .uic-border{
+    width: 67%;
+  }
+  .ieee-border{
+   width: 58%;
+  }
+  .sae-border{
+    width: 57%;
+  }
+  .cul-border{
+    width: 46%;
+  }
+}
+@media (min-width:801px) and (max-width:1000px){
+  .stu-border{
+    width: 40%;
+  }
+  .edb-border{
+    width: 43%;
+  }
+  .iiche-border{
+    width: 47%;
+  }
+  .rc-border{
+    width: 33%;
+  }
+  .nss-border{
+    width: 53%;
+  }
+  .ncc-border{
+    width: 50%;
+  }
+  .seb-border{
+    width: 53%;
+  }
+  .sports-border{
+    width: 43%;
+  }
+  .ecell-border{
+    width: 85%;
+  }
+  .uic-border{
+    width: 53%;
+  }
+  .ieee-border{
+   width: 47%;
+  }
+  .sae-border{
+    width: 47%;
+  }
+  .cul-border{
+    width: 37%;
+  }
+}
+@media (min-width:1001px) and (max-width:1150px){
+  .stu-border{
+    width: 32%;
+  }
+  .edb-border{
+    width: 34%;
+  }
+  .iiche-border{
+    width: 39%;
+  }
+  .rc-border{
+    width: 26%;
+  }
+  .nss-border{
+    width: 45%;
+  }
+  .ncc-border{
+    width: 40%;
+  }
+  .seb-border{
+    width: 44%;
+  }
+  .sports-border{
+    width: 35%;
+  }
+  .ecell-border{
+    width: 75%;
+  }
+  .uic-border{
+    width: 46%;
+  }
+  .ieee-border{
+   width: 37%;
+  }
+  .sae-border{
+    width: 37%;
+  }
+  .cul-border{
+    width: 27%;
+  }
+}
+@media (min-width:1151px) and (max-width:1300px){
+  .stu-border{
+    width: 32%;
+  }
+  .edb-border{
+    width: 34%;
+  }
+  .iiche-border{
+    width: 39%;
+  }
+  .rc-border{
+    width: 26%;
+  }
+  .nss-border{
+    width: 45%;
+  }
+  .ncc-border{
+    width: 40%;
+  }
+  .seb-border{
+    width: 44%;
+  }
+  .sports-border{
+    width: 35%;
+  }
+  .ecell-border{
+    width: 75%;
+  }
+  .uic-border{
+    width: 46%;
+  }
+  .ieee-border{
+   width: 37%;
+  }
+  .sae-border{
+    width: 37%;
+  }
+  .cul-border{
+    width: 27%;
   }
 }
