@@ -7,6 +7,7 @@ import TPO from "../utils/Home/TPO";
 import { motion, useScroll } from "framer-motion";
 
 import "../../style/frontPage.css";
+import imageCenter from "../../images/Center.png";
 
 const FrontPage = () => {
   const { scrollYProgress } = useScroll();
@@ -14,6 +15,13 @@ const FrontPage = () => {
     <>
       <div className="homediv">
         <Navbar />
+        <div className="image-div-container">
+          <img
+            className="image-center mx-auto my-auto text-center"
+            src={imageCenter}
+            alt="logo&text"
+          />
+        </div>
       </div>
 
       <motion.div

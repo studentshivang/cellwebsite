@@ -5,7 +5,7 @@ import About from "./components/About/About";
 import Academics from "./components/Academics/Academics";
 import GraduatingStudent from "./components/GraduatingStudents/GraduatingStudents";
 import Faculty from "./components/Faculty Coordinator/Faculty";
-import FAQs from "./components/Faqs";
+import FAQs from "./components/FAQs/FAQs";
 import HeadTNP from "./components/HeadTNP/headTNP";
 import Invitation from "./components/Invitation/Invitation";
 import Procedure from "./components/Procedure/Procedure";

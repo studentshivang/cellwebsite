@@ -1,348 +1,217 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 
 .pages_life {
-  background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135381/LifeAtMmmut-photos/Photos/IMG_7303_ieb9mn.jpg");
-  height: 85vh;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.319),
+    url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831555/T_P%20Site/Life%40MMMUT/IMG_7504_odv9dc.jpg");
+  height: 100vh;
   width: 100%;
-  animation: caraouse_life 30s 1s infinite alternate step-end;
+  background-attachment: fixed;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: carousel_life 50s linear 3s infinite;
 }
-.container{
-  font-family: "Montserrat" ;
+
+.container-fluid {
+  font-family: "Montserrat" !important;
 }
-@keyframes caraouse_life {
+
+@keyframes carousel_life {
   0% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135381/LifeAtMmmut-photos/Photos/IMG_7303_ieb9mn.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831578/T_P%20Site/Life%40MMMUT/IMG_9663_s4fk0r.jpg");
   }
-  8% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0038_hvqk93.jpg");
+  5% {
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/c_scale,w_2062/v1658831571/T_P%20Site/Life%40MMMUT/IMG_8273_waeiec.jpg");
+  }
+  10% {
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831566/T_P%20Site/Life%40MMMUT/IMG_0038_nlrkzb.jpg");
   }
   15% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_5744_anungz.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831561/T_P%20Site/Life%40MMMUT/IMG_9878_gi5qse.jpg");
   }
-  23% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0546_une2o3.jpg");
+  20% {
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831557/T_P%20Site/Life%40MMMUT/IMG_5744_dwehzb.jpg");
   }
-  30% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135376/LifeAtMmmut-photos/Photos/IMG_0467_ja2rcw.jpg");
+  25% {
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831554/T_P%20Site/Life%40MMMUT/IMG_0467_rxydqg.jpg");
   }
   35% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135376/LifeAtMmmut-photos/Photos/IMG_0203_znlesl.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831557/T_P%20Site/Life%40MMMUT/IMG_8187_epeqpg.jpg");
   }
   40% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0337_gbrhpt.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831561/T_P%20Site/Life%40MMMUT/IMG_0546_kxjog7.jpg");
   }
   45% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135393/LifeAtMmmut-photos/Photos/IMG_9878_rkdygl.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831565/T_P%20Site/Life%40MMMUT/IMG_7147_awhmj4.jpg");
   }
   50% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135391/LifeAtMmmut-photos/Photos/IMG_8476_qq4laz.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831581/T_P%20Site/Life%40MMMUT/photo_2022-07-17_20-05-27_n2fohm.jpg");
   }
   55% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135390/LifeAtMmmut-photos/Photos/IMG_8116_peyrap.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831566/T_P%20Site/Life%40MMMUT/IMG_0337_xgvtz8.jpg");
   }
   60% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135389/LifeAtMmmut-photos/Photos/IMG_7504_j71ui8.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831565/T_P%20Site/Life%40MMMUT/IMG_8476_zkpdia.jpg");
   }
   65% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135385/LifeAtMmmut-photos/Photos/IMG_7147_v4lapf.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658841299/T_P%20Site/Life%40MMMUT/IMG_8303_1_c9yytx.jpg");
   }
   70% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135384/LifeAtMmmut-photos/Photos/IMG_5978_u1zgg9.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831581/T_P%20Site/Life%40MMMUT/photo_2022-07-17_19-25-19_hkxwbk.jpg");
   }
   75% {
     background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135382/LifeAtMmmut-photos/Photos/IMG_7576_hw1xml.jpg");
   }
   80% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0546_une2o3.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831559/T_P%20Site/Life%40MMMUT/IMG_8116_o9s7jk.jpg");
   }
   85% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_0337_gbrhpt.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831580/T_P%20Site/Life%40MMMUT/photo_2022-07-17_20-06-07_brxbjb.jpg");
   }
   90% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135377/LifeAtMmmut-photos/Photos/IMG_5744_anungz.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831555/T_P%20Site/Life%40MMMUT/IMG_7576_yxpdhz.jpg");
+  }
+  95% {
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831562/T_P%20Site/Life%40MMMUT/IMG_5978_jczefh.jpg");
   }
   100% {
-    background-image: url("https://res.cloudinary.com/vaish1101/image/upload/v1658135382/LifeAtMmmut-photos/Photos/IMG_7576_hw1xml.jpg");
+    background-image: url("https://res.cloudinary.com/daxilgrvn/image/upload/v1658831556/T_P%20Site/Life%40MMMUT/IMG_8003_ka3w9x.jpg");
   }
-}
-.contents {
-  width: 80%;
-  margin: auto;
-}
-.underline {
-  height: 0.2rem;
-  width: 24%;
-  background-color: #457b9d;
-  border-radius: 0.01rem;
 }
 .content1 {
   font-family: "Montserrat";
-  font-size: 1.1rem;
-  justify-content: center;
+  text-align: justify;
 }
+
+.about-society {
+  margin-top: 1rem;
+  margin-left: 7rem;
+  /* margin-right: 3rem; */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: black;
+}
+
 .society {
   display: flex;
+  flex-wrap: wrap;
   align-content: center;
+  justify-content: center;
+  justify-items: center;
   align-items: center;
+  text-align: justify;
 }
-.society div {
-  padding: 1rem;
-}
+
 .s-img {
   height: 8rem;
   width: 10.5rem;
+  margin: 10px;
 }
 .s-about {
+  flex: 2;
+  align-content: center;
   font-family: "Montserrat";
-  font-size: 1.1rem;
-  justify-content: center;
+  font-size: 20px;
+  justify-content: justify;
 }
-.stu-border{
-  width: 21%;
+.stu-border {
+  width: 310px;
 }
-.edb-border{
-  width: 22%;
+.edb-border {
+  width: 270px;
 }
-.iiche-border{
-  width: 25%;
+.iiche-border {
+  width: 305px;
 }
-.rc-border{
-  width: 16%;
+.rc-border {
+  width: 200px;
 }
-.nss-border{
-  width: 28%;
+.nss-border {
+  width: 350px;
 }
-.ncc-border{
-  width: 24%;
+.ncc-border {
+  width: 300px;
 }
-.seb-border{
-  width: 26.5%;
+.seb-border {
+  width: 330px;
 }
-.sports-border{
-  width: 21.5%;
+.sports-border {
+  width: 270px;
 }
-.ecell-border{
-  width: 45%;
+.ecell-border {
+  width: 90px;
 }
-.uic-border{
-  width: 28.5%;
+.uic-border {
+  width: 360px;
 }
-.ieee-border{
- width: 23%;
+.ieee-border {
+  width: 300px;
 }
-.sae-border{
-  width: 22%;
+.sae-border {
+  width: 280px;
 }
-.cul-border{
-  width: 17%;
+.cul-border {
+  width: 220px;
 }
-@media (min-width:300px) and (max-width:650px){
+
+@media (max-width: 630px) {
   .society {
     flex-direction: column;
   }
-  .stu-border{
-    width: 91%;
-  }
-  .edb-border{
-    width: 94%;
-  }
-  .iiche-border{
-    width: 90%;
-  }
-  .rc-border{
-    width: 95%;
-  }
-  .nss-border{
-    width: 95%;
-  }
-  .ncc-border{
-    width: 95%;
-  }
-  .seb-border{
-    width: 96.5%;
-  }
-  .sports-border{
-    width: 95.5%;
-  }
-  .ecell-border{
-    width: 95%;
-  }
-  .uic-border{
-    width: 95.5%;
-  }
-  .ieee-border{
-   width: 95%;
-  }
-  .sae-border{
-    width: 95%;
-  }
-  .cul-border{
-    width: 95%;
+}
+
+@media (max-width: 384px) {
+  .uic-border {
+    width: 355px;
   }
 }
-@media (min-width:651px) and (max-width:800px){
-  .stu-border{
-    width: 50%;
+
+@media (max-width: 372px) {
+  .uic-border {
+    width: 305px;
   }
-  .edb-border{
-    width: 55%;
-  }
-  .iiche-border{
-    width: 61%;
-  }
-  .rc-border{
-    width: 41%;
-  }
-  .nss-border{
-    width: 66%;
-  }
-  .ncc-border{
-    width: 59%;
-  }
-  .seb-border{
-    width: 63%;
-  }
-  .sports-border{
-    width: 56%;
-  }
-  .ecell-border{
-    width: 95%;
-  }
-  .uic-border{
-    width: 67%;
-  }
-  .ieee-border{
-   width: 58%;
-  }
-  .sae-border{
-    width: 57%;
-  }
-  .cul-border{
-    width: 46%;
+
+  .nss-border {
+    width: 345px;
   }
 }
-@media (min-width:801px) and (max-width:1000px){
-  .stu-border{
-    width: 40%;
-  }
-  .edb-border{
-    width: 43%;
-  }
-  .iiche-border{
-    width: 47%;
-  }
-  .rc-border{
-    width: 33%;
-  }
-  .nss-border{
-    width: 53%;
-  }
-  .ncc-border{
-    width: 50%;
-  }
-  .seb-border{
-    width: 53%;
-  }
-  .sports-border{
-    width: 43%;
-  }
-  .ecell-border{
-    width: 85%;
-  }
-  .uic-border{
-    width: 53%;
-  }
-  .ieee-border{
-   width: 47%;
-  }
-  .sae-border{
-    width: 47%;
-  }
-  .cul-border{
-    width: 37%;
+
+@media (max-width: 364px) {
+  .nss-border {
+    width: 240px;
   }
 }
-@media (min-width:1001px) and (max-width:1150px){
-  .stu-border{
-    width: 32%;
-  }
-  .edb-border{
-    width: 34%;
-  }
-  .iiche-border{
-    width: 39%;
-  }
-  .rc-border{
-    width: 26%;
-  }
-  .nss-border{
-    width: 45%;
-  }
-  .ncc-border{
-    width: 40%;
-  }
-  .seb-border{
-    width: 44%;
-  }
-  .sports-border{
-    width: 35%;
-  }
-  .ecell-border{
-    width: 75%;
-  }
-  .uic-border{
-    width: 46%;
-  }
-  .ieee-border{
-   width: 37%;
-  }
-  .sae-border{
-    width: 37%;
-  }
-  .cul-border{
-    width: 27%;
+
+@media (max-width: 346px) {
+  .seb-border {
+    width: 260px;
   }
 }
-@media (min-width:1151px) and (max-width:1300px){
-  .stu-border{
-    width: 32%;
+
+@media (max-width: 320px) {
+  .stu-border {
+    width: 170px;
   }
-  .edb-border{
-    width: 34%;
+  .uic-border {
+    width: 290px;
   }
-  .iiche-border{
-    width: 39%;
+  .iiche-border {
+    width: 235px;
   }
-  .rc-border{
-    width: 26%;
+}
+@media (max-width: 316px) {
+  .ncc-border {
+    width: 240px;
   }
-  .nss-border{
-    width: 45%;
+
+  .uic-border {
+    width: 225px;
   }
-  .ncc-border{
-    width: 40%;
-  }
-  .seb-border{
-    width: 44%;
-  }
-  .sports-border{
-    width: 35%;
-  }
-  .ecell-border{
-    width: 75%;
-  }
-  .uic-border{
-    width: 46%;
-  }
-  .ieee-border{
-   width: 37%;
-  }
-  .sae-border{
-    width: 37%;
-  }
-  .cul-border{
-    width: 27%;
+  .iiche-border {
+    width: 235px;
   }
 }

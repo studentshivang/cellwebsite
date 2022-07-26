@@ -9,19 +9,19 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="nav-sm">
-        <motion.button
-          layout
-          className="hamburger"
-          onClick={() => {
-            setIsNavExpanded(!isNavExpanded);
-          }}
-        >
-          {isNavExpanded ? (
-            <i className="fa fa-times"></i>
-          ) : (
-            <i className="fa fa-bars"></i>
-          )}
-        </motion.button>
+          <motion.button
+            layout
+            className="hamburger"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          >
+            {isNavExpanded ? (
+              <i className="fa fa-times"></i>
+            ) : (
+              <i className="fa fa-bars"></i>
+            )}
+          </motion.button>
         </div>
         <motion.ul layout className={isNavExpanded ? "menu expanded" : "menu"}>
           <li>
@@ -29,14 +29,10 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <motion.li layout="size">
+          <motion.li>
             Why Recruit@MMMUT <i className="fa fa-caret-down"></i>
-            <div
-              layout
-              className="dropdown_menu mx-auto mx-auto mx-auto"
-              id="whyRec"
-            >
-              <motion.ul>
+            <div className="dropdown_menu mx-auto mx-auto mx-auto" id="whyRec">
+              <motion.ul className="about-list">
                 <motion.li>
                   <NavLink to="/about" className="dropdownnavlink">
                     About MMMUT
@@ -79,9 +75,9 @@ const Navbar = () => {
               </motion.ul>
             </div>
           </motion.li>
-          <motion.li layout="size">
+          <motion.li>
             For Companies <i className="fa fa-caret-down"></i>
-            <div className="dropdown_menu mx-auto mx-auto navwidth2">
+            <div className="dropdown_menu navwidth2">
               <ul>
                 <li>
                   <NavLink to="/invite" className="dropdownnavlink">
@@ -110,13 +106,13 @@ const Navbar = () => {
                 </li>
                 <li>
                   <NavLink to="/placement_training" className="dropdownnavlink">
-                    Placement Statistics/Training
+                    Placement Statistics & Training
                   </NavLink>
                 </li>
               </ul>
             </div>
           </motion.li>
-          <motion.li layout="size">
+          <motion.li>
             Student Utilities <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu mx-auto navwidth1">
               <ul>
@@ -153,12 +149,12 @@ const Navbar = () => {
               </ul>
             </div>
           </motion.li>
-          <motion.li layout="size">
+          <motion.li>
             <NavLink to="/faqs" className="navbarlink">
               FAQs
             </NavLink>
           </motion.li>
-          <motion.li layout="size">
+          <motion.li>
             Contact Us <i className="fa fa-caret-down"></i>
             <div className="dropdown_menu mx-auto navwidth1">
               <ul>
@@ -180,7 +176,7 @@ const Navbar = () => {
                     to="/studentCoordinators"
                     className="dropdownnavlink"
                   >
-                    Students Coordinators
+                    Student Coordinators
                   </NavLink>
                 </li>
               </ul>
