@@ -118,11 +118,11 @@ Also, local transport facilities are always available in case of any inconvenien
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFive">
                 <button
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseFive"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseFive"
                 >
                   When does the placement session begin and end?
@@ -144,11 +144,11 @@ Also, local transport facilities are always available in case of any inconvenien
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSix">
                 <button
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseSix"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseSix"
                 >
                   What are the infrastructural facilities available on the
@@ -170,11 +170,11 @@ Also, local transport facilities are always available in case of any inconvenien
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSeven">
                 <button
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseSeven"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseSeven"
                 >
                   Can a company interview the students already placed in other
@@ -201,11 +201,11 @@ If a student is placed in any of the brackets, he/she would be allowed to appear
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingEight">
                 <button
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseEight"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseEight"
                 >
                   Is there any fee associated with the process?
@@ -226,11 +226,11 @@ If a student is placed in any of the brackets, he/she would be allowed to appear
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingNine">
                 <button
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseNine"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseNine"
                 >
                   From which courses students are available for recruitment,
@@ -259,11 +259,11 @@ If a student is placed in any of the brackets, he/she would be allowed to appear
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingTen">
                 <button
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTen"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseTen"
                 >
                   Are students of MMMUT, Gorakhpur allowed for a Semester Long
