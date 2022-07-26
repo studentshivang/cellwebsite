@@ -17,6 +17,7 @@
     "gh-pages": "^3.2.3",
     "react": "^18.1.0",
     "react-chartjs-2": "^4.3.1",
+    "react-chrono": "^1.17.2",
     "react-countup": "^6.3.0",
     "react-dom": "^18.1.0",
     "react-intersection-observer": "^9.3.5",
